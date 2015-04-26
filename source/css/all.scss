@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  text-align: justify;
+  text-align: left;
 }
 
 h2 {
@@ -26,31 +26,13 @@ h2 {
 }
 
 section {
-	@extend .row;
-	// background-color: #CFB367;
-	// color: white;
-	// min-height: 800px;
-	padding: 0px;
-	margin: 0px;
-	// width: 50%;
-	.content {
-		h1 {
-			// padding: 20px;
-		}
-		width: 700px;
-		margin-left: auto;
-		margin-right: auto;
-		padding-top: 20px;
-		padding-bottom: 20px;
-	}
-	margin-top: 20px;
-	margin-bottom: 20px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	h2 {
-		padding: 0px;
+  @extend .row;
+  padding: 0px;
+  margin: 0px;
+  h2 {
+    padding: 0px;
     font-size: 2em;
-	}
+  }
 }
 
 
@@ -270,6 +252,43 @@ section.white {
 // }
 // }
 
+.callout {
+  color: white;
+  display: table;
+  height: 400px;
+  width: 100%;
+  background: url(../images/vejer3.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+.callout-vejer3 {
+  @extend .callout;
+  background: url(../images/vejer3.jpg) no-repeat center center fixed;
+}
+
+// table.prices {
+//   td {
+//     vertical-align: middle;
+//     color: red;
+//   }
+// }
+
+.table.prices tbody>tr>td.price {
+    vertical-align: middle;
+    padding-left: 10%;
+}
+
+.callout-vejer1 {
+  @extend .callout;
+  background: url(../images/vejer1.jpg) no-repeat center center fixed;
+}
+
+
 .center {
 	text-align: center;
 	float: none;
@@ -289,10 +308,61 @@ section.white {
 
 }
 
-img.room {
-	// @extend .img-rounded;
-	// @extend .img-responsive;
-	// margin-bottom: 20px;
-	width: 170px;
-	height: 270px;
+.more {
+  padding-top: 30px;
+  color: rgb(128,63,66);
+}
+// img.room {
+// 	// @extend .img-rounded;
+// 	// @extend .img-responsive;
+// 	// margin-bottom: 20px;
+// 	width: 170px;
+// 	height: 270px;
+// }
+
+
+
+/* Small devices (tablets, 768px and down) */
+@media (max-width: $screen-xs-max) {
+
+  section {
+    .content {
+      width: 100%;
+      margin: 0px;
+      padding-left: 20px;
+      padding-right: 20px;
+      // padding-top: 10px;
+      // padding-bottom: 10px;
+      h1 {
+        font-size: 60px;
+      }
+    }
+    margin-top: 20px;
+    margin-bottom: 40px;
+    // padding-top: 5px;
+    // padding-bottom: 5px;
+  }
+
+}
+
+/* normal devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {
+
+  section {
+    .content {
+      width: $screen-sm-min;
+      margin-left: auto;
+      margin-right: auto;
+      // max-width: $screen-sm-min - 40;
+      padding-left: 30px;
+      padding-right: 30px;
+      // padding-top: 20px;
+      // padding-bottom: 20px;
+    }
+    margin-top: 60px;
+    margin-bottom: 80px;
+    // padding-top: 10px;
+    // padding-bottom: 10px;
+  }
+
 }

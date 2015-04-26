@@ -1,23 +1,27 @@
-| <!doctype html> 
+| <!doctype html>
 html
   head
     meta[charset="utf-8"]
     meta[http-equiv="X-UA-Compatible" content="IE=edge;chrome=1"]
+    xmeta[name="viewport" content="width=device-width, initial-scale=1"]
+    meta[name="description" content="#{page_description}"]
+
     title
       = page_title
-    meta[name="description" content="#{page_description}"]
     /[if lt IE 9]
       = javascript_include_tag "ie8"
     = stylesheet_link_tag "all"
     = partial "partials/analytics"
+
     link href='http://fonts.googleapis.com/css?family=Antic+Didone|Cinzel|Quicksand' rel='stylesheet' type='text/css'
     script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"
+
   body
     = partial "partials/header"
     .container-fluid
       = yield
       hr
         p.text-center
-          | 2014 
-          = link_to "#{site_title}", "/"          
+          | 2014
+          = link_to "#{site_title}", "/"
     = javascript_include_tag  "all"
