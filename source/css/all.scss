@@ -5,10 +5,12 @@
 
 body {
   margin-top: $marginTopBody;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .navbar {
-	font-family: 'Quicksand';
+	// font-family: 'Quicksand';
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -19,7 +21,9 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   text-align: left;
-  text-size: 1.5em;
+  font-size: 1.1em;
+  line-height: 1.3em;
+  // font-weight: normal;
 }
 
 h2 {
@@ -32,7 +36,7 @@ section {
   margin: 0px;
   h2 {
     padding: 0px;
-    font-size: 2em;
+    font-size: 1.8em;
   }
 }
 
@@ -62,15 +66,15 @@ section.red {
 	a.btn {
 		color: #784448;
 	}
-	h1 {
-		font-weight: light;
-		font-size: 5em;
-		font-family: 'Antic Didone';
-	}
-	h2, h3, h4 {
-		font-weight: light;
-		font-family: 'Antic Didone';
-	}
+	// h1 {
+	// 	font-weight: light;
+	// 	font-size: 5em;
+	// 	font-family: 'Antic Didone';
+	// }
+	// h2, h3, h4 {
+	// 	font-weight: light;
+	// 	font-family: 'Antic Didone';
+	// }
 }
 
 section.red.contact {
@@ -85,19 +89,21 @@ section.white {
 	}
 }
 
-// top
+ul {
+  padding-left: 0cm;
+}
+li {
+  list-style-type: none;
+}
 
-// .carousel-inner,.carousel,.item,.container,.fill {
-  // height:100%;
-  // width:100%;
-// }
-
-// .logo {
-// 	position:absolute;
-// 	padding-top: 20px;
-// 	background-color: rgb(128,63,66);
-// 	max-width: 200px;
-// }
+.inline {
+  max-width: 90%;
+  max-height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 40px;
+  // padding-top: 40px;
+}
 
 .carrousel-container {
 	.img {
@@ -130,7 +136,7 @@ section.white {
 
 #breakfast2 {
 	// @extend .carousel-img;
-	background-image: url('../images/Barbate.jpg');
+	background-image: url('../images/breakfast2_wide.jpg');
 }
 
 #vejer5 {
@@ -138,16 +144,21 @@ section.white {
 	background-image: url('../images/vejer5.jpg');
 }
 
+#playa_zahora {
+  background-image: url('../images/playa_zahora.jpg');
+}
 #playa_barbate {
-  background-image: url('../images/Barbate.jpg');
+  background-image: url('../images/playa_barbate.jpg');
+}
+#playa_canosdemeca {
+  background-image: url('../images/playa_canosdemeca.jpg');
+}
+#playa_elpalmar {
+  background-image: url('../images/playa_elpalmar.jpg');
 }
 
-#playa_surfstrand_2000 {
-  background-image: url('../images/surfstrand_2000.jpg');
-}
-
-#playa_surfstrand_3000 {
-  background-image: url('../images/surfstrand_3000.jpg');
+#inline {
+  background-image: url('../images/IMG_4575.JPG');
 }
 
 
@@ -363,7 +374,7 @@ section.white {
 
   section {
     .content {
-      width: $screen-sm-min;
+      width: $screen-md-min;
       margin-left: auto;
       margin-right: auto;
       // max-width: $screen-sm-min - 40;
