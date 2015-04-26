@@ -19,6 +19,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   text-align: left;
+  text-size: 1.5em;
 }
 
 h2 {
@@ -129,12 +130,24 @@ section.white {
 
 #breakfast2 {
 	// @extend .carousel-img;
-	background-image: url('../images/breakfast2_wide.jpg');
+	background-image: url('../images/Barbate.jpg');
 }
 
 #vejer5 {
 	// @extend .carousel-img;
 	background-image: url('../images/vejer5.jpg');
+}
+
+#playa_barbate {
+  background-image: url('../images/Barbate.jpg');
+}
+
+#playa_surfstrand_2000 {
+  background-image: url('../images/surfstrand_2000.jpg');
+}
+
+#playa_surfstrand_3000 {
+  background-image: url('../images/surfstrand_3000.jpg');
 }
 
 
