@@ -30,6 +30,10 @@ h2 {
 	padding-top: 20px;
 }
 
+h3 {
+  color: #5983C3;
+}
+
 section {
   @extend .row;
   padding: 0px;
@@ -97,12 +101,12 @@ li {
 }
 
 .inline {
-  max-width: 90%;
+  max-width: 95%;
   max-height: 600px;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 40px;
   // padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .carrousel-container {
@@ -147,18 +151,17 @@ li {
 #playa_zahora {
   background-image: url('../images/playa_zahora.jpg');
 }
+
 #playa_barbate {
   background-image: url('../images/playa_barbate.jpg');
 }
+
 #playa_canosdemeca {
   background-image: url('../images/playa_canosdemeca.jpg');
 }
+
 #playa_elpalmar {
   background-image: url('../images/playa_elpalmar.jpg');
-}
-
-#inline {
-  background-image: url('../images/IMG_4575.JPG');
 }
 
 
@@ -289,10 +292,19 @@ li {
 }
 
 
-
-.callout-vejer3 {
+.callout-vejer1 {
   @extend .callout;
-  background: url(../images/vejer3.jpg) no-repeat center center fixed;
+  background: url(../images/vejer1.jpg) no-repeat center center fixed;
+}
+
+.callout-huis {
+  @extend .callout;
+  background: url(../images/scroll_huis.jpg) no-repeat center center fixed;
+}
+
+.callout-kamers {
+  @extend .callout;
+  background: url(../images/scroll_kamers.jpg) no-repeat center center fixed;
 }
 
 // table.prices {
@@ -307,10 +319,6 @@ li {
     padding-left: 10%;
 }
 
-.callout-vejer1 {
-  @extend .callout;
-  background: url(../images/vejer1.jpg) no-repeat center center fixed;
-}
 
 
 .center {
