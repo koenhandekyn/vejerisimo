@@ -305,6 +305,7 @@ li {
 .callout-kamers {
   @extend .callout;
   background: url(../images/scroll_kamers.jpg) no-repeat center center fixed;
+  // background-size: contain;
 }
 
 // table.prices {
