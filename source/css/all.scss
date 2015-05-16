@@ -38,6 +38,9 @@ section {
   @extend .row;
   padding: 0px;
   margin: 0px;
+  h1, h2, h3, h4, h5, h6 {
+    @extend .text-left;
+  }
   h2 {
     padding: 0px;
     font-size: 1.8em;
@@ -70,6 +73,10 @@ section.red {
 	a.btn {
 		color: #784448;
 	}
+  h1, h2, h3, h4 {
+    color: #CFB367;
+    font-weight: medium;
+  }
 	// h1 {
 	// 	font-weight: light;
 	// 	font-size: 5em;
@@ -101,7 +108,7 @@ li {
 }
 
 .inline {
-  max-width: 95%;
+  max-width: 100%;
   max-height: 600px;
   margin-left: auto;
   margin-right: auto;
@@ -135,12 +142,12 @@ li {
 
 #breakfast1 {
 	// @extend .carousel-img;
-	background-image: url('../images/breakfast1_wide.jpg');
+	background-image: url('../images/rooms_7.jpg');
 }
 
 #breakfast2 {
 	// @extend .carousel-img;
-	background-image: url('../images/breakfast2_wide.jpg');
+	background-image: url('../images/rooms_7.jpg');
 }
 
 #vejer5 {
@@ -299,12 +306,12 @@ li {
 
 .callout-huis {
   @extend .callout;
-  background: url(../images/scroll_huis.jpg) no-repeat center center fixed;
+  background: url(../images/361B9654.jpg) no-repeat center center fixed;
 }
 
 .callout-kamers {
   @extend .callout;
-  background: url(../images/scroll_kamers.jpg) no-repeat center center fixed;
+  background: url(../images/361B9631.jpg) no-repeat center center fixed;
   // background-size: contain;
 }
 

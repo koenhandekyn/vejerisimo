@@ -10,6 +10,7 @@ gem "middleman", "~> 3.2.2"
 gem "middleman-blog", "~> 3.5.1"
 gem "middleman-target", "~> 0.0.6"
 gem "middleman-deploy", "~> 0.1.4"
+gem 'middleman-gh-pages'
 
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"
