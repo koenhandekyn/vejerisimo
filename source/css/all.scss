@@ -38,9 +38,9 @@ section {
   @extend .row;
   padding: 0px;
   margin: 0px;
-  h1, h2, h3, h4, h5, h6 {
-    @extend .text-left;
-  }
+  // h1, h2, h3, h4, h5, h6 {
+  //   @extend .text-left;
+  // }
   h2 {
     padding: 0px;
     font-size: 1.8em;

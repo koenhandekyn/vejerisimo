@@ -1,0 +1,55 @@
+a name="contact" &nbsp;
+
+section.red.contact
+  .content
+    h1
+      | VEJERÍSIMO
+    h4
+      small Hablamos espagnol, inglés, francés, alleman y neerlandés.
+    p.center
+      a href="mailto:info@vejerisimo.com"
+        | info@vejerisimo.com
+    p.center
+      a href="tel:+34 638 18 86 82"
+        | (Móvil) +34 638 18 86 82
+    p.center
+      | Calle Trafalgar 28
+      br
+      | Vejer de la Frontera
+      br
+      | 11150 Cádiz (Andalucia)
+    p.center
+      a.btn.btn-default href="mailto:info@vejerisimo.com" title="voor meer info of beschikbaarheid"
+        | Email
+
+div style="overflow:hidden;height:400px;width:100%;"
+  #gmap_canvas style="height:400px;width:100%;"
+  css:
+    #gmap_canvas img {
+        | max-width: none!important;
+        | background: none!important
+    | }
+
+javascript:
+  function init_map() {
+      var myOptions = {
+          scrollwheel: false,
+          zoom: 6,
+          center: new google.maps.LatLng(38.520919, -4.963301900000033)
+      };
+      map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);
+      marker = new google.maps.Marker({
+          map: map,
+          position: new google.maps.LatLng(36.2520919, -5.963301900000033)
+      });
+      infowindow = new google.maps.InfoWindow({
+          content: "<b>VEJER&Iacute;SIMO</b><br/>Calle Trafalgar 28 <br/>11150 Vejer de la Frontera"
+      });
+      google.maps.event.addListener(marker, "click", function() {
+          map.setOptions({ zoom: 15, center: new google.maps.LatLng(36.2520919, -5.963301900000033)});
+          infowindow.open(map, marker);
+      });
+  }
+  google.maps.event.addDomListener(window, 'load', init_map);
+
+

@@ -12,6 +12,9 @@ gem "middleman-target", "~> 0.0.6"
 gem "middleman-deploy", "~> 0.1.4"
 gem 'middleman-gh-pages'
 
+# For bootstrap helpers
+gem 'bh', '~> 1.2'
+
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"
 
