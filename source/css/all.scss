@@ -1,5 +1,4 @@
 @charset "utf-8";
-
 @import "settings";
 @import "imports";
 
@@ -77,15 +76,6 @@ section.red {
     color: #CFB367;
     font-weight: medium;
   }
-	// h1 {
-	// 	font-weight: light;
-	// 	font-size: 5em;
-	// 	font-family: 'Antic Didone';
-	// }
-	// h2, h3, h4 {
-	// 	font-weight: light;
-	// 	font-family: 'Antic Didone';
-	// }
 }
 
 section.red.contact {
@@ -96,7 +86,6 @@ section.white {
 	background-color: white;
 	h2 {
 		color: #784448;
-		// border-bottom: 3px dashed #2179C1;
 	}
 }
 
@@ -112,63 +101,14 @@ li {
   max-height: 600px;
   margin-left: auto;
   margin-right: auto;
-  // padding-top: 40px;
   padding-bottom: 40px;
 }
 
-// .carrousel-container {
-	.img {
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: auto 600px;
-		height: 600px;
-	}
-// }
-
-#arco {
-	// @extend .carousel-img;
-	background-image: url('http://www.decobizz.com/pictures/20140318/gc-spain-white-bedroom-furniture.jpg');
-}
-
-#doble {
-	// @extend .carousel-img;
-	background-image: url('http://www.sertplast.com/wp-content/uploads/2014/06/Lovely-Interior-Living-Room-Decorating-Ideas-feat-soft-yellow-couch-and-vintage-arc-floor-lamp-ideas.jpg');
-}
-
-#room2 {
-	// @extend .carousel-img;
-	background-image: url(image-path('room2_wide.jpg'));
-}
-
-#breakfast1 {
-	// @extend .carousel-img;
-	background-image: url(image-path('rooms_7.jpg'));
-}
-
-#breakfast2 {
-	// @extend .carousel-img;
-	background-image: url(image-path('rooms_7.jpg'));
-}
-
-#vejer5 {
-	// @extend .carousel-img;
-	background-image: url(image-path('vejer5.jpg'));
-}
-
-#playa_zahora {
-  background-image: url(image-path('playa_zahora.jpg'));
-}
-
-#playa_barbate {
-  background-image: url(image-path('playa_barbate.jpg'));
-}
-
-#playa_canosdemeca {
-  background-image: url(image-path('playa_canosdemeca.jpg'));
-}
-
-#playa_elpalmar {
-  background-image: url(image-path('playa_elpalmar.jpg'));
+.img {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto 600px;
+	height: 600px;
 }
 
 .logo {
@@ -204,13 +144,9 @@ li {
 }
 
 .carousel {
-  // max-height: 600px;
   overflow: hidden;
   max-height: 600px;
   margin-bottom: 150px;
-  // max-width: 2000px;
-  // margin-left: auto;
-  // margin-right: auto;
 }
 
 .carrousel-container {
@@ -245,42 +181,24 @@ li {
   margin-bottom: 40px;
 }
 
-
-// jumbotron
-
-// .row-no-padding {
-//   [class*="col-"] {
-//     padding-left: 0 !important;
-//     padding-right: 0 !important;
-//   }
-// }
-
 .center#menu {
 	margin-top: 80px;
 }
-// .row {
-// .rooms {
-	// padding-bottom: 20px;
-	// padding-top: 40px;
-	.menu {
-		float: left;
-		background-color: rgb(128,63,66);
-		// border-color: rgb(128,63,66);
-		// background-color: white;
-		color: white;
-		max-width: 170px;
-		a {
-			h6 {
-				height: 100px;
-				padding: 10px;
-				color: white;
-			}
+
+.menu {
+	float: left;
+	background-color: rgb(128,63,66);
+	color: white;
+	max-width: 170px;
+	a {
+		h6 {
+			height: 100px;
+			padding: 10px;
+			color: white;
 		}
-		// padding: 2px;
-		margin: 1px;
 	}
-// }
-// }
+	margin: 1px;
+}
 
 .callout {
   color: white;
@@ -294,69 +212,23 @@ li {
   background-size: cover;
 }
 
-
-.callout-vejer {
-  @extend .callout;
-  background: url(image-path('vejer1.jpg')) no-repeat center center fixed;
-}
-
-.callout-house {
-  @extend .callout;
-  background: url(image-path('361B9654.jpg')) no-repeat center center fixed;
-}
-
-.callout-rooms {
-  @extend .callout;
-  background: url(image-path('361B9631.jpg')) no-repeat center center fixed;
-  // background-size: contain;
-}
-
-// table.prices {
-//   td {
-//     vertical-align: middle;
-//     color: red;
-//   }
-// }
-
-.table.prices tbody>tr>td.price {
-    vertical-align: middle;
-    padding-left: 10%;
-}
-
-
-
 .center {
 	text-align: center;
 	float: none;
 	margin-left: auto;
 	margin-right: auto;
 	display: table;
-	// padding: 0px;
-	// margin: 0px;
 }
 
 .max-center {
-	// background-color: rgb(128,63,66);
-	// border: solid 20px rgb(128,63,66);
 	margin-left: auto;
 	margin-right: auto;
-	// max-width: 2000px;
-
 }
 
 .more {
   padding-top: 30px;
   color: rgb(128,63,66);
 }
-// img.room {
-// 	// @extend .img-rounded;
-// 	// @extend .img-responsive;
-// 	// margin-bottom: 20px;
-// 	width: 170px;
-// 	height: 270px;
-// }
-
-
 
 /* Small devices (tablets, 768px and down) */
 @media (max-width: $screen-xs-max) {
@@ -402,3 +274,5 @@ li {
   }
 
 }
+
+@import "images";

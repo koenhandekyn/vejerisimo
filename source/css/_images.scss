@@ -1,0 +1,15 @@
+.callout-1 {
+  @extend .callout;
+  background: url(image-path('fixed_1.jpg')) no-repeat center center fixed;
+}
+
+.callout-2 {
+  @extend .callout;
+  background: url(image-path('fixed_2.jpg')) no-repeat center center fixed;
+}
+
+.callout-3 {
+  @extend .callout;
+  background: url(image-path('fixed_3.jpg')) no-repeat center center fixed;
+  // background-size: contain;
+}
