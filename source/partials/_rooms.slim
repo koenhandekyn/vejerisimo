@@ -11,10 +11,11 @@ section.white
       li Planta baja
       li Gran cama de 160x190cm
       li Baño en-suite espacioso
-    / p &nbsp;
-    img.inline src='images/rooms_1.jpg'
 
-    / p &nbsp;
+    = partial 'components/carousel_inline', locals: { \
+      id: 'carousel-room-1', \
+      items: [ 'images/rooms_1.jpg', 'images/rooms_2.jpg'], \
+      }
 
     h3.text-left EL DUPLEX
     ul.text-left
@@ -23,7 +24,10 @@ section.white
       li 2 accesos: al patio y a la primera planta
       li Primera planta: gran cama de 160x190cm
 
-    img.inline src='images/rooms_2.jpg'
+    = partial 'components/carousel_inline', locals: { \
+      id: 'carousel-room-2', \
+      items: [ 'images/rooms_2.jpg', 'images/rooms_1.jpg'], \
+      }
 
     h3.text-right EL PATIO
     ul.text-right
@@ -31,7 +35,11 @@ section.white
       li Dos camas artículadas individuales 90x200cm
       li Baño en-suite espacioso
       li Vistas a un pequeño patio
-    img.inline src='images/rooms_3.jpg'
+
+    = partial 'components/carousel_inline', locals: { \
+      id: 'carousel-room-3', \
+      items: [ 'images/rooms_3.jpg', 'images/rooms_2.jpg'], \
+      }
 
     h3.text-left VISTA MURALLA
     ul.text-left
@@ -39,4 +47,7 @@ section.white
       li Gran cama de matrimonio cómoda 160x190cm
       li Baño en-suite espacioso
 
-    img.inline src='images/rooms_4.jpg'
+    = partial 'components/carousel_inline', locals: { \
+      id: 'carousel-room-4', \
+      items: [ 'images/rooms_4.jpg', 'images/rooms_3.jpg'], \
+      }
