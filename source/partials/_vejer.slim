@@ -7,10 +7,6 @@ section.white
 
     p Vejer de la Frontera está situado sobre una colina y tiene vistas espectaculares al mar, la sierra, el río y Africa. Respire el aire andaluz en este pueblo blanco rodeado de naturaleza. Sus callejuelas blancas estrechas nos llevan atrás en el tiempo y evocan escenarios medievales de toque árabe. Discubre rincones pintorescos, puertas medievales, patios con flores y una importante tradición artesanal. Vejer es también un destino gastronómico de primer nivel. La espléndida playa del Palmar con su arena blanca está a sólo 10 minutos.
 
-/ = partial 'components/carousel', locals: { \
-/     id: 'carousel-gastronomia', \
-/     items: [ 'breakfast2', 'playa_barbate', 'playa_canosdemeca'] }
-
 section.red
   .content
     .row
@@ -18,7 +14,10 @@ section.red
         h3.text-left GASTRONOMÍA
         p.text-left Vejer tiene una gastronomía de gran calidad. Descubre restaurantes de cocina típica andaluza y platos Vejeriegos. También los restaurantes innovadores le sorprenderá con sus platos creativos y cocina moderna.
 
-    img.inline src='images/rooms_7.jpg'
+    = partial 'components/carousel_inline', locals: { \
+      id: 'carousel-gastronomia', \
+      items: [ 'images/rooms_7.jpg', 'images/rooms_1.jpg'], \
+      }
 
     .row
       .col-md-3
@@ -26,7 +25,11 @@ section.red
         h3.text-right DEPORTE Y TURISMO ACTIVO
         p.text-right Vejer de la Frontera es un lugar ideal para los amantes del Turismo Activo. La zona ofrece diversas posibilidades deportivas al aire libre y divertidas actividades
 
-    img.inline src='images/rooms_6.jpg'
+    = partial 'components/carousel_inline', locals: { \
+      id: 'carousel-turismo', \
+      items: [ 'images/rooms_6.jpg', 'images/rooms_2.jpg'], \
+      }
+
 
 section.white
   .content
