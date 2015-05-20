@@ -1,15 +1,19 @@
-= partial 'top'
+= partial "partials/header"
+= partial 'partials/top'
+= partial 'partials/intro'
 
-= partial 'intro'
+.callout-rooms
+a name="rooms" &nbsp;
+= partial 'partials/rooms'
+.callout-house
+= partial 'partials/house'
 
-.callout-kamers
+a name="reservations" &nbsp;
+= partial 'partials/prices'
+= partial 'partials/contact_form'
 
-= partial 'rooms'
+.callout-vejer
+= partial 'partials/vejer'
 
-.callout-huis
-
-= partial 'house'
-
-= partial 'vejer'
-
-= partial 'address'
+a name="contact" &nbsp;
+= partial 'partials/address'

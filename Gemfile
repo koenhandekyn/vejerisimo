@@ -13,7 +13,7 @@ gem "middleman-deploy", "~> 0.1.4"
 gem 'middleman-gh-pages'
 
 # For bootstrap helpers
-gem 'bh', '~> 1.2'
+# gem 'bh', '~> 1.2'
 
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"
@@ -29,3 +29,9 @@ gem "nokogiri", "~> 1.6.1"
 
 # For feed.xml.builder/sitemap.xml.builder
 gem "builder", "~> 3.0"
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-bootstrap'
+  # gem 'rails-assets-angular'
+  # gem 'rails-assets-leaflet'
+end

@@ -116,14 +116,14 @@ li {
   padding-bottom: 40px;
 }
 
-.carrousel-container {
+// .carrousel-container {
 	.img {
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: auto 600px;
 		height: 600px;
 	}
-}
+// }
 
 #arco {
 	// @extend .carousel-img;
@@ -250,6 +250,7 @@ li {
   margin-bottom: 40px;
 }
 
+
 // jumbotron
 
 // .row-no-padding {
@@ -299,17 +300,17 @@ li {
 }
 
 
-.callout-vejer1 {
+.callout-vejer {
   @extend .callout;
   background: url(../images/vejer1.jpg) no-repeat center center fixed;
 }
 
-.callout-huis {
+.callout-house {
   @extend .callout;
   background: url(../images/361B9654.jpg) no-repeat center center fixed;
 }
 
-.callout-kamers {
+.callout-rooms {
   @extend .callout;
   background: url(../images/361B9631.jpg) no-repeat center center fixed;
   // background-size: contain;
