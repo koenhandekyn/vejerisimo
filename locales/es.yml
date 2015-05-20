@@ -10,3 +10,20 @@ es:
     rooms: "Habitaciones"
     reservations: "Tarifas y Reservas"
     contact: "Contact"
+  rooms:
+    title: "HABITACIONES"
+    intro: "Todas las habitaciones disponen de TV, WIFI gratuito, ventilador de techo, calefacción, secador de pelo y terapía de luz de colores. Las habitaciones miden aproximamente 20 m2."
+    acogedora:
+      a: "Planta baja"
+      b: "Gran cama de 160x190cm"
+      c: "Baño en-suite espacioso"
+    duplex:
+      a: "Planta baja"
+      b: "Habitación de 2 plantas con una cómoda escalera interna"
+      c: "2 accesos: al patio y a la primera planta"
+      d: "Primera planta: gran cama de 160x190cm"
+    patio:
+      a: "Primera planta"
+      b: "Dos camas artículadas individuales 90x200cm"
+      c: "Baño en-suite espacioso"
+      d: "Vistas a un pequeño patio"

@@ -1,16 +1,16 @@
 section.white
   .content
-    h2.text-left HABITACIONES
+    h2.text-left =t('rooms.title')
 
-    p Todas las habitaciones disponen de TV, WIFI gratuito, ventilador de techo, calefacción, secador de pelo y terapía de luz de colores. Las habitaciones miden aproximamente 20 m2.
+    p =t('rooms.intro')
 
     p &nbsp;
 
     h3.text-right LA ACOGEDORA
     ul.text-right
-      li Planta baja
-      li Gran cama de 160x190cm
-      li Baño en-suite espacioso
+      li =t('rooms.acogedora.a')
+      li =t('rooms.acogedora.b')
+      li =t('rooms.acogedora.c')
 
     = partial 'components/carousel_inline', locals: { \
       id: 'carousel-room-1', \
@@ -19,10 +19,10 @@ section.white
 
     h3.text-left EL DUPLEX
     ul.text-left
-      li Planta baja
-      li Habitación de 2 plantas con una cómoda escalera interna
-      li 2 accesos: al patio y a la primera planta
-      li Primera planta: gran cama de 160x190cm
+      li =t('rooms.duplex.a')
+      li =t('rooms.duplex.b')
+      li =t('rooms.duplex.c')
+      li =t('rooms.duplex.d')
 
     = partial 'components/carousel_inline', locals: { \
       id: 'carousel-room-2', \
@@ -31,10 +31,10 @@ section.white
 
     h3.text-right EL PATIO
     ul.text-right
-      li Primera planta
-      li Dos camas artículadas individuales 90x200cm
-      li Baño en-suite espacioso
-      li Vistas a un pequeño patio
+      li =t('rooms.patio.a')
+      li =t('rooms.patio.b')
+      li =t('rooms.patio.c')
+      li =t('rooms.patio.d')
 
     = partial 'components/carousel_inline', locals: { \
       id: 'carousel-room-3', \
