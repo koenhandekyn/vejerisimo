@@ -1,0 +1,46 @@
+section.white
+  .content
+    h2.text-left
+      p VEJER DE LA FRONTERA
+      p Un turismo tranquilo en
+      p un magnífico entorno natural
+
+    p Vejer de la Frontera está situado sobre una colina y tiene vistas espectaculares al mar, la sierra, el río y Africa. Respire el aire andaluz en este pueblo blanco rodeado de naturaleza. Sus callejuelas blancas estrechas nos llevan atrás en el tiempo y evocan escenarios medievales de toque árabe. Discubre rincones pintorescos, puertas medievales, patios con flores y una importante tradición artesanal. Vejer es también un destino gastronómico de primer nivel. La espléndida playa del Palmar con su arena blanca está a sólo 10 minutos.
+
+/ = partial 'components/carousel', locals: { \
+/     id: 'carousel-gastronomia', \
+/     items: [ 'breakfast2', 'playa_barbate', 'playa_canosdemeca'] }
+
+section.red
+  .content
+    .row
+      .col-md-9
+        h3.text-left GASTRONOMÍA
+        p.text-left Vejer tiene una gastronomía de gran calidad. Descubre restaurantes de cocina típica andaluza y platos Vejeriegos. También los restaurantes innovadores le sorprenderá con sus platos creativos y cocina moderna.
+
+    img.inline src='images/rooms_7.jpg'
+
+    .row
+      .col-md-3
+      .col-md-9
+        h3.text-right DEPORTE Y TURISMO ACTIVO
+        p.text-right Vejer de la Frontera es un lugar ideal para los amantes del Turismo Activo. La zona ofrece diversas posibilidades deportivas al aire libre y divertidas actividades
+
+    img.inline src='images/rooms_6.jpg'
+
+section.white
+  .content
+    h2.text-left EL PARAISO DE PLAYA Y SOL
+    p La Costa de la Luz debe su nombre a su vivísima luz y el intenso reflejo del sol en la arena y el mar. Sus costas bordean el océano Atlántico y sus playas extensas con arena dorada fina tienen muchas dunas y vegetación en estado casi salvaje. Con más de 300 días de sol al año, la Costa de la Luz permite disfrutar casi todo el año de las mejores playas de España.
+
+
+= partial 'components/carousel', locals: { \
+    id: 'carousel-playas', \
+    items: [ 'playa_elpalmar', 'playa_barbate', 'playa_zahora', 'playa_canosdemeca'], \
+    captions: [ \
+      'El Palmar (9 km): un paraíso inmenso de arena fina', \
+      'Barbate (10 km) - la meca de los amantes de la gastronomía del mar', \
+      'Zahora (15 km): hermosas vistas del litoral y del Cabo de Trafalgar', \
+      'Caños de Meca (19 km): un ambiente joven, relajado y alternativo' \
+    ] \
+    }
