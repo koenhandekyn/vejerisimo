@@ -171,41 +171,36 @@ li {
   background-image: url('../images/playa_elpalmar.jpg');
 }
 
+.logo {
+  padding-top: 20px;
+  background-color: rgb(128,63,66);
+  max-width: 200px;
+}
+.pueblos {
+  max-width: 200px;
+}
+
+.logos {
+}
+
+.contact {
+  .logos {
+    float: left;
+    // pointer-events:none;
+    position: relative;
+    left: 20px;
+  }
+}
 
 #carousel-top {
-	// position: absolute;
 	margin-bottom: 0px;
-	.logos {
-		float: left;
-		pointer-events:none;
-		position: relative;
-		top: -600px;
-		left: 20px;
-			.logo {
-				padding-top: 20px;
-				background-color: rgb(128,63,66);
-				max-width: 200px;
-			}
-			.pueblos {
-				max-width: 200px;
-			}
-	}
-	// .title {
-	// 	float: left;
-	// 	pointer-events: none;
-	// 	position: relative;
-	// 	top: -500px;
-	// 	left: auto;
- //    right: auto;
-	// 	background-color: rgba(128,63,66,0.5);
-	// 	color: white;
-	// 	h2 {
-	// 		font-family: 'Antic Didone';
-	// 		text-align: left;
-	// 		padding: 10px;
-	// 		margin: 10px;
-	// 	}
-	// }
+  .logos {
+    float: left;
+    pointer-events:none;
+    position: relative;
+    top: -600px;
+    left: 20px;
+  }
 }
 
 .carousel {
