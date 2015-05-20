@@ -137,38 +137,38 @@ li {
 
 #room2 {
 	// @extend .carousel-img;
-	background-image: url('../images/room2_wide.jpg');
+	background-image: url(image-path('room2_wide.jpg'));
 }
 
 #breakfast1 {
 	// @extend .carousel-img;
-	background-image: url('../images/rooms_7.jpg');
+	background-image: url(image-path('rooms_7.jpg'));
 }
 
 #breakfast2 {
 	// @extend .carousel-img;
-	background-image: url('../images/rooms_7.jpg');
+	background-image: url(image-path('rooms_7.jpg'));
 }
 
 #vejer5 {
 	// @extend .carousel-img;
-	background-image: url('../images/vejer5.jpg');
+	background-image: url(image-path('vejer5.jpg'));
 }
 
 #playa_zahora {
-  background-image: url('../images/playa_zahora.jpg');
+  background-image: url(image-path('playa_zahora.jpg'));
 }
 
 #playa_barbate {
-  background-image: url('../images/playa_barbate.jpg');
+  background-image: url(image-path('playa_barbate.jpg'));
 }
 
 #playa_canosdemeca {
-  background-image: url('../images/playa_canosdemeca.jpg');
+  background-image: url(image-path('playa_canosdemeca.jpg'));
 }
 
 #playa_elpalmar {
-  background-image: url('../images/playa_elpalmar.jpg');
+  background-image: url(image-path('playa_elpalmar.jpg'));
 }
 
 .logo {
@@ -287,7 +287,7 @@ li {
   display: table;
   height: 400px;
   width: 100%;
-  background: url(../images/vejer3.jpg) no-repeat center center fixed;
+  background: url(vejer3.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -297,17 +297,17 @@ li {
 
 .callout-vejer {
   @extend .callout;
-  background: url(../images/vejer1.jpg) no-repeat center center fixed;
+  background: url(image-path('vejer1.jpg')) no-repeat center center fixed;
 }
 
 .callout-house {
   @extend .callout;
-  background: url(../images/361B9654.jpg) no-repeat center center fixed;
+  background: url(image-path('361B9654.jpg')) no-repeat center center fixed;
 }
 
 .callout-rooms {
   @extend .callout;
-  background: url(../images/361B9631.jpg) no-repeat center center fixed;
+  background: url(image-path('361B9631.jpg')) no-repeat center center fixed;
   // background-size: contain;
 }
 

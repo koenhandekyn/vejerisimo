@@ -48,9 +48,11 @@
   end
 # end
 
+
 ###
 # Page options, layouts, aliases and proxies
 ###
+Slim::Engine.set_default_options lang: I18n.locale, locals: {}
 
 # Slim settings
 Slim::Engine.set_default_options :pretty => true
@@ -88,6 +90,7 @@ set :markdown_engine, :redcarpet
 
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
+activate :i18n, :langs => [:es, :en], :mount_at_root => false
 
 # Reload the browser automatically whenever files change
 activate :livereload
@@ -112,7 +115,7 @@ set :site_description, 'Vejerísimo'
 # set :theme_name, 'flatly'
 set :theme_name, false
 # set @analytics_account, like "XX-12345678-9"
-@analytics_account = false
+@analytics_account = "UA-63217615-1"
 
 # Asset Settings
 set :css_dir, 'css'
