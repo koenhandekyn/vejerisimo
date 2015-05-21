@@ -202,21 +202,21 @@ li {
 }
 
 .contain {
-  -webkit-background-size: contain contain;
-  -moz-background-size: contain contain;
-  -o-background-size: contain contain;
-  background-size: contain contain;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
 }
 .cover {
-  -webkit-background-size: cover cover;
-  -moz-background-size: cover cover;
-  -o-background-size: cover cover;
-  background-size: cover cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .callout {
   color: white;
   display: table;
-  height: 400px;
+  height: 600px;
   width: 100%;
   @extend .contain;
   // overflow-y: hidden ! important;
