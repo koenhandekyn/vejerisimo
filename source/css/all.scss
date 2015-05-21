@@ -228,17 +228,17 @@ li {
 
 .callout-a {
   @extend .callout;
-  background: url(image-path('fixed_1.jpg')) no-repeat center center fixed;
+  background: url(image-path('fixed_a.jpg')) no-repeat center center fixed;
 }
 
 .callout-b {
   @extend .callout;
-  background: url(image-path('fixed_2.jpg')) no-repeat center center fixed;
+  background: url(image-path('fixed_b.jpg')) no-repeat center center fixed;
 }
 
 .callout-c {
   @extend .callout;
-  background: url(image-path('fixed_3.jpg')) no-repeat center center fixed;
+  background: url(image-path('fixed_c.jpg')) no-repeat center center fixed;
 }
 
 .center {
