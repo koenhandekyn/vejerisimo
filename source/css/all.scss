@@ -64,7 +64,7 @@ section.yellow {
 }
 
 section.red {
-	background-color: rgb(128,63,66);
+	background-color: rgb(130,65,65);
 	color: white;
 	a {
 		color: white;
@@ -164,6 +164,7 @@ li {
   margin: auto;
   vertical-align: center;
   max-height: 600px;
+  max-width: 100%;
   padding-left: auto;
   padding-right: auto;
   text-align: center;
@@ -200,16 +201,44 @@ li {
 	margin: 1px;
 }
 
+.contain {
+  -webkit-background-size: contain contain;
+  -moz-background-size: contain contain;
+  -o-background-size: contain contain;
+  background-size: contain contain;
+}
+.cover {
+  -webkit-background-size: cover cover;
+  -moz-background-size: cover cover;
+  -o-background-size: cover cover;
+  background-size: cover cover;
+}
 .callout {
   color: white;
   display: table;
   height: 400px;
   width: 100%;
-  background: url(vejer3.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  @extend .contain;
+  // overflow-y: hidden ! important;
+  // overflow-x: hidden ! important;
+  // background-color: #f8f8f8;
+  // background-repeat: no-repeat;
+  // background-position: center;
+}
+
+.callout-a {
+  @extend .callout;
+  background: url(image-path('fixed_1.jpg')) no-repeat center center fixed;
+}
+
+.callout-b {
+  @extend .callout;
+  background: url(image-path('fixed_2.jpg')) no-repeat center center fixed;
+}
+
+.callout-c {
+  @extend .callout;
+  background: url(image-path('fixed_3.jpg')) no-repeat center center fixed;
 }
 
 .center {
@@ -275,4 +304,3 @@ li {
 
 }
 
-@import "images";

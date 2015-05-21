@@ -27,3 +27,18 @@ es:
       b: "Dos camas artículadas individuales 90x200cm"
       c: "Baño en-suite espacioso"
       d: "Vistas a un pequeño patio"
+    muralla:
+      a: "Primera planta"
+      b: "Gran cama de matrimonio cómoda 160x190cm"
+      c: "Baño en-suite espacioso"
+  prices:
+      title: "Tarifas 2015"
+      high:
+        title: "Temporada alta € 82"
+        detail1: "1 Junio - 15 Septiembre"
+        detail2: "semana santa 27/3 - 5/4"
+      low:
+        title: "Temporada baja € 69"
+        detail1: "Uso individual: -€ 5 - Desayuno no incluido"
+      terms: "Condiciones generales"
+
