@@ -41,4 +41,33 @@ es:
         title: "Temporada baja € 69"
         detail1: "Uso individual: -€ 5 - Desayuno no incluido"
       terms: "Condiciones generales"
-
+  house:
+    casa:
+      title: "LA CASA"
+      description: "Descubre las zonas comun dondé puede relajar y disfrutar el maximo de su estancia."
+    estar:
+      title: "SALA DE ESTAR"
+      description: "Tiene una cocina totalmente equipada, un comedor y zona de estar con TV y WIFI."
+    patio:
+      title: "EL PATIO"
+      descripion: "El patio exterior tradicional tiene una biblioteca con libros y juegos de mesa. Dispone también de un rincón para preparar té y café ."
+    azotea:
+      title: "LA AZOTEA"
+      description: "La terraza común orientada al sur tiene vistas al pueblo, al campo y al mar. En los días claros se puede ver Marruecos y el Estrecho de Gibraltar. Elije su rincón favorito para disfrutar de un aperitivo, un libro o el sol. El bar autoservicio está a su disposición y contiene bebidas y aperitivos."
+    desayuno:
+      title: "DESAYUNO"
+      description: "Debido a las diversas posibilidades de disfrutar de un desayuno en el pueblo, no ofrecemos desayuno en la casa. Numerosos bares y pastelerías cercanos ofrecen un delicioso desayuno a precios democráticos (a partir de € 1,70). También puede preparar su desayuno en la sala de estar comun con cocina totalmente equipada y degustarlo en las zonas comunes de la casa (patio/terraza/sala de estar). También hemos pensado a un un rincón en el patio para preparar café y té."
+  vejer:
+    title1: "VEJER DE LA FRONTERA"
+    title2: "Un turismo tranquilo en"
+    title3: "un magnífico entorno natural"
+    description: "Vejer de la Frontera está situado sobre una colina y tiene vistas espectaculares al mar, la sierra, el río y Africa. Respire el aire andaluz en este pueblo blanco rodeado de naturaleza. Sus callejuelas blancas estrechas nos llevan atrás en el tiempo y evocan escenarios medievales de toque árabe. Discubre rincones pintorescos, puertas medievales, patios con flores y una importante tradición artesanal. Vejer es también un destino gastronómico de primer nivel. La espléndida playa del Palmar con su arena blanca está a sólo 10 minutos."
+    resto:
+      title: "GASTRONOMÍA"
+      description: "Vejer tiene una gastronomía de gran calidad. Descubre restaurantes de cocina típica andaluza y platos Vejeriegos. También los restaurantes innovadores le sorprenderá con sus platos creativos y cocina moderna."
+    tourism:
+      title: "DEPORTE Y TURISMO ACTIVO"
+      description: "Vejer de la Frontera es un lugar ideal para los amantes del Turismo Activo. La zona ofrece diversas posibilidades deportivas al aire libre y divertidas actividades"
+    playa:
+      title: "EL PARAISO DE PLAYA Y SOL"
+      description: "La Costa de la Luz debe su nombre a su vivísima luz y el intenso reflejo del sol en la arena y el mar. Sus costas bordean el océano Atlántico y sus playas extensas con arena dorada fina tienen muchas dunas y vegetación en estado casi salvaje. Con más de 300 días de sol al año, la Costa de la Luz permite disfrutar casi todo el año de las mejores playas de España."

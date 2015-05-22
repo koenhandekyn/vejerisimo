@@ -1,18 +1,18 @@
 section.white
   .content
     h2.text-left
-      p VEJER DE LA FRONTERA
-      p Un turismo tranquilo en
-      p un magnífico entorno natural
+      p =t('vejer.title1')
+      p =t('vejer.title2')
+      p =t('vejer.title3')
 
-    p Vejer de la Frontera está situado sobre una colina y tiene vistas espectaculares al mar, la sierra, el río y Africa. Respire el aire andaluz en este pueblo blanco rodeado de naturaleza. Sus callejuelas blancas estrechas nos llevan atrás en el tiempo y evocan escenarios medievales de toque árabe. Discubre rincones pintorescos, puertas medievales, patios con flores y una importante tradición artesanal. Vejer es también un destino gastronómico de primer nivel. La espléndida playa del Palmar con su arena blanca está a sólo 10 minutos.
+    p =t('vejer.description')
 
 section.red
   .content
     .row
       .col-md-9
-        h3.text-left GASTRONOMÍA
-        p.text-left Vejer tiene una gastronomía de gran calidad. Descubre restaurantes de cocina típica andaluza y platos Vejeriegos. También los restaurantes innovadores le sorprenderá con sus platos creativos y cocina moderna.
+        h3.text-left =t('vejer.resto.title')
+        p.text-left =t('vejer.resto.description')
 
     = partial 'components/carousel_inline', locals: { \
       id: 'carousel-gastronomia', \
@@ -22,8 +22,8 @@ section.red
     .row
       .col-md-3
       .col-md-9
-        h3.text-right DEPORTE Y TURISMO ACTIVO
-        p.text-right Vejer de la Frontera es un lugar ideal para los amantes del Turismo Activo. La zona ofrece diversas posibilidades deportivas al aire libre y divertidas actividades
+        h3.text-right =t('vejer.tourism.title')
+        p.text-right =t('vejer.tourism.description')
 
     = partial 'components/carousel_inline', locals: { \
       id: 'carousel-turismo', \
@@ -33,8 +33,8 @@ section.red
 
 section.white
   .content
-    h2.text-left EL PARAISO DE PLAYA Y SOL
-    p La Costa de la Luz debe su nombre a su vivísima luz y el intenso reflejo del sol en la arena y el mar. Sus costas bordean el océano Atlántico y sus playas extensas con arena dorada fina tienen muchas dunas y vegetación en estado casi salvaje. Con más de 300 días de sol al año, la Costa de la Luz permite disfrutar casi todo el año de las mejores playas de España.
+    h2.text-left =t('vejer.playa.title')
+    p =t('vejer.playa.description')
 
 
 = partial 'components/carousel', locals: { \

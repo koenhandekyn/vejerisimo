@@ -90,7 +90,7 @@ set :markdown_engine, :redcarpet
 
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
-activate :i18n, :langs => [:es, :en], :mount_at_root => false
+activate :i18n, :langs => [:en, :es] # , :mount_at_root => false
 
 # Reload the browser automatically whenever files change
 activate :livereload
@@ -110,6 +110,7 @@ set :site_url, 'http://www.vejerísimo.com'
 set :site_author, 'Wim & Marie'
 set :site_title, 'VEJERÍSIMO'
 set :site_description, 'Vejerísimo'
+set :site_keywords, 'Vejer, Andalusia, Spain, Hotel, Bed & Breakfast'
 # Select the theme from bootswatch.com.
 # If false, you can get plain bootstrap style.
 # set :theme_name, 'flatly'
