@@ -43,9 +43,9 @@
 
 # Change Compass configuration
 # config :development do
-  compass_config do |config|
-    config.sass_options = {:debug_info => true}
-  end
+compass_config do |config|
+  config.sass_options = {:debug_info => true}
+end
 # end
 
 
@@ -74,6 +74,7 @@ set :markdown_engine, :redcarpet
 #
 # With alternative layout
 # page "/path/to/file.html", layout: :otherlayout
+# page "/localizable/mobile/*", :layout => :mobile # not working, path wrong ?
 #
 # A path which all have the same layout
 # with_layout :admin do

@@ -1,23 +1,21 @@
-= partial "partials/header"
+---
+layout: mobile
+---
+
+/ # = partial "partials/header"
 a.anchor name="top"
 = partial 'partials/top'
 = partial 'partials/intro'
+= partial 'partials/house'
+= partial 'partials/prices'
 
-.callout-a
+
 a.anchor name="rooms"
 = partial 'partials/rooms'
 
-.callout-b
-= partial 'partials/house'
-
 a.anchor name="reservations"
-= partial 'partials/prices'
 = partial 'partials/contact_form'
-/ # = partial 'partials/contact_form_source.html.erb'
-
-.callout-c
-= partial 'partials/vejer'
-
 a.anchor name="contact"
 = partial 'partials/address'
-= partial 'partials/map'
+
+/ # = partial 'partials/map'
