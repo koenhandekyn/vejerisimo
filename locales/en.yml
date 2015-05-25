@@ -39,7 +39,7 @@ en:
         detail2: "semana santa 27/3 - 5/4"
       low:
         title: "Low Season € 69"
-        detail1: "Individual Use: -€ 5 (Breakfast not included)"
+        detail1: "Single Use: -€ 5 (Breakfast not included)"
       terms: "Terms & Conditions"
   house:
     casa:
@@ -50,7 +50,7 @@ en:
       description: "We offer a fully equipped kitchen, dining room, sofa corner with TV and WIFI."
     patio:
       title: "THE PATIO"
-      description: "The traditional outside patio has a library with books and party games. There is also a coffee and tea corner."
+      description: "The traditional outside patio has a library. There is also a coffee and tea corner."
     azotea:
       title: "THE ROOF TERRACE"
       description: "The south facing roof terrace has views on the village, the countryside and the sea. On clear days you can also see Marocco and The Strait of Gibraltar. Choose your favorite corner to enjoy an aperitif and a bite from the ‘honesty bar’, loose yourself in a book or get energized by the sun."
@@ -71,9 +71,9 @@ en:
     playa:
       title: "BREATHTAKING BEACHES WITH LOTS OF SUN"
       description: "The Costa de la Luz (Coast of Light) takes its name from the brilliant white sunlight that reflects on the ocean en the white sand beaches. It faces the Atlantic Ocean and has endless beaches backed by dunes and pine forests. With an average of over 300 days of sunshine a year you can enjoy Spain’s best beaches all year long."
-      caption1: 'El Palmar (9 km): un paraíso inmenso de arena fina'
-      caption2: 'Barbate (10 km) - la meca de los amantes de la gastronomía del mar'
-      caption3: 'Zahora (15 km): hermosas vistas del litoral y del Cabo de Trafalgar'
-      caption4: 'Caños de Meca (19 km): un ambiente joven, relajado y alternativo'
+      caption1: 'El Palmar (9 km): a huge paradise of fine golden sand'
+      caption2: 'Barbate (10 km): place to be for seafood lovers'
+      caption3: 'Zahora (15 km): breathtaking views on the coast and Cape of Trafalgar'
+      caption4: 'Caños de Meca (19 km): a young relaxed atmosphere with an alternative touch'
       caption5: ''
       caption6: ''
