@@ -5,10 +5,10 @@ a.anchor name="top"
 
 .callout-a
 a.anchor name="rooms"
-= partial 'partials/rooms'
+= partial 'partials/rooms', locals: { v: "" }
 
 .callout-b
-= partial 'partials/house'
+= partial 'partials/house', locals: { v: "" }
 
 a.anchor name="reservations"
 = partial 'partials/prices'
@@ -16,7 +16,7 @@ a.anchor name="reservations"
 / # = partial 'partials/contact_form_source.html.erb'
 
 .callout-c
-= partial 'partials/vejer'
+= partial 'partials/vejer', locals: { v: "" }
 
 a.anchor name="contact"
 = partial 'partials/address'
