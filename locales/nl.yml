@@ -1,79 +1,78 @@
 ---
 en:
   intro:
-    title1: "A COSY ATHMOSPHERE"
-    title2: "WITH PERSONAL ATTENTION"
-    p1: "VEJERÍSIMO is a Guest House situated in a quiet little street in the heart of the historic center of Vejer de la Frontera. The restaurants, typical bars and places of interest are just a footstep away. Next to the house you will find the old city wall with “La Puerta Cerrada” (Closed Door), one of the 4 old entrances to the village."
-    p2: "The centuries-old house has been restored maintaining Moorish features but with a 21th century swish. The house has 4 double rooms situated around a typical patio. It has a lot of cozy corners: read a book next to the patio’s library or enjoy the roof terrace with its long chairs and chill-out corners. We promise you an unforgettable stay!"
+    title1: "INTIEM"
+    title2: "EN PERSOONLIJK"
+    p1: "VEJERÍSIMO is een Guest House in het hart van het historisch centrum van Vejer de la Frontera. Het is gelegen in een rustig straatje vlakbij de restaurants, typische bars en bezienswaardigheden. Naast het huis start de oude stadswal met de “Puerta Cerrada” (gesloten deur) één van de 4 oude hoofdingangen van het dorp."
+    p2: "Rond de typische patio bevinden zich 4 tweepersoonskamers met en-suite badkamer. Het huis heeft een unieke stijl: het combineert authenticiteit met hedendaags comfort. Lees een boek op de patio naast de bibliotheek, geniet van het dakterras, neem een siësta in je kamer, … Geniet met volle teugen! Wij garanderen je een uitzonderlijk en onvergetelijk verblijf."
   header:
-    top: "Top"
-    rooms: "Rooms"
-    reservations: "Info & Reservations"
+    top: "HOME"
+    rooms: "Kamers"
+    reservations: "Info & Reservaties"
     contact: "Contact"
   rooms:
-    title: "ROOMS"
-    intro: "In every room you will find TV, free WIFI, ceiling fans, heating, hair dryer and light therapy. The rooms have an average size of 20 m2 and have lovely vintage decoration."
+    title: "KAMERS"
+    intro: "Alle kamers beschikken over TV, gratis WIFI, plafondventilator, verwarming, haardroger en lichttherapie via led-verlichting. De kamers zijn gemiddeld 20 m2 groot met leuke vintage decoratie."
     acogedora:
-      a: "Ground floor"
-      b: "Comfortable double bed 160x190cm"
-      c: "Spacious ensuite bathroom"
+      a: "Benedenverdieping"
+      b: "Comfortabel tweepersoonsbed 160x190cm"
+      c: "Ruime badkamer en-suite"
     duplex:
-      a: "Room with 2 floors with internal stairway"
-      b: "2 accesses: from the patio and the first floor"
-      c: "Ground floor: spacious bathroom, separate toilet and a cozy seating area"
-      d: "First floor: comfortable double bed 160x190cm"
+      a: "Kamer met 2 verdiepingen voorzien van een binnentrap"
+      b: "2 toegangen: vanaf de patio en de eerste verdieping"
+      c: "Benedenverdieping: ruime badkamer, apart toilet en een gezellige zitruimte"
+      d: "Eerste verdieping: comfortabel tweepersoonsbed 160x190cm"
     patio:
-      a: "First floor"
-      b: "2 adjustable electric single beds/twin beds 90x200cm"
-      c: "Spacious ensuite bathroom"
-      d: "View on a small patio"
+      a: "Eerste verdieping"
+      b: "2 elektrisch verstelbare eenpersoonsbedden 90x200cm"
+      c: "Ruime badkamer en-suite"
     muralla:
-      a: "First floor"
-      b: "Comfortable double bed 160x190cm"
-      c: "Spacious ensuite bathroom"
+      a: "Eerste verdieping"
+      b: "Comfortabel tweepersoonsbed 160x190cm"
+      c: "Ruime badkamer en-suite"
   prices:
-      title: "Prices 2015"
+      title: "Prijzen 2015"
       high:
-        title: "High Season € 82"
-        detail1: "15 June - 15 September"
+        title: "Hoog Seizoen € 82"
+        detail1: "15 juni - 15 september"
         detail2: "semana santa 27/3 - 5/4"
       low:
-        title: "Low Season € 69"
-        detail1: "Individual Use: -€ 5 (Breakfast not included)"
-      terms: "Terms & Conditions"
+        title: "Laag Seizoen € 69"
+        detail1: "Enkel gebruik: -€ 5 (Ontbijt niet inbegrepen)"
+      terms: "Algemene voorwaarden"
   house:
     casa:
-      title: "THE HOUSE"
-      description: "Discover the communal areas where you can relax and dream away."
+      title: "HET HUIS"
+      description: "Ontdek de gemeenschappelijke ruimtes waar je extra kan relaxen en genieten van je verblijf."
     estar:
-      title: "KITCHEN/LIVING ROOM"
-      description: "We offer a fully equipped kitchen, dining room, sofa corner with TV and WIFI."
+      title: "KEUKEN/SALON"
+      description: "Bevat een volledig ingerichte keuken, een eetruimte, een zetelhoekje met TV en WIFI.."
     patio:
-      title: "THE PATIO"
-      description: "The traditional outside patio has a library with books and party games. There is also a coffee and tea corner."
+      title: "DE PATIO"
+      description: "De traditionele buitenpatio bevat een bibliotheek. Je vindt er ook een koffie- en theehoekje."
     azotea:
-      title: "THE ROOF TERRACE"
-      description: "The south facing roof terrace has views on the village, the countryside and the sea. On clear days you can also see Marocco and The Strait of Gibraltar. Choose your favorite corner to enjoy an aperitif and a bite from the ‘honesty bar’, loose yourself in a book or get energized by the sun."
+      title: "HET DAKTERRAS"
+      description: "Het zuidgerichte dakterras heeft zichten op het dorp, het platteland en de zee. Op heldere dagen is ook Marokko en de Straat van Gibraltar zichtbaar. Kies je favoriet hoekje om te genieten van een aperitief en hapje uit de ‘honesty bar’, verlies jezelf in een boek of haal energie uit de zon."
     desayuno:
-      title: "BREAKFAST"
-      description: "Within a radius of 300 meters you will find typical bars and patisseries that serve a delicious breakfast at democratic prices (from €1,70). You can also choose to prepare your breakfast in our fully equipped kitchen. In our patio you’ll find a coffee and tea corner."
+      title: "ONTBIJT"
+      description: "Binnen een straal van 300 meter zijn er tal van typische bars en patisserieën met een smakelijk ontbijt aan democratische prijzen (al vanaf €1,70). Wij bieden ook een volledig uitgeruste keuken aan om uw ontbijt zelf klaar te maken. De patio is voorzien van een koffie- en theehoekje."
   vejer:
     title1: "VEJER DE LA FRONTERA"
-    title2: "breathe the Andalusian air"
+    title2: "waar je echt tot rust komt"
     title3: ""
-    description: "Vejer de la Frontera is a small hilltop town and has spectacular views to the sea, the mountains, the river and even Africa. Breathe the Andalusian air in this whitewashed village surrounded by a wonderful nature. Its narrow streets take us back in time and evoke ancient Arabic scenarios. Discover picturesque corners, medieval gates, flowered patios and the important craft tradition. The white sanded beaches of El Palmar are only 10 minutes away. Vejer de la Frontera has recently been proclaimed as the second most beautiful village of Spain by TripAdviser. The village offers you, with its unspoilt character, the real Andalucia. The flamenco for example hasn’t been commercialized yet. Enjoy the authentic flamenco e.g. in the intimate setting of the Peña Flamenca. Vejer also a high level of gastronomy and the white sanded beaches of El Palmar are only 10 minutes away."
+    description: "Vejer de la Frontera is een prachtige Pueblo Blanco (wit dorp) omringd door een indrukwekkende natuur. Vorig jaar nog door TripAdviser uitgeroepen tot het tweede mooiste dorp van Spanje. Vanaf één van de uitkijkpunten heb je adembenemende zichten op de zee, de bergen, het platteland en zelfs op het continent Afrika die amper op 17 km ligt. Slenter door de helderwitte straatjes en ontdek schilderachtige hoekjes, middeleeuwse poorten, bloemrijke patio’s en de nog sterk aanwezige artisanale traditie. Keer terug in de tijd en ontdek middeleeuwse taferelen met Moorse invloeden. Hier ontdek je er het échte, authentieke Andalusië. De flamenco bijvoorbeeld is in Vejer nog nauwelijks gecommercialiseerd. Een mooie plek om dit te ervaren is de sfeervolle Peña Flamenca waar je kleinschalige flamenco-optredens kunt bewonderen in een zeer intieme setting. Vejer heeft ook een gastronomie van hoog niveau en het uitgestrekte witte zandstrand van El Palmar bevindt zich op amper 10 minuten."
     resto:
-      title: "GASTRONOMY"
-      description: "You will be surprised by the innovative restaurants with its creative dishes and modern recipes. Discover the typical Andalusian cuisine and the authentic dishes of Vejer. If food is your passion, then you will be more then satisfied."
+      title: "GASTRONOMIE"
+      description: "Laat je verassen in de innoverende restaurants met creatieve gerechten en moderne recepten. Ontdek de typische Andalusische keuken en de authentieke gerechten van Vejer. Houd je van lekker eten, dan zal je hier zeker niet op je honger zitten!"
     tourism:
-      title: "SPORTS AND ACTIVE TOURISM"
-      description: "Vejer de la Frontera is a great getaway for those looking for outdoor activities. Hiking, biking, climbing, surfing, diving, etc. Enough to feed the restless!"
+      title: "SPORT EN ACTIEF  TOERISME"
+      description: "Vejer de la Frontera is een ideale plek voor liefhebbers van actief toerisme. Je vindt er verrassende activiteiten en een zee aan mogelijkheden om openluchtsporten te beoefenen."
     playa:
-      title: "BREATHTAKING BEACHES WITH LOTS OF SUN"
-      description: "The Costa de la Luz (Coast of Light) takes its name from the brilliant white sunlight that reflects on the ocean en the white sand beaches. It faces the Atlantic Ocean and has endless beaches backed by dunes and pine forests. With an average of over 300 days of sunshine a year you can enjoy Spain’s best beaches all year long."
-      caption1: 'El Palmar (9 km): un paraíso inmenso de arena fina'
-      caption2: 'Barbate (10 km) - la meca de los amantes de la gastronomía del mar'
-      caption3: 'Zahora (15 km): hermosas vistas del litoral y del Cabo de Trafalgar'
-      caption4: 'Caños de Meca (19 km): un ambiente joven, relajado y alternativo'
+      title: "ADEMBENEMENDE STRANDEN BOORDEVOL ZON"
+      description: "De Costa de la Luz (Kust van het Licht) dankt zijn naam aan het bijzondere felle zonlicht dat weerkaatst op de oceaan en de witte zandstranden. Het Spanje aan de Atlantische oceaan heeft zijn authentieke Andalusische karakter nog grotendeels bewaard. Herbron jezelf in de prachtige duinen en de ongerepte natuur. Met gemiddeld 300 dagen zon per jaar kan je aan de Costa de la Luz bijna het hele jaar door genieten van de beste stranden van Spanje."
+      caption1: 'El Palmar (9 km): een immens paradijs van fijn zand'
+      caption2: 'Barbate (10 km): voor liefhebbers van lekkers uit de zee'
+      caption3: 'Zahora (15 km): adembenemende zichten op de kust en de Kaap van Trafalgar'
+      caption4: 'Caños de Meca (19 km): een jonge, relaxte sfeer met een alternatieve toets'
       caption5: ''
       caption6: ''
