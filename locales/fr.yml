@@ -1,79 +1,78 @@
 ---
 en:
   intro:
-    title1: "A COSY ATHMOSPHERE"
-    title2: "WITH PERSONAL ATTENTION"
-    p1: "VEJERÍSIMO is a Guest House situated in a quiet little street in the heart of the historic center of Vejer de la Frontera. The restaurants, typical bars and places of interest are just a footstep away. Next to the house you will find the old city wall with “La Puerta Cerrada” (Closed Door), one of the 4 old entrances to the village."
-    p2: "The centuries-old house has been restored maintaining Moorish features but with a 21th century swish. The house has 4 double rooms situated around a typical patio. It has a lot of cozy corners: read a book next to the patio’s library or enjoy the roof terrace with its long chairs and chill-out corners. We promise you an unforgettable stay!"
+    title1: "UNE AMBIANCE INTIME"
+    title2: "ET PERSONNELLE"
+    p1: "VEJERÍSIMO est une maison d’hôtes qui se situe dans une ruelle tranquille au cœur de l’ancien village de Vejer de la Frontera. Tout près, vous y trouverez des restaurants, petits bars sympas et endroits chaleureux. La maison se trouve à côté de l’ancienne muraille et de "La Puerta Cerrada" (La Porte Fermée), une des 4 portes principales du village."
+    p2: "La maison centenaire dispose de 4 chambres doubles, situées autour d’un patio typique. Elle a été entièrement rénovée en gardant des accents mauresques et en combinant tout le confort moderne de notre temps. Vous y découvrirez aussi des petits coins sympas: sa bibliothèque, le patio fleuri et sa terrasse où vous pourrez vous relaxer dans les chaises longues. Nous vous garantissons un séjour exceptionnel et inoubliable!"
   header:
-    top: "Top"
-    rooms: "Rooms"
-    reservations: "Info & Reservations"
+    top: "Accueil"
+    rooms: "Chambres"
+    reservations: "Info & Réservations"
     contact: "Contact"
   rooms:
-    title: "ROOMS"
-    intro: "In every room you will find TV, free WIFI, ceiling fans, heating, hair dryer and light therapy. The rooms have an average size of 20 m2 and have lovely vintage decoration."
+    title: "CHAMBRES"
+    intro: "Toutes les 4 chambres disposent de TV, WIFI gratuit, ventilateur de plafond, chauffage, sèche-cheveux et luminothérapie. Les chambres ont une grandeur moyenne de 20 m2 et ont une décoration vintage."
     acogedora:
-      a: "Ground floor"
-      b: "Comfortable double bed 160x190cm"
-      c: "Spacious ensuite bathroom"
+      a: "Rez-de-chaussée"
+      b: "Lit double confortable 160x190 cm"
+      c: "Salle de bain spacieuse attenante"
     duplex:
-      a: "Room with 2 floors with internal stairway"
-      b: "2 accesses: from the patio and the first floor"
-      c: "Ground floor: spacious bathroom, separate toilet and a cozy seating area"
-      d: "First floor: comfortable double bed 160x190cm"
+      a: "Chambre à 2 étages avec escalier intérieur privé"
+      b: "2 accès: au patio et au premier étage"
+      c: "Rez-de-chaussée: salle de bain spacieuse, toilette séparée et un agréable petit salon"
+      d: "Premier étage: lit double confortable"
     patio:
-      a: "First floor"
-      b: "2 adjustable electric single beds/twin beds 90x200cm"
-      c: "Spacious ensuite bathroom"
-      d: "View on a small patio"
+      a: "Premier étage"
+      b: "2 lits simples électriques 90x200 cm"
+      c: "Salle de bain spacieuse attenante"
     muralla:
-      a: "First floor"
-      b: "Comfortable double bed 160x190cm"
-      c: "Spacious ensuite bathroom"
+      a: "Premier étage"
+      b: "Lit double confortable 160x190 cm"
+      c: "Salle de bain spacieuse attenante"
   prices:
-      title: "Prices 2015"
+      title: "Prix 2015"
       high:
-        title: "High Season € 82"
-        detail1: "15 June - 15 September"
+        title: "Haute Saison € 82"
+        detail1: "15 Juin - 15 Septembre"
         detail2: "semana santa 27/3 - 5/4"
       low:
-        title: "Low Season € 69"
+        title: "Basse Saison € 69"
         detail1: "Individual Use: -€ 5 (Breakfast not included)"
-      terms: "Terms & Conditions"
+      terms: "Conditions Générales"
   house:
     casa:
-      title: "THE HOUSE"
-      description: "Discover the communal areas where you can relax and dream away."
+      title: "LA MAISON"
+      description: "Relaxez-vous dans les zones communes de la maison."
     estar:
       title: "KITCHEN/LIVING ROOM"
-      description: "We offer a fully equipped kitchen, dining room, sofa corner with TV and WIFI."
+      description: "Cuisine totalement équipée, salle à manger, coin salon avec TV et WIFI."
     patio:
-      title: "THE PATIO"
-      description: "The traditional outside patio has a library with books and party games. There is also a coffee and tea corner."
+      title: "LE PATIO"
+      description: "Dans le patio extérieur vous trouverez une bibliothèque. Il y a aussi un coin café et thé."
     azotea:
       title: "THE ROOF TERRACE"
-      description: "The south facing roof terrace has views on the village, the countryside and the sea. On clear days you can also see Marocco and The Strait of Gibraltar. Choose your favorite corner to enjoy an aperitif and a bite from the ‘honesty bar’, loose yourself in a book or get energized by the sun."
+      description: "De la toiture-terrasse orientée au sud vous découvrirez des vues surprenantes sur le village, la campagne et la mer. Les jours clairs vous apercevrez même le Maroc et le Détroit de Gibraltar. Choisissez votre coin favori de la terrasse et prenez un bain de soleil ou un apéritif provenant du bar en libre-service."
     desayuno:
-      title: "BREAKFAST"
-      description: "Within a radius of 300 meters you will find typical bars and patisseries that serve a delicious breakfast at democratic prices (from €1,70). You can also choose to prepare your breakfast in our fully equipped kitchen. In our patio you’ll find a coffee and tea corner."
+      title: "PETIT DEJEUNER"
+      description: "Des bars typiques et pâtisseries offrent dans un rayon de 300 m un savoureux petit-déjeuner à un prix démocratique (à partir de €1,70). Vous avez aussi la possibilité de préparer votre petit-déjeuner dans la cuisine commune, pour ensuite le savourer dans le patio, sur la terrasse ou dans le salon commun. Dans le patio vous trouverez aussi à votre disposition un coin café et thé."
   vejer:
     title1: "VEJER DE LA FRONTERA"
-    title2: "breathe the Andalusian air"
+    title2: "savourez la tranquillité et l’authenticité"
     title3: ""
-    description: "Vejer de la Frontera is a small hilltop town and has spectacular views to the sea, the mountains, the river and even Africa. Breathe the Andalusian air in this whitewashed village surrounded by a wonderful nature. Its narrow streets take us back in time and evoke ancient Arabic scenarios. Discover picturesque corners, medieval gates, flowered patios and the important craft tradition. The white sanded beaches of El Palmar are only 10 minutes away. Vejer de la Frontera has recently been proclaimed as the second most beautiful village of Spain by TripAdviser. The village offers you, with its unspoilt character, the real Andalucia. The flamenco for example hasn’t been commercialized yet. Enjoy the authentic flamenco e.g. in the intimate setting of the Peña Flamenca. Vejer also a high level of gastronomy and the white sanded beaches of El Palmar are only 10 minutes away."
+    description: "Vejer de la Frontera est un village typiquement espagnol accroché aux pittoresques collines andalouses. Ce "pueblo blanco" (village blanc) est parfaitement préservé et entouré d’une nature verdoyante. Il est même mentionné par TripAdviser comme deuxième plus beau village d’Espagne. Vous y découvrirez des vues époustouflantes vers la mer, les montagnes, la campagne et même l’Afrique. Découvrez cette cité traditionnelle dont les maisons à la blancheur éclatante contrastent avec le bleu du ciel!Prenez le temps de vous promener dans ses charmantes ruelles tortueuses et si pittoresques, et vous apercevrez ses portes médiévales, ses patios fleuris et une importante tradition artisanale. Remontez dans le temps et découvrez des scènes médiévales aux influences mauresques. Dans cette authentique Andalousie , laissez-vous bercer par le rythme du flamenco dans "La Peña Flamenca" du village. Vejer connait aussi une gastronomie de haut niveau et la magnifique plage d’El Palmar se trouve à 10 minutes."
     resto:
-      title: "GASTRONOMY"
-      description: "You will be surprised by the innovative restaurants with its creative dishes and modern recipes. Discover the typical Andalusian cuisine and the authentic dishes of Vejer. If food is your passion, then you will be more then satisfied."
+      title: "GASTRONOMIE"
+      description: "Laissez-vous surprendre par les restaurants innovants avec leurs plats créatifs et une cuisine moderne. Vous serez aussi tentés par les restaurants typiques andalous et leurs plats de la région. Vejer ne vous laissera pas sur votre faim!"
     tourism:
-      title: "SPORTS AND ACTIVE TOURISM"
-      description: "Vejer de la Frontera is a great getaway for those looking for outdoor activities. Hiking, biking, climbing, surfing, diving, etc. Enough to feed the restless!"
+      title: "SPORT ET TOURISME ACTIF"
+      description: "Vejer de la Frontera est un endroit idéal pour les amateurs de tourisme actif. La région offre de nombreuses possibilités de sports de plein air et d’autres activités locales."
     playa:
-      title: "BREATHTAKING BEACHES WITH LOTS OF SUN"
-      description: "The Costa de la Luz (Coast of Light) takes its name from the brilliant white sunlight that reflects on the ocean en the white sand beaches. It faces the Atlantic Ocean and has endless beaches backed by dunes and pine forests. With an average of over 300 days of sunshine a year you can enjoy Spain’s best beaches all year long."
-      caption1: 'El Palmar (9 km): un paraíso inmenso de arena fina'
-      caption2: 'Barbate (10 km) - la meca de los amantes de la gastronomía del mar'
-      caption3: 'Zahora (15 km): hermosas vistas del litoral y del Cabo de Trafalgar'
-      caption4: 'Caños de Meca (19 km): un ambiente joven, relajado y alternativo'
+      title: "D'EPOUSTOUFLANTES PLAGES DEBORDANT DE SOLEIL"
+      description: "La Costa de la Luz doit son nom à sa lumière vive et le reflet intense du soleil sur le sable et la mer. Ses côtes bordent l’océan Atlantique et ses vastes plages de sable fin et doré se mélangent aux nombreuses dunes. Avec plus de 300 jours de soleil par an, la Costa de la Luz permet de profiter presque toute l’année des meilleures plages de l’Espagne et de sa végétation quasi sauvage."
+      caption1: 'El Palmar (9 km): un paradis immense de sable fin'
+      caption2: 'Barbate (10 km): un paradis pour les amateurs de cuisine de la mer'
+      caption3: 'Zahora (15 km): des vues magnifiques sur le littoral et la Baie de Trafalgar'
+      caption4: 'Caños de Meca (19 km): une ambiance jeune et détendue'
       caption5: ''
       caption6: ''
