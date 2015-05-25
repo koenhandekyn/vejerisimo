@@ -1,0 +1,53 @@
+section.white
+  .content
+    h2.text-left =t('rooms.title')
+
+    p =t('rooms.intro')
+
+    p &nbsp;
+
+    h3.text-right LA ACOGEDORA
+    ul.text-right
+      li =t('rooms.acogedora.a')
+      li =t('rooms.acogedora.b')
+      li =t('rooms.acogedora.c')
+
+    = partial 'components/carousel_inline', locals: { \
+      id: 'carousel-room-1', \
+      items: ['room_1_1m.jpg', 'room_1_2m.jpg', 'room_1_3m.jpg', 'room_1_4m.jpg', 'room_1_5m.jpg'], \
+      }
+
+    h3.text-left EL DUPLEX
+    ul.text-left
+      li =t('rooms.duplex.a')
+      li =t('rooms.duplex.b')
+      li =t('rooms.duplex.c')
+      li =t('rooms.duplex.d')
+
+    = partial 'components/carousel_inline', locals: { \
+      id: 'carousel-room-2', \
+      items: ['room_2_1m.jpg', 'room_2_2m.jpg', 'room_2_3m.jpg', 'room_2_4m.jpg', 'room_2_5m.jpg'], \
+      }
+
+    h3.text-right EL PATIO
+    ul.text-right
+      li =t('rooms.patio.a')
+      li =t('rooms.patio.b')
+      li =t('rooms.patio.c')
+      li =t('rooms.patio.d')
+
+    = partial 'components/carousel_inline', locals: { \
+      id: 'carousel-room-3', \
+      items: ['room_3_1m.jpg', 'room_3_2m.jpg', 'room_3_3m.jpg', 'room_3_4m.jpg', 'room_3_5m.jpg'], \
+      }
+
+    h3.text-left VISTA MURALLA
+    ul.text-left
+      li =t('rooms.muralla.a')
+      li =t('rooms.muralla.b')
+      li =t('rooms.muralla.c')
+
+    = partial 'components/carousel_inline', locals: { \
+      id: 'carousel-room-4', \
+      items: ['room_4_1m.jpg', 'room_4_2m.jpg', 'room_4_3m.jpg', 'room_4_4m.jpg', 'room_4_5m.jpg'], \
+      }
