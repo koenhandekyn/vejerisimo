@@ -9,7 +9,7 @@
     - items.each_with_index do |item, index|
       .item class=('active' if index==0)
         .carrousel-container
-          img data-src=image_path("#{item}")
+          img src=image_path("#{item}")
         - if locals[:captions] && locals[:captions][index]
           .carousel-caption
             = locals[:captions][index]

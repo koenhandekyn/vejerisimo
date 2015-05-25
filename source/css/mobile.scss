@@ -1,0 +1,109 @@
+@charset "utf-8";
+@import "settings";
+@import "imports";
+@import "common";
+
+body {
+  margin-top: 0;
+}
+
+/* Small devices (tablets, 768px and down) */
+@media (max-width: $screen-sm-min) {
+  section {
+    .content {
+      width: 96%;
+      margin: 0px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 2%;
+      padding-right: 2%;
+      h1 {
+        font-size: 2em;
+      }
+    }
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+
+  .carousel {
+    margin-bottom: 50px;
+  }
+}
+
+
+/* Small devices (tablets, 768px and down) */
+@media (max-width: $screen-xs-min) {
+
+  body {
+    margin-top: 0px;
+  }
+
+  .more, nav, .logos {
+    display: none;
+  }
+
+  p, li {
+    font-size: 0.8em;
+    line-height: 1.0em;
+  }
+
+  .carrousel-container .img {
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    height: 0px;
+    padding-top: percentage(600 / 2000); // set height
+  }
+
+  .carousel-indicators {
+    display: none;
+  }
+
+  section {
+    .content {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 0px;
+      padding-right: 0px;
+      h1 {
+        font-size: 1.2em;
+      }
+      h2 {
+        font-size: 1.1em;
+      }
+      h3 {
+        font-size: 1.0em;
+      }
+      h4 h5 h6 {
+       font-size: 0.8em;
+      }
+    }
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .carousel {
+    margin-bottom: 20px;
+  }
+}
+
+
+/* normal devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {
+
+  section {
+    .content {
+      width: 90%;
+      max-width: $screen-md-min;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+}

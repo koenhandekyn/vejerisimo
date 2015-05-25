@@ -18,3 +18,7 @@ website readme
     git commit -m "update"
     (publish)
     git push origin gh-pages
+
+
+removed from bower
+    "jquery-mobile-bower": "~1.4",
