@@ -3,14 +3,19 @@ section.white
     h2 =t('prices.title')
     br
     h4 =t('prices.high.title')
-    h5
-      small
-        br =t('prices.high.detail1')
-        br =t('prices.high.detail2')
-        br
+    h4 =t('prices.medium.title')
+    / h5
+    /   small
+    /     br =t('prices.high.detail1')
+    /     br =t('prices.high.detail2')
+    /     br
     h4 =t('prices.low.title')
     h5
       small
-        br =t('prices.low.detail1')
+        br =t('prices.detail')
         br
-          a< href="terms_and_conditions_#{I18n.locale}.html" =t('prices.terms')
+          a< _data-toggle="modal" _data-target="#modal" href="terms_and_conditions_#{I18n.locale}.html" target="_blank" =t('prices.terms')
+
+/ #modal.fade aria-hidden="true" role="dialog" tabindex="-1"
+/   .modal-dialog.modal-lg
+/     .modal-content

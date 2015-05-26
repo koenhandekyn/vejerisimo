@@ -33,12 +33,12 @@ en:
   prices:
       title: "Prices 2015"
       high:
-        title: "High Season € 82"
-        detail1: "15 June - 15 September"
-        detail2: "semana santa 27/3 - 5/4"
+        title: "AUGUST, SEMANA SANTA € 95"
+      medium:
+        title: "JUNE, JULY, SEPTEMBER € 82"
       low:
-        title: "Low Season € 69"
-        detail1: "Single Use: -€ 5 (Breakfast not included)"
+        title: "LOW SEASON € 69"
+      detail: "Single Use: -€ 5 (Breakfast not included)"
       terms: "Terms & Conditions"
   house:
     casa:

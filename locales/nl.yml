@@ -1,5 +1,5 @@
 ---
-en:
+nl:
   intro:
     title1: "INTIEM"
     title2: "EN PERSOONLIJK"
@@ -33,12 +33,12 @@ en:
   prices:
       title: "Prijzen 2015"
       high:
-        title: "Hoog Seizoen € 82"
-        detail1: "15 juni - 15 september"
-        detail2: "semana santa 27/3 - 5/4"
+        title: "AUGUSTUS € 92"
+      medium:
+        title: "JUNI, JULI, AUGUSTS € 82"
       low:
-        title: "Laag Seizoen € 69"
-        detail1: "Enkel gebruik: -€ 5 (Ontbijt niet inbegrepen)"
+        title: "LAAG SEIZOENs € 69"
+      detail: "Enkel gebruik: -€ 5 (Ontbijt niet inbegrepen)"
       terms: "Algemene voorwaarden"
   house:
     casa:

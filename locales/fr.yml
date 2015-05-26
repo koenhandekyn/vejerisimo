@@ -1,9 +1,9 @@
 ---
-en:
+fr:
   intro:
     title1: "UNE AMBIANCE INTIME"
     title2: "ET PERSONNELLE"
-    p1: "VEJERÍSIMO est une maison d’hôtes qui se situe dans une ruelle tranquille au cœur de l’ancien village de Vejer de la Frontera. Tout près, vous y trouverez des restaurants, petits bars sympas et endroits chaleureux. La maison se trouve à côté de l’ancienne muraille et de "La Puerta Cerrada" (La Porte Fermée), une des 4 portes principales du village."
+    p1: "VEJERÍSIMO est une maison d’hôtes qui se situe dans une ruelle tranquille au cœur de l’ancien village de Vejer de la Frontera. Tout près, vous y trouverez des restaurants, petits bars sympas et endroits chaleureux. La maison se trouve à côté de l’ancienne muraille et de 'La Puerta Cerrada' (La Porte Fermée), une des 4 portes principales du village."
     p2: "La maison centenaire dispose de 4 chambres doubles, situées autour d’un patio typique. Elle a été entièrement rénovée en gardant des accents mauresques et en combinant tout le confort moderne de notre temps. Vous y découvrirez aussi des petits coins sympas: sa bibliothèque, le patio fleuri et sa terrasse où vous pourrez vous relaxer dans les chaises longues. Nous vous garantissons un séjour exceptionnel et inoubliable!"
   header:
     top: "Accueil"
@@ -33,12 +33,12 @@ en:
   prices:
       title: "Prix 2015"
       high:
-        title: "Haute Saison € 82"
-        detail1: "15 juin - 15 septembre"
-        detail2: "semana santa 27/3 - 5/4"
+        title: "AOÛT € 95"
+      medium:
+        title: "JUIN, JUILLET, SEPTEMBRE € 82"
       low:
-        title: "Basse Saison € 69"
-        detail1: "Pour 1 personne: -€ 5 (petit déjeuner non compris)"
+        title: "BASSE SAISON € 69"
+      detail: "Pour 1 personne: -€ 5 (petit déjeuner non compris)"
       terms: "Conditions Générales"
   house:
     casa:
@@ -60,7 +60,7 @@ en:
     title1: "VEJER DE LA FRONTERA"
     title2: "savourez la tranquillité et l’authenticité"
     title3: ""
-    description: "Vejer de la Frontera est un village typiquement espagnol accroché aux pittoresques collines andalouses. Ce "pueblo blanco" (village blanc) est parfaitement préservé et entouré d’une nature verdoyante. Il est même mentionné par TripAdviser comme deuxième plus beau village d’Espagne. Vous y découvrirez des vues époustouflantes vers la mer, les montagnes, la campagne et même l’Afrique. Découvrez cette cité traditionnelle dont les maisons à la blancheur éclatante contrastent avec le bleu du ciel!Prenez le temps de vous promener dans ses charmantes ruelles tortueuses et si pittoresques, et vous apercevrez ses portes médiévales, ses patios fleuris et une importante tradition artisanale. Remontez dans le temps et découvrez des scènes médiévales aux influences mauresques. Dans cette authentique Andalousie , laissez-vous bercer par le rythme du flamenco dans "La Peña Flamenca" du village. Vejer connait aussi une gastronomie de haut niveau et la magnifique plage d’El Palmar se trouve à 10 minutes."
+    description: "Vejer de la Frontera est un village typiquement espagnol accroché aux pittoresques collines andalouses. Ce 'pueblo blanco' (village blanc) est parfaitement préservé et entouré d’une nature verdoyante. Il est même mentionné par TripAdviser comme deuxième plus beau village d’Espagne. Vous y découvrirez des vues époustouflantes vers la mer, les montagnes, la campagne et même l’Afrique. Découvrez cette cité traditionnelle dont les maisons à la blancheur éclatante contrastent avec le bleu du ciel!Prenez le temps de vous promener dans ses charmantes ruelles tortueuses et si pittoresques, et vous apercevrez ses portes médiévales, ses patios fleuris et une importante tradition artisanale. Remontez dans le temps et découvrez des scènes médiévales aux influences mauresques. Dans cette authentique Andalousie , laissez-vous bercer par le rythme du flamenco dans 'La Peña Flamenca' du village. Vejer connait aussi une gastronomie de haut niveau et la magnifique plage d’El Palmar se trouve à 10 minutes."
     resto:
       title: "GASTRONOMIE"
       description: "Laissez-vous surprendre par les restaurants innovants avec leurs plats créatifs et une cuisine moderne. Vous serez aussi tentés par les restaurants typiques andalous et leurs plats de la région. Vejer ne vous laissera pas sur votre faim!"

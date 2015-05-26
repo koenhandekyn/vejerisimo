@@ -33,12 +33,12 @@ es:
   prices:
       title: "Tarifas 2015"
       high:
-        title: "Temporada alta € 82"
-        detail1: "1 Junio - 15 Septiembre"
-        detail2: "semana santa 27/3 - 5/4"
+        title: "AGOSTO € 95"
+      medium:
+        title: "JUNIO, JULIO, SEPTIEMBRE € 82"
       low:
-        title: "Temporada baja € 69"
-        detail1: "Uso individual: -€ 5 - Desayuno no incluido"
+        title: "TEMPORADA BAJA € 69"
+      detail: "Uso individual: -€ 5 - Desayuno no incluido"
       terms: "Condiciones generales"
   house:
     casa:

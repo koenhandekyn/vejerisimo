@@ -23,6 +23,15 @@ p {
   line-height: 1.3em;
 }
 
+.modal-content {
+  font-size: 0.7em;
+}
+
+.modal-lg
+{
+    width: 1024px;
+}
+
 section {
   @extend .row;
   padding: 0px;
