@@ -32,12 +32,12 @@ en:
       c: "Spacious ensuite bathroom"
   prices:
       title: "Prices 2015"
-      high:
-        title: "AUGUST, SEMANA SANTA € 95"
+      low:
+        title: "LOW SEASON € 69"     
       medium:
         title: "JUNE, JULY, SEPTEMBER € 82"
-      low:
-        title: "LOW SEASON € 69"
+      high:
+        title: "AUGUST, SEMANA SANTA € 95"
       detail: "Single Use: -€ 5 (Breakfast not included)"
       terms: "Terms & Conditions"
   house:
@@ -60,7 +60,7 @@ en:
     title1: "VEJER DE LA FRONTERA"
     title2: "breathe the Andalusian air"
     title3: ""
-    description: "Vejer de la Frontera is a small hilltop town and has spectacular views to the sea, the mountains, the river and even Africa. Breathe the Andalusian air in this whitewashed village surrounded by a wonderful nature. Its narrow streets take us back in time and evoke ancient Arabic scenarios. Discover picturesque corners, medieval gates, flowered patios and the important craft tradition. The white sanded beaches of El Palmar are only 10 minutes away. Vejer de la Frontera has recently been proclaimed as the second most beautiful village of Spain by TripAdviser. The village offers you, with its unspoilt character, the real Andalucia. The flamenco for example hasn’t been commercialized yet. Enjoy the authentic flamenco e.g. in the intimate setting of the Peña Flamenca. Vejer also a high level of gastronomy and the white sanded beaches of El Palmar are only 10 minutes away."
+    description: "Vejer de la Frontera is a small hilltop town and has spectacular views to the sea, the mountains, the river and even Africa. Breathe the Andalusian air in this whitewashed village surrounded by a wonderful nature. Its narrow streets take us back in time and evoke ancient Arabic scenarios. Discover picturesque corners, medieval gates, flowered patios and the important craft tradition. The white sanded beaches of El Palmar are only 10 minutes away. Vejer de la Frontera has recently been proclaimed as the second most beautiful village of Spain by TripAdviser. The village offers you, with its unspoilt character, the real Andalucia. The flamenco for example hasn’t been commercialized yet. Enjoy the authentic flamenco e.g. in the intimate setting of the Peña Flamenca. Vejer also has a high level of gastronomy and the white sanded beaches of El Palmar are only 10 minutes away."
     resto:
       title: "GASTRONOMY"
       description: "You will be surprised by the innovative restaurants with its creative dishes and modern recipes. Discover the typical Andalusian cuisine and the authentic dishes of Vejer. If food is your passion, then you will be more then satisfied."
@@ -69,7 +69,7 @@ en:
       description: "Vejer de la Frontera is a great getaway for those looking for outdoor activities. Hiking, biking, climbing, surfing, diving, etc. Enough to feed the restless!"
     playa:
       title: "BREATHTAKING BEACHES WITH LOTS OF SUN"
-      description: "The Costa de la Luz (Coast of Light) takes its name from the brilliant white sunlight that reflects on the ocean en the white sand beaches. It faces the Atlantic Ocean and has endless beaches backed by dunes and pine forests. With an average of over 300 days of sunshine a year you can enjoy Spain’s best beaches all year long."
+      description: "The Costa de la Luz (Coast of Light) takes its name from the brilliant white sunlight that reflects on the ocean en the white sanded beaches. It faces the Atlantic Ocean and has endless beaches backed by dunes and pine forests. With an average of over 300 days of sunshine a year you can enjoy Spain’s best beaches all year long."
       caption1: 'El Palmar (9 km): a huge paradise of fine golden sand'
       caption2: 'Barbate (10 km): place to be for seafood lovers'
       caption3: 'Zahora (15 km): breathtaking views on the coast and Cape of Trafalgar'
