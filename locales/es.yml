@@ -32,12 +32,12 @@ es:
       c: "Baño en-suite espacioso"
   prices:
       title: "Tarifas 2015"
-      high:
-        title: "AGOSTO € 95"
-      medium:
-        title: "JUNIO, JULIO, SEPTIEMBRE € 82"
       low:
         title: "TEMPORADA BAJA € 69"
+      medium:
+        title: "JUNIO, JULIO, SEPTIEMBRE € 82"
+      high:
+        title: "AGOSTO € 95"
       detail: "Uso individual: -€ 5 - Desayuno no incluido"
       terms: "Condiciones generales"
   house:
