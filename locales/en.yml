@@ -77,16 +77,16 @@ en:
       caption5: ''
       caption6: ''
   form:
-    title: Reservas Y Preguntas
-    name: Nombre
+    title: Reservations & Questions
+    name: Name
     email: E-mail
-    telephone: Teléfono
-    arrival: Fecha de Ilegada
-    adults: Adultos
-    kids: Niños
-    nights: Número de Noches
-    comments: Comentario
-    send: Enviar
+    telephone: Telephone
+    arrival: Date of arrival
+    nights: Number of nights
+    adults: Adults
+    kids: Kids
+    comments: Comments
+    send: Send
     date:
       month:
         jan: January
