@@ -12,6 +12,6 @@
           .img style="background-image: url('#{image_path(item)}');"
   = partial 'components/carousel_controls', locals: { id: "##{id}" }
   .logos
-    img.logo src=image_path("logo.jpg")
+    img.logo src=image_path("logo_#{I18n.locale}.jpg")
     br
     img.pueblos src=image_path("pueblos.jpg")

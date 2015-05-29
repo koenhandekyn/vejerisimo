@@ -38,7 +38,7 @@ es:
         title: "JUNIO, JULIO, SEPTIEMBRE € 82"
       high:
         title: "AGOSTO € 95"
-      detail: "Uso individual: -€ 5 - Desayuno no incluido"
+      detail: "Uso individual: -€ 5 <br/> Desayuno no incluido"
       terms: "Condiciones generales"
   house:
     casa:
@@ -76,3 +76,23 @@ es:
       caption4: 'Caños de Meca (19 km): un ambiente joven, relajado y alternativo'
       caption5: ''
       caption6: ''
+  form:
+    title: Reservas Y Preguntas
+    name: Nombre
+    email: E-mail
+    telephone: Teléfono
+    arrival: Fecha de Ilegada
+    date:
+      month:
+        jan: January
+        feb: February
+        mar: March
+        apr: April
+        may: May
+        jun: June
+        jul: July
+        aug: August
+        sep: September
+        oct: October
+        nov: November
+        dec: December

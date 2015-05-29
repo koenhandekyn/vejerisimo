@@ -6,22 +6,22 @@
         .form-header-group
           .header-text.httac.htvam
             h2#header_28.form-header
-              | Reservas Y Preguntas
+              = t('form.title')
       li#id_31.form-line.jf-required data-type="control_textbox"
         label#label_31.form-label.form-label-left.form-label-auto for="input_31"
-          | Nombre
+          = t('form.name')
           span.form-required *
         #cid_31.form-input.jf-required
           input#input_31.form-textbox class="validate[required]" data-type="input-textbox" name="q31_nombre31" size="20" type="text" value="" /
       li#id_24.form-line.jf-required data-type="control_email"
         label#label_24.form-label.form-label-left.form-label-auto for="input_24"
-          | E-mail
+          = t('form.email')
           span.form-required *
         #cid_24.form-input.jf-required
           input#input_24.form-textbox class="validate[required, Email]" name="q24_email24" size="50" type="email" value="" /
       li#id_20.form-line data-type="control_phone"
         label#label_20.form-label.form-label-left.form-label-auto for="input_20"
-          | Teléfono
+          = t('form.telephone')
         #cid_20.form-input.jf-required
           span.form-sub-label-container
             input#input_20_area.form-textbox name="q20_telefono[area]" size="5" type="tel"
@@ -31,25 +31,23 @@
             / label#sublabel_phone.form-sub-label for="input_20_phone"
       li#id_25.form-line data-type="control_birthdate"
         label#label_25.form-label.form-label-left.form-label-auto for="input_25"
-          | Fecha de Ilegada
+          = t('form.arrival')
         #cid_25.form-input.jf-required
           span.form-sub-label-container style=("vertical-align: top")
             select#input_25_month.form-dropdown name="q25_fechaDe[month]"
               option
-              option value="January"  January
-              option value="February"  February
-              option value="March"  March
-              option value="April"  April
-              option value="May"  May
-              option value="June"  June
-              option value="July"  July
-              option value="August"  August
-              option value="September"  September
-              option value="October"  October
-              option value="November"  November
-              option value="December"  December
-            / label#sublabel_month.form-sub-label for="input_25_month"
-              / | Month
+              option value="January" =t('form.date.month.jan')
+              option value="February" =t('form.date.month.feb')
+              option value="March" =t('form.date.month.mar')
+              option value="April" =t('form.date.month.apr')
+              option value="May" =t('form.date.month.may')
+              option value="June" =t('form.date.month.jun')
+              option value="July" =t('form.date.month.jul')
+              option value="August" =t('form.date.month.aug')
+              option value="September" =t('form.date.month.sep')
+              option value="October" =t('form.date.month.oct')
+              option value="November" =t('form.date.month.nov')
+              option value="December" =t('form.date.month.dec')
           span.form-sub-label-container style=("vertical-align: top")
             select#input_25_day.form-dropdown name="q25_fechaDe[day]"
               option
