@@ -77,27 +77,27 @@ fr:
       caption5: ''
       caption6: ''
   form:
-    title: Reservas Y Preguntas
-    name: Nombre
+    title: Réservations & Questions
+    name: Nom
     email: E-mail
-    telephone: Teléfono
-    arrival: Fecha de Ilegada
-    adults: Adultos
-    kids: Niños
-    nights: Número de Noches
-    comments: Comentario
-    send: Enviar
+    telephone: Teléphone
+    arrival: Arrivée
+    nights: Nombre de Nuits
+    adults: Adultes
+    kids: Enfants
+    comments: Commentaires
+    send: Envoyer
     date:
       month:
-        jan: January
-        feb: February
-        mar: March
-        apr: April
-        may: May
-        jun: June
-        jul: July
-        aug: August
-        sep: September
-        oct: October
-        nov: November
-        dec: December
+        jan: Janvier
+        feb: Février
+        mar: Mars
+        apr: Avril
+        may: Mai
+        jun: Juin
+        jul: Juillet
+        aug: Août
+        sep: Septembre
+        oct: Octobre
+        nov: Novembre
+        dec: Décembre
