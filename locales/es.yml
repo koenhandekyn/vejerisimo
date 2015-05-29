@@ -82,6 +82,11 @@ es:
     email: E-mail
     telephone: Teléfono
     arrival: Fecha de Ilegada
+    adults: Adultos
+    kids: Niños
+    nights: Número de Noches
+    comments: Comentario
+    send: Enviar
     date:
       month:
         jan: January

@@ -98,7 +98,8 @@
               option value="2023"  2023
             / label#sublabel_year.form-sub-label for="input_25_year" style=("min-height: 13px;")  Year
       li#id_30.form-line data-type="control_dropdown"
-        label#label_30.form-label.form-label-left.form-label-auto for="input_30"  Adultos
+        label#label_30.form-label.form-label-left.form-label-auto for="input_30"
+          = t('form.adults')
         #cid_30.form-input.jf-required
           select#input_30.form-dropdown name="q30_adultos" style="width:60px"
             option value=""
@@ -112,7 +113,7 @@
             option value="8"  8
       li#id_16.form-line data-type="control_dropdown"
         label#label_16.form-label.form-label-left.form-label-auto for="input_16"
-          | Niños
+          = t('form.kids')
         #cid_16.form-input.jf-required
           select#input_16.form-dropdown name="q16_ninos" style="width:60px"
             option value=""
@@ -126,7 +127,7 @@
             option value="8"  8
       li#id_10.form-line data-type="control_dropdown"
         label#label_10.form-label.form-label-left.form-label-auto for="input_10"
-          | Número de Noches
+          = t('form.nights')
         #cid_10.form-input.jf-required
           select#input_10.form-dropdown name="q10_numeroDe" style="width:60px"
             option value=""
@@ -145,11 +146,11 @@
             option value="14(+)"  14(+)
       li#id_13.form-line data-type="control_textarea"
         label#label_13.form-label.form-label-left.form-label-auto for="input_13"
-          | Comentario
+          = t('form.comments')
         #cid_13.form-input.jf-required
           textarea#input_13.form-textarea cols="40" name="q13_comentario" rows="6"
     button#input_2.form-submit-button type="submit"
-      | Enviar
+      = t('form.send')
     li style="display:none"
       input name="website" type="text" value="" /
     input#simple_spc name="simple_spc" type="hidden" value="51355991919367-51355991919367" /

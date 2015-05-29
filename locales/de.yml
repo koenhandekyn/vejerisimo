@@ -77,3 +77,28 @@ de:
       caption4: 'Caños de Meca (19 km): un ambiente joven, relajado y alternativo'
       caption5: ''
       caption6: ''
+  form:
+    title: Reservas Y Preguntas
+    name: Nombre
+    email: E-mail
+    telephone: Teléfono
+    arrival: Fecha de Ilegada
+    adults: Adultos
+    kids: Niños
+    nights: Número de Noches
+    comments: Comentario
+    send: Enviar
+    date:
+      month:
+        jan: January
+        feb: February
+        mar: March
+        apr: April
+        may: May
+        jun: June
+        jul: July
+        aug: August
+        sep: September
+        oct: October
+        nov: November
+        dec: December

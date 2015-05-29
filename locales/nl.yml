@@ -76,3 +76,28 @@ nl:
       caption4: 'Caños de Meca (19 km): een jonge, relaxte sfeer met een alternatieve toets'
       caption5: ''
       caption6: ''
+  form:
+    title: Reservatie en Inlichtingen
+    name: Naam
+    email: E-mail
+    telephone: Telefoon
+    arrival: Aankomst
+    adults: Aantal volwassenen
+    kids: Aantal Kinderen
+    nights: Aantal nachten
+    comments: Vraag / Commentaar
+    send: Verzenden
+    date:
+      month:
+        jan: Jan
+        feb: Feb
+        mar: Maa
+        apr: Apr
+        may: Mei
+        jun: Jun
+        jul: Jul
+        aug: Aug
+        sep: Sep
+        oct: Oct
+        nov: Nov
+        dec: Dec
