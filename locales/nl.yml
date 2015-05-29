@@ -77,14 +77,14 @@ nl:
       caption5: ''
       caption6: ''
   form:
-    title: Reservatie en Inlichtingen
+    title: Reservatie & Inlichtingen
     name: Naam
     email: E-mail
     telephone: Telefoon
     arrival: Aankomst
+    nights: Aantal nachten
     adults: Aantal volwassenen
     kids: Aantal Kinderen
-    nights: Aantal nachten
     comments: Vraag / Commentaar
     send: Verzenden
     date:
