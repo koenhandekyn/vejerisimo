@@ -82,9 +82,9 @@ es:
     email: E-mail
     telephone: Teléfono
     arrival: Fecha de Ilegada
+    nights: Número de Noches
     adults: Adultos
     kids: Niños
-    nights: Número de Noches
     comments: Comentario
     send: Enviar
     date:
