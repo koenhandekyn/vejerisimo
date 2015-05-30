@@ -1,20 +1,20 @@
 .form-all
-  form#51355991919367.jotform-form accept-charset="utf-8" action="http://submit.jotformeu.com/submit.php" method="post" name="form_51355991919367"
+  form.jotform-form accept-charset="utf-8" action="http://submit.jotformeu.com/submit.php" method="post" name="form_51355991919367"
     input name="formID" type="hidden" value="51355991919367" /
     ul.form-section.page-section
-      li#cid_28.form-input-wide data-type="control_head"
+      li.form-input-wide data-type="control_head"
         .form-header-group
           .header-text.httac.htvam
-            h2#header_28.form-header
+            h2.form-header
               = t('form.title')
-      li#id_31.form-line.jf-required data-type="control_textbox"
-        label#label_31.form-label.form-label-left.form-label-auto for="input_31"
+      li.form-line.jf-required data-type="control_textbox"
+        label.form-label.form-label-left.form-label-auto for="input_31"
           = t('form.name')
           span.form-required *
-        #cid_31.form-input.jf-required
-          input#input_31.form-textbox class="validate[required]" data-type="input-textbox" name="q31_nombre31" size="20" type="text" value="" /
-      li#id_24.form-line.jf-required data-type="control_email"
-        label#label_24.form-label.form-label-left.form-label-auto for="input_24"
+        .form-input.jf-required
+          input.form-textbox class="validate[required]" data-type="input-textbox" name="q31_nombre31" size="20" type="text" value="" /
+      li.form-line.jf-required data-type="control_email"
+        label.form-label.form-label-left.form-label-auto for="input_24"
           = t('form.email')
           span.form-required *
         #cid_24.form-input.jf-required
@@ -133,8 +133,8 @@
       li#id_16.form-line data-type="control_dropdown"
         label#label_16.form-label.form-label-left.form-label-auto for="input_16"
           = t('form.kids')
-        #cid_16.form-input.jf-required
-          select#input_16.form-dropdown name="q16_ninos" style="width:60px"
+        .form-input.jf-required
+          select.form-dropdown name="q16_ninos" style="width:60px"
             option value=""
             option value="1"  1
             option value="2"  2
@@ -144,16 +144,26 @@
             option value="6"  6
             option value="7"  7
             option value="8"  8
-      li#id_13.form-line data-type="control_textarea"
-        label#label_13.form-label.form-label-left.form-label-auto for="input_13"
+      li.form-line data-type="control_textarea"
+        label.form-label.form-label-left.form-label-auto for="input_13"
           = t('form.comments')
         #cid_13.form-input.jf-required
-          textarea#input_13.form-textarea cols="40" name="q13_comentario" rows="6"
+          textarea.form-textarea cols="40" name="q13_comentario" rows="6"
     button#input_2.form-submit-button type="submit"
       = t('form.send')
     li style="display:none"
-      input name="website" type="text" value="" /
-    input#simple_spc name="simple_spc" type="hidden" value="51355991919367-51355991919367" /
-
+      input name="website" type="text" value=""
+    input#simple_spc name="simple_spc" type="hidden" value="51355991919367-51355991919367"
 
 p &nbsp;
+
+/ javascript:
+/   $('form[name=form_51355991919367]').submit(function(){
+/     alert('hello')
+/     $.post($(this).attr('action'), $(this).serialize(), function(res){
+/         // Do something with the response `res`
+/         console.log(res);
+/         // Don't forget to hide the loading indicator!
+/     });
+/     return false; // prevent default action
+/   });
