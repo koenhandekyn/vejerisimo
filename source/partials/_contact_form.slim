@@ -1,6 +1,6 @@
 .form-all
-  form.jotform-form accept-charset="utf-8" action="http://submit.jotformeu.com/submit.php" method="post" name="form_51355991919367"
-    input name="formID" type="hidden" value="51355991919367" /
+  form.jotform-form accept-charset="utf-8" action="" method="post" name="contact"
+    input type="hidden" value="51355991919367"
     ul.form-section.page-section
       li.form-input-wide data-type="control_head"
         .form-header-group
@@ -8,33 +8,33 @@
             h2.form-header
               = t('form.title')
       li.form-line.jf-required data-type="control_textbox"
-        label.form-label.form-label-left.form-label-auto for="input_31"
+        label.form-label.form-label-left.form-label-auto for="name"
           = t('form.name')
           span.form-required *
         .form-input.jf-required
-          input.form-textbox class="validate[required]" data-type="input-textbox" name="q31_nombre31" size="20" type="text" value="" /
+          input.form-textbox class="validate[required]" data-type="input-textbox" name="name" size="20" type="text" value="" /
       li.form-line.jf-required data-type="control_email"
-        label.form-label.form-label-left.form-label-auto for="input_24"
+        label.form-label.form-label-left.form-label-auto for="email"
           = t('form.email')
           span.form-required *
         #cid_24.form-input.jf-required
-          input#input_24.form-textbox class="validate[required, Email]" name="q24_email24" size="50" type="email" value="" /
+          input#input_24.form-textbox class="validate[required, Email]" name="email" size="50" type="email" value="" /
       li#id_20.form-line data-type="control_phone"
-        label#label_20.form-label.form-label-left.form-label-auto for="input_20"
+        label#label_20.form-label.form-label-left.form-label-auto for="telephone_number"
           = t('form.telephone')
         #cid_20.form-input.jf-required
           span.form-sub-label-container
-            input#input_20_area.form-textbox name="q20_telefono[area]" size="5" type="tel"
+            input#input_20_area.form-textbox name="telephone_area" size="5" type="tel"
             / label#sublabel_area.form-sub-label for="input_20_area"
           span.form-sub-label-container
-            input#input_20_phone.form-textbox name="q20_telefono[phone]" size="20" type="tel"
+            input#input_20_phone.form-textbox name="telephone_number" size="20" type="tel"
             / label#sublabel_phone.form-sub-label for="input_20_phone"
       li#id_25.form-line data-type="control_birthdate"
         label#label_25.form-label.form-label-left.form-label-auto for="input_25"
           = t('form.arrival')
         #cid_25.form-input.jf-required
           span.form-sub-label-container style=("vertical-align: top")
-            select#input_25_month.form-dropdown name="q25_fechaDe[month]"
+            select#input_25_month.form-dropdown name="arrival_month"
               option
               option value="January" =t('form.date.month.jan')
               option value="February" =t('form.date.month.feb')
@@ -49,7 +49,7 @@
               option value="November" =t('form.date.month.nov')
               option value="December" =t('form.date.month.dec')
           span.form-sub-label-container style=("vertical-align: top")
-            select#input_25_day.form-dropdown name="q25_fechaDe[day]"
+            select#input_25_day.form-dropdown name="arrival_day"
               option
               option value="1"  1
               option value="2"  2
@@ -85,7 +85,7 @@
             / label#sublabel_day.form-sub-label for="input_25_day"
               / | Day
           span.form-sub-label-container style=("vertical-align: top")
-            select#input_25_year.form-dropdown name="q25_fechaDe[year]"
+            select#input_25_year.form-dropdown name="arrival_year"
               option
               option value="2015"  2015
               option value="2016"  2016
@@ -101,7 +101,7 @@
         label#label_10.form-label.form-label-left.form-label-auto for="input_10"
           = t('form.nights')
         #cid_10.form-input.jf-required
-          select#input_10.form-dropdown name="q10_numeroDe" style="width:60px"
+          select#input_10.form-dropdown name="days" style="width:60px"
             option value=""
             option value="2"  2
             option value="3"  3
@@ -120,7 +120,7 @@
         label#label_30.form-label.form-label-left.form-label-auto for="input_30"
           = t('form.adults')
         #cid_30.form-input.jf-required
-          select#input_30.form-dropdown name="q30_adultos" style="width:60px"
+          select#input_30.form-dropdown name="adults" style="width:60px"
             option value=""
             option value="1"  1
             option value="2"  2
@@ -134,7 +134,7 @@
         label#label_16.form-label.form-label-left.form-label-auto for="input_16"
           = t('form.kids')
         .form-input.jf-required
-          select.form-dropdown name="q16_ninos" style="width:60px"
+          select.form-dropdown name="children" style="width:60px"
             option value=""
             option value="1"  1
             option value="2"  2
@@ -148,22 +148,21 @@
         label.form-label.form-label-left.form-label-auto for="input_13"
           = t('form.comments')
         #cid_13.form-input.jf-required
-          textarea.form-textarea cols="40" name="q13_comentario" rows="6"
+          textarea.form-textarea cols="40" name="comment" rows="6"
     button#input_2.form-submit-button type="submit"
       = t('form.send')
-    li style="display:none"
-      input name="website" type="text" value=""
-    input#simple_spc name="simple_spc" type="hidden" value="51355991919367-51355991919367"
 
 p &nbsp;
 
-/ javascript:
-/   $('form[name=form_51355991919367]').submit(function(){
-/     alert('hello')
-/     $.post($(this).attr('action'), $(this).serialize(), function(res){
-/         // Do something with the response `res`
-/         console.log(res);
-/         // Don't forget to hide the loading indicator!
-/     });
-/     return false; // prevent default action
-/   });
+javascript:
+  $('form[name=contact]').submit(function(){
+    $.ajax({
+        url: "//formspree.io/wim.handekyn@gmail.com",
+        method: "POST",
+        data: $('form[name=contact]').serializeArray(),
+        dataType: "json"
+    }).done(function() {
+      alert( "#{t('form.thank_you')}" );
+    });
+    return false;
+  });
