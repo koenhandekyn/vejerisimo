@@ -77,7 +77,8 @@ fr:
       caption5: ''
       caption6: ''
   form:
-    title: Réservations & Questions
+    title: "Réservations & Questions"
+    thank_you: Merci! Nous vous contacterons dans les plus brefs délais.
     name: Nom
     email: E-mail
     telephone: Téléphone

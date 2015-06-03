@@ -77,7 +77,8 @@ en:
       caption5: ''
       caption6: ''
   form:
-    title: Reservations & Questions
+    title: "Reservations & Questions"
+    thank_you: Thank you! We'll contact you soon.
     name: Name
     email: E-mail
     telephone: Telephone

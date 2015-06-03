@@ -77,7 +77,8 @@ nl:
       caption5: ''
       caption6: ''
   form:
-    title: Reservatie & Inlichtingen
+    title: "Reservatie & Inlichtingen"
+    thank_you: Dank u! We contacteren u spoedig.
     name: Naam
     email: E-mail
     telephone: Telefoon

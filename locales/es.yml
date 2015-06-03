@@ -78,6 +78,7 @@ es:
       caption6: ''
   form:
     title: Reservas Y Preguntas
+    thank_you: Muchas gracias! Nos pondremos en contacto con usted pronto.
     name: Nombre
     email: E-mail
     telephone: Teléfono
