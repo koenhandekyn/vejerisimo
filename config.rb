@@ -193,3 +193,27 @@ activate :deploy do |deploy|
   # deploy.strategy = :submodule      # commit strategy: can be :force_push or :submodule, default: :force_push
   # deploy.commit_message = 'custom-message'      # commit message (can be empty), default: Automated commit at `timestamp` by middleman-deploy `version`
 end
+
+set :protocol, "http://"
+set :host, "www.vejerisimo.com/"
+set :port, 80
+
+helpers do
+  def host_with_port
+    [host, optional_port].compact.join(':')
+  end
+
+  def optional_port
+    port unless port.to_i == 80
+  end
+
+  def image_url(source)
+    protocol + host_with_port + image_path(source)
+  end
+end
+
+configure :development do
+  # Used for generating absolute URLs
+  set :host, Middleman::PreviewServer.host
+  set :port, Middleman::PreviewServer.port
+end

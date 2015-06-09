@@ -6,6 +6,20 @@ html
     meta[name="description" content="#{site_description}"]
     meta[name="keywords" content="#{site_keywords}"]
 
+    meta[property="og:description" content="A Guest House situated in the heart of Vejer de la Frontera"]
+    meta[property="og:url" content="http://www.vejerisimo.com"]
+    meta[property="og:image" content=image_url(image_path('top_1m.jpg')) ]
+    meta[property="og:type" content="website"]
+    meta[property="og:site_name" content="Vejerisimo"]
+    / meta[property="article:author" content="Wim Handekyn"]
+    / meta[property="article:publisher" content="koen.hand(c) ekyn@quine.be"]
+
+    meta[content="summary" name="twitter:card"]
+    meta[content="@vejerisimo" name="twitter:site"]
+    meta[content="A Guest House situated in the heart of Vejer de la Frontera" name="twitter:title"]
+    meta[content="We offer 4 double rooms situated around a lovely patio with lots of cozy corners and a sunny roof terrace. We promise you an unforgettable stay!" name="twitter:description"]
+    meta[content=image_url(image_path('top_1m.jpg')) name="twitter:image"]
+
     title
       = page_title
     /[if lt IE 9]
@@ -24,9 +38,16 @@ html
       = yield
       hr
         p.text-center
-          | 2015
+          | (c) 2015
           =< link_to "#{site_title}", "/"
         p.text-center
           small
             | VTAR/CA/00496
+      hr
+      - if (I18n.locale.to_s.strip == 'nl')
+        .text-center
+          a href="http://www.charmelogies.com" target="_blank"
+            img alt=("Charme Logies") src="http://www.charmelogies.com/assets/images/banners/charmelogies.jpg" width="252" height="141"
+      hr
+
     = javascript_include_tag "all"
