@@ -104,3 +104,5 @@ nl:
         oct: Oct
         nov: Nov
         dec: Dec
+  footer:
+    legal_notice: Legal Notice

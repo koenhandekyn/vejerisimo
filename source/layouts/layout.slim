@@ -39,12 +39,14 @@ html
       hr
         p.text-center
           | (c) 2015
-          =< link_to "#{site_title}", "/"
+          =<> link_to "#{site_title}", "/"
+          | -
+          =< link_to t('footer.legal_notice'), 'legal_notice.html', :target => "_blank"
         p.text-center
           small
             | VTAR/CA/00496
-      hr
       - if (I18n.locale.to_s.strip == 'nl')
+        hr
         .text-center
           a href="http://www.charmelogies.com" target="_blank"
             img alt=("Charme Logies") src="http://www.charmelogies.com/assets/images/banners/charmelogies.jpg" width="252" height="141"

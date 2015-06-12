@@ -104,3 +104,6 @@ en:
         oct: October
         nov: November
         dec: December
+  footer:
+    legal_notice: Legal Notice
+
