@@ -32,13 +32,13 @@ de:
       b: "Comfortable double bed 160x190cm"
       c: "Spacious ensuite bathroom"
   prices:
-      title: "Prices 2015"
+      title: "Prices 2016"
       high:
-        title: "AUGUST, SEMANA SANTA € 95"
+        title: "AUGUST, SEMANA SANTA"
       medium:
-        title: "JUNE, JULY, SEPTEMBER € 82"
+        title: "JUNE, JULY, SEPTEMBER"
       low:
-        title: "LOW SEASON € 69"
+        title: "LOW SEASON"
       detail: "Single Use: -€ 5 <br/> Breakfast not included"
       terms: "Terms & Conditions"
   house:
@@ -83,6 +83,7 @@ de:
     email: E-mail
     telephone: Teléfono
     arrival: Fecha de Ilegada
+    persons: Personenzahl
     adults: Adultos
     kids: Niños
     nights: Número de Noches

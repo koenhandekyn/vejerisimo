@@ -2,9 +2,15 @@ section.white#prices
   .content
     h2 =t('prices.title')
     br
-    h4 =t('prices.low.title')
-    h4 =t('prices.medium.title')
-    h4 =t('prices.high.title')
+    h4
+      =t('prices.low.title')
+      =<t('prices.low.price')
+    h4
+      =t('prices.medium.title')
+      =<t('prices.medium.price')
+    h4
+      =t('prices.high.title')
+      =<t('prices.high.price')
     h4
       small
         =t('prices.house.title')

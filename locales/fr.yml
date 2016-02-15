@@ -31,13 +31,13 @@ fr:
       b: "Lit double confortable 160x190 cm"
       c: "Salle de bain spacieuse attenante"
   prices:
-      title: "Prix 2015"
+      title: "Prix 2016"
       high:
-        title: "AOÛT € 95"
+        title: "AOÛT"
       medium:
-        title: "JUIN, JUILLET, SEPTEMBRE € 82"
+        title: "JUIN, JUILLET, SEPTEMBRE"
       low:
-        title: "BASSE SAISON € 69"
+        title: "BASSE SAISON"
       house:
         title: "LOUER LA MAISON ENTIEREMENT - PRIX SUR DEMANDE"
       detail: "Pour 1 personne: -€ 5 <br/> petit déjeuner non compris"
@@ -86,6 +86,7 @@ fr:
     telephone: Téléphone
     arrival: Arrivée
     nights: Nombre de Nuits
+    persons: Nombre de personnes
     adults: Adultes
     kids: Enfants
     comments: Commentaires

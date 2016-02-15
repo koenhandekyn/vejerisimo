@@ -31,13 +31,13 @@ nl:
       b: "Comfortabel tweepersoonsbed 160x190cm"
       c: "Ruime badkamer en-suite"
   prices:
-      title: "Prijzen 2015"
+      title: "Prijzen 2016"
       high:
-        title: "AUGUSTUS € 95"
+        title: "AUGUSTUS"
       medium:
-        title: "JUNI, JULI, SEPTEMBER € 82"
+        title: "JUNI, JULI, SEPTEMBER"
       low:
-        title: "LAAG SEIZOEN € 69"
+        title: "LAAG SEIZOEN"
       house:
         title: "HET VOLLEDIGE HUIS HUREN - PRIJS OP AANVRAAG"
       detail: "Enkel gebruik: -€ 5 <br/> Ontbijt niet inbegrepen"
@@ -86,6 +86,7 @@ nl:
     telephone: Telefoon
     arrival: Aankomst
     nights: Aantal nachten
+    persons: Aantal personen
     adults: Aantal volwassenen
     kids: Aantal Kinderen
     comments: Vraag / Commentaar

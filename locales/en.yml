@@ -31,13 +31,16 @@ en:
       b: "Comfortable double bed 160x190cm"
       c: "Spacious ensuite bathroom"
   prices:
-      title: "Prices 2015"
+      title: "Prices 2016"
       low:
-        title: "LOW SEASON € 69"
+        title: "LOW SEASON"
+        price: "€ 75"
       medium:
-        title: "JUNE, JULY, SEPTEMBER € 82"
+        title: "JUNE, JULY, SEPTEMBER"
+        price: "€ 85"
       high:
-        title: "AUGUST, SEMANA SANTA € 95"
+        title: "AUGUST, SEMANA SANTA"
+        price: "€ 95"
       house:
         title: "RENT THE WHOLE HOUSE - PRICE ON DEMAND"
       detail: "Single Use: -€ 5 <br/> Breakfast not included"
@@ -86,6 +89,7 @@ en:
     telephone: Telephone
     arrival: Date of arrival
     nights: Number of nights
+    persons: Number of persons
     adults: Adults
     kids: Kids
     comments: Comments
