@@ -12,7 +12,7 @@ en:
     contact: "Contact"
   rooms:
     title: "ROOMS"
-    intro: "In every room you will find TV, free WIFI, ceiling fans, heating, hair dryer and light therapy. The rooms have an average size of 20 m2 and have lovely vintage decoration."
+    intro: "In every room you will find TV, free WIFI, ceiling fans, heating and a hair dryer. The rooms have an average size of 20 m2 and have lovely vintage decoration."
     acogedora:
       a: "Ground floor"
       b: "Comfortable double bed 160x190cm"
@@ -24,7 +24,7 @@ en:
       d: "First floor: comfortable double bed 160x190cm"
     patio:
       a: "First floor"
-      b: "2 adjustable electric single beds/twin beds 90x200cm"
+      b: "Comfortable double bed 160x190cm"
       c: "Spacious ensuite bathroom"
     muralla:
       a: "First floor"
