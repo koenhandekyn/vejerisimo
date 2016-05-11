@@ -12,7 +12,7 @@ fr:
     contact: "Contact"
   rooms:
     title: "CHAMBRES"
-    intro: "Toutes les 4 chambres disposent de TV, WIFI gratuit, ventilateur de plafond, chauffage, sèche-cheveux et luminothérapie. Les chambres ont une grandeur moyenne de 20 m2 et ont une décoration vintage."
+    intro: "Toutes les 4 chambres disposent de TV, WIFI gratuit, ventilateur de plafond, chauffage et sèche-cheveux. Les chambres ont une grandeur moyenne de 20 m2 et ont une décoration vintage."
     acogedora:
       a: "Rez-de-chaussée"
       b: "Lit double confortable 160x190 cm"
@@ -24,7 +24,7 @@ fr:
       d: "Premier étage: lit double confortable"
     patio:
       a: "Premier étage"
-      b: "2 lits simples électriques 90x200 cm"
+      b: "Lit double confortable 160x190 cm"
       c: "Salle de bain spacieuse attenante"
     muralla:
       a: "Premier étage"
