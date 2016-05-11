@@ -12,7 +12,7 @@ nl:
     contact: "Contact"
   rooms:
     title: "KAMERS"
-    intro: "Alle kamers beschikken over TV, gratis WIFI, plafondventilator, verwarming, haardroger en lichttherapie via led-verlichting. De kamers zijn gemiddeld 20 m2 groot met leuke vintage decoratie."
+    intro: "Alle kamers beschikken over TV, gratis WIFI, plafondventilator, verwarming en haardroger. De kamers zijn gemiddeld 20 m2 groot met leuke vintage decoratie."
     acogedora:
       a: "Benedenverdieping"
       b: "Comfortabel tweepersoonsbed 160x190cm"
@@ -24,7 +24,7 @@ nl:
       d: "Eerste verdieping: comfortabel tweepersoonsbed 160x190cm"
     patio:
       a: "Eerste verdieping"
-      b: "2 elektrisch verstelbare eenpersoonsbedden 90x200cm"
+      b: "Comfortabel tweepersoonsbed 160x190cm"
       c: "Ruime badkamer en-suite"
     muralla:
       a: "Eerste verdieping"
