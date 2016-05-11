@@ -18,9 +18,9 @@ es:
       b: "Gran cama de matrimonio cómoda 160x190cm"
       c: "Baño en-suite espacioso"
     duplex:
-      a: "Planta baja"
-      b: "Habitación de 2 plantas con una cómoda escalera interna"
-      c: "2 accesos: al patio y a la primera planta"
+      a: "Habitación de 2 plantas con una cómoda escalera interna"
+      b: "2 accesos: al patio y a la primera planta"
+      c: "Planta baja: cuarto de baño, cuarto de aseo separado y saloncito"
       d: "Primera planta: gran cama de 160x190cm"
     patio:
       a: "Primera planta"
