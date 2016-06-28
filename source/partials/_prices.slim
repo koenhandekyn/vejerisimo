@@ -1,6 +1,6 @@
 section.white#prices
   .content
-    h2 =t('prices.title')
+    h1 =t('prices.title')
     br
     h4
       =t('prices.low.title')
@@ -18,7 +18,7 @@ section.white#prices
       small
         br =t('prices.detail')
         br
-          a< _data-toggle="modal" _data-target="#modal" href="/terms_and_conditions_#{I18n.locale}.html" target="_blank" =t('prices.terms')
+          a< _data-toggle="modal" _data-target="#modal" href="/terms-and-conditions-#{I18n.locale}.html" target="_blank" =t('prices.terms')
 
 / #modal.fade aria-hidden="true" role="dialog" tabindex="-1"
 /   .modal-dialog.modal-lg

@@ -1,6 +1,6 @@
 section.red
   .content
-    h2.text-left =t('house.casa.title')
+    h1.text-left =t('house.casa.title')
     p
       = t('house.casa.description')
 
@@ -12,7 +12,7 @@ section.red
 
     = partial 'components/carousel_inline', locals: { \
       id: 'carousel-house-1', \
-      items: [ "estar_1#{v}.jpg", "estar_2#{v}.jpg", "estar_3#{v}.jpg", "estar_4#{v}.jpg" ], \
+      items: [ "estar_1", "estar_2", "estar_3", "estar_4" ], \
       }
 
     .row
@@ -23,7 +23,7 @@ section.red
 
     = partial 'components/carousel_inline', locals: { \
       id: 'carousel-house-2', \
-      items: [ "patio_1#{v}.jpg", "patio_2#{v}.jpg", "patio_3#{v}.jpg", "patio_4#{v}.jpg" ], \
+      items: [ "patio_1", "patio_2", "patio_3", "patio_4" ], \
       }
 
     .row
@@ -33,7 +33,7 @@ section.red
 
     = partial 'components/carousel_inline', locals: { \
       id: 'carousel-house-3', \
-      items: [ "azotea_1#{v}.jpg", "azotea_2#{v}.jpg", "azotea_3#{v}.jpg", "azotea_4#{v}.jpg" ], \
+      items: [ "azotea_1", "azotea_2", "azotea_3", "azotea_4" ], \
       }
 
     .row

@@ -103,6 +103,38 @@ activate :livereload
 #   end
 # end
 
+activate :imageoptim do |options|
+  # Use a build manifest to prevent re-compressing images between builds
+  options.manifest = true
+
+
+  # Silence problematic image_optim workers
+  options.skip_missing_workers = true
+
+  # Cause image_optim to be in shouty-mode
+  options.verbose = false
+
+  # Setting these to true or nil will let options determine them (recommended)
+  options.nice = true
+  options.threads = true
+
+  # Image extensions to attempt to compress
+  options.image_extensions = %w(.png .jpg .gif .svg)
+
+  # Compressor worker options, individual optimisers can be disabled by passing
+  # false instead of a hash
+  options.pngcrush  = { :chunks => ['alla'], :fix => false, :brute => false }
+  options.pngout    = { :copy_chunks => false, :strategy => 0 }
+  options.pngout    = false
+  options.svgo      = {}
+  options.svgo      = false
+  options.advpng    = { :level => 4 }
+  options.gifsicle  = { :interlace => false }
+  options.jpegoptim = { :allow_lossy => true, :strip => ['all'], :max_quality => 80 }
+  options.jpegtran  = { :copy_chunks => false, :progressive => true, :jpegrescan => true }
+  options.optipng   = { :level => 6, :interlace => false }
+end
+
 ###
 # Site Settings
 ###
@@ -111,7 +143,7 @@ set :site_url, 'http://www.vejerísimo.com'
 set :site_author, 'Wim & Marie'
 set :site_title, 'VEJERÍSIMO'
 set :site_description, 'Vejerísimo'
-set :site_keywords, 'Vejer, Andalusia, Spain, Hotel, Bed & Breakfast'
+set :site_keywords, 'Vejer, Andalusia, Spain, Hotel, Bed & Breakfast, Casa, Tiene, Patio, Planta'
 # Select the theme from bootswatch.com.
 # If false, you can get plain bootstrap style.
 # set :theme_name, 'flatly'
@@ -154,13 +186,14 @@ end
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
-  activate :minify_css
-
   # Minify Javascript on build
+  activate :minify_css
+  activate :minify_html
   activate :minify_javascript
-
+  activate :gzip
+  activate :imageoptim
   # Enable cache buster
-  # activate :asset_hash
+  activate :asset_hash
 
   # Use relative URLs
   activate :relative_assets

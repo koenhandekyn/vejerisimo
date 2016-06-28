@@ -1,6 +1,6 @@
 section.white
   .content
-    h2.text-left
+    h1.text-left
       p =t('vejer.title1')
       p =t('vejer.title2')
       p =t('vejer.title3')
@@ -11,35 +11,35 @@ section.red
   .content
     .row
       .col-md-9
-        h3.text-left =t('vejer.resto.title')
+        h2.text-left =t('vejer.resto.title')
         p.text-left =t('vejer.resto.description')
 
     = partial 'components/carousel_inline', locals: { \
       id: 'carousel-gastronomia', \
-      items: [ 'resto_1.jpg', 'resto_2.jpg', 'resto_3.jpg', 'resto_4.jpg'], \
+      items: [ 'resto_1', 'resto_2', 'resto_3', 'resto_4'], \
       }
 
     .row
       .col-md-3
       .col-md-9
-        h3.text-right =t('vejer.tourism.title')
+        h2.text-right =t('vejer.tourism.title')
         p.text-right =t('vejer.tourism.description')
 
     = partial 'components/carousel_inline', locals: { \
       id: 'carousel-turismo', \
-      items: [ 'turismo_1.jpg', 'turismo_2.jpg', 'turismo_3.jpg', 'turismo_4.jpg'], \
+      items: [ 'turismo_1', 'turismo_2', 'turismo_3', 'turismo_4'], \
       }
 
 
 section.white
   .content
-    h2.text-left =t('vejer.playa.title')
+    h1.text-left =t('vejer.playa.title')
     p =t('vejer.playa.description')
 
 
 = partial 'components/carousel', locals: { \
     id: 'carousel-playas', \
-    items: [ 'playa_1.jpg', 'playa_2.jpg', 'playa_3.jpg', 'playa_4.jpg', 'playa_5.jpg', 'playa_6.jpg' ], \
+    items: [ 'playa_1', 'playa_2', 'playa_3', 'playa_4', 'playa_5', 'playa_6' ], \
     captions: [ t('vejer.playa.caption1'), t('vejer.playa.caption2'),  t('vejer.playa.caption3'), t('vejer.playa.caption4'),  t('vejer.playa.caption5'), t('vejer.playa.caption6'),
       ] \
     }

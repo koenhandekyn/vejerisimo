@@ -9,7 +9,7 @@
     - items.each_with_index do |item, index|
       .item class=('active' if index==0)
         .carrousel-container
-          .img style="background-image: url('#{image_path(item)}');"
+          .img style="background-image: url('#{image_path(item)}m.jpg'); background: -webkit-image-set( url('#{image_path(item)}m.jpg') 800w, url('#{image_path(item)}.jpg') 2000w);"
         - if locals[:captions] && locals[:captions][index]
           .carousel-caption
             = locals[:captions][index]

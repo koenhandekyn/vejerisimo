@@ -9,9 +9,9 @@
     - items.each_with_index do |item, index|
       .item class=('active' if index==0)
         .carrousel-container
-          .img style="background-image: url('#{image_path(item)}');"
+          .img style="background-image: url('#{image_path(item+'.jpg')}');"
   = partial 'components/carousel_controls', locals: { id: "##{id}" }
   .logos
-    img.logo src=image_path("logo_#{I18n.locale}.jpg")
+    img.logo src=image_path("logo_#{I18n.locale}.jpg") alt="logo vejerisimo"
     br
-    img.pueblos src=image_path("pueblos.jpg")
+    img.pueblos src=image_path("pueblos.jpg") alt="logo pueblos"

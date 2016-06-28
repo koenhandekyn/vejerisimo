@@ -1,17 +1,15 @@
 section.red.contact
   .content
     .text-center
-      img.logo.text-center src=image_path("logo_#{I18n.locale}.jpg")
-      / br
-      / img.pueblos.text-center src="images/pueblos.jpg"
-    p.center
-      a href="mailto:info@vejerisimo.com"
+      img.logo.text-center src=image_path("logo_#{I18n.locale}.jpg") alt="logo vejerisimo"
+    p.center itemscope='' itemtype="http://schema.org/Person"
+      a href="mailto:info@vejerisimo.com" itemprop="email"
         | info@vejerisimo.com
     p.center
-      a href="tel:+34 638 18 86 82"
+      a href="tel:+34 638 18 86 82" itemprop="tel"
         | +34 638 18 86 82
     p.center
-      a href="tel:+34 648 87 08 41"
+      a href="tel:+34 648 87 08 41" itemprop="tel"
         | +34 648 87 08 41
     p.center
       | Calle Trafalgar 28
@@ -20,5 +18,5 @@ section.red.contact
       br
       | 11150 Cádiz (Andalucia)
     p.center
-      a.btn.btn-default href="mailto:info@vejerisimo.com" title="..."
+      a.btn.btn-default href="mailto:info@vejerisimo.com" title="contact us at info@vejerisimo.com"
         | Email

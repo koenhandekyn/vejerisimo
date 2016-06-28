@@ -11,6 +11,10 @@ gem "middleman-blog", "~> 3.5.1"
 gem "middleman-target", "~> 0.0.6"
 gem "middleman-deploy", "~> 0.1.4"
 gem 'middleman-gh-pages'
+gem 'middleman-minify-html'
+gem 'middleman-imageoptim'
+# gem 's3_website'
+gem 'mgd'
 
 # For bootstrap helpers
 # gem 'bh', '~> 1.2'

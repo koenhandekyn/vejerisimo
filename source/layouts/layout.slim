@@ -11,8 +11,8 @@ html
     meta[property="og:image" content=image_url(image_path('top_1m.jpg')) ]
     meta[property="og:type" content="website"]
     meta[property="og:site_name" content="Vejerisimo"]
-    / meta[property="article:author" content="Wim Handekyn"]
-    / meta[property="article:publisher" content="koen.hand(c) ekyn@quine.be"]
+    meta[property="article:author" content="Wim Handekyn"]
+    meta[property="article:publisher" content="koen.handekyn@quine.be"]
 
     meta[content="summary" name="twitter:card"]
     meta[content="@vejerisimo" name="twitter:site"]
@@ -25,13 +25,6 @@ html
     /[if lt IE 9]
       = javascript_include_tag "ie8"
     = stylesheet_link_tag "default"
-    = partial "partials/analytics"
-
-    link rel="shortcut icon" type="image/jpg" href=image_path('favicon.jpg')
-
-    link href='http://fonts.googleapis.com/css?family=Antic+Didone|Cinzel|Quicksand' rel='stylesheet' type='text/css'
-    script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"
-    script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"
 
   body
     .container-fluid
@@ -41,15 +34,16 @@ html
           | (c) 2015
           =<> link_to "#{site_title}", "/"
           | -
-          =< link_to t('footer.legal_notice'), "/legal_notice_#{I18n.locale}.html", :target => "_blank"
+          =< link_to t('footer.legal_notice'), "/legal-notice-#{I18n.locale}.html", :target => "_blank"
         p.text-center
           small
             | VTAR/CA/00496
-      - if (I18n.locale.to_s.strip == 'nl')
-        hr
-        .text-center
-          a href="http://www.charmelogies.com" target="_blank"
-            img alt=("Charme Logies") src="http://www.charmelogies.com/assets/images/banners/charmelogies.jpg" width="252" height="141"
       hr
 
+    = partial "partials/analytics"
+
+    link rel="shortcut icon" type="image/jpg" href=image_path('favicon.jpg')
     = javascript_include_tag "all"
+    script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"
+    script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"
+    link href='http://fonts.googleapis.com/css?family=Antic+Didone|Cinzel|Quicksand' rel='stylesheet' type='text/css'

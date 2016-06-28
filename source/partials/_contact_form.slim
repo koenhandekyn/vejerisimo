@@ -1,38 +1,38 @@
 .form-all
   form accept-charset="utf-8" action="" method="post" name="contact"
+    #alert_placeholder
     input type="hidden" value="51355991919367"
     ul.form-section.page-section
-      li.form-input-wide data-type="control_head"
+      li.form-input-wide
         .form-header-group
           .header-text.httac.htvam
-            h2.form-header
+            h1.form-header
               = t('form.title')
-      li.form-line.jf-required data-type="control_textbox"
+      li.form-line
         label.form-label.form-label-left.form-label-auto for="name"
           = t('form.name')
           span.form-required *
-        .form-input.jf-required
-          input.form-textbox class="validate[required]" data-type="input-textbox" name="name" size="20" type="text" value="" /
-      li.form-line.jf-required data-type="control_email"
+        .form-input
+          input.form-textbox name="name" size="20" type="text" value="" required="required" /
+      li.form-line
         label.form-label.form-label-left.form-label-auto for="email"
           = t('form.email')
           span.form-required *
-        #cid_24.form-input.jf-required
-          input#input_24.form-textbox class="validate[required, Email]" name="email" size="50" type="email" value="" /
-      li#id_20.form-line data-type="control_phone"
+        .form-input
+          input#input_24.form-textbox name="email" size="50" type="email" value="" required="required"  /
+      li#id_20.form-line
         label#label_20.form-label.form-label-left.form-label-auto for="telephone_number"
           = t('form.telephone')
-        #cid_20.form-input.jf-required
+          span.form-required *
+        .form-input
+          / span.form-sub-label-container
+          /   input#input_20_area.form-textbox name="telephone_area" size="5" type="tel" required="required"
           span.form-sub-label-container
-            input#input_20_area.form-textbox name="telephone_area" size="5" type="tel"
-            / label#sublabel_area.form-sub-label for="input_20_area"
-          span.form-sub-label-container
-            input#input_20_phone.form-textbox name="telephone_number" size="20" type="tel"
-            / label#sublabel_phone.form-sub-label for="input_20_phone"
-      li#id_25.form-line data-type="control_birthdate"
+            input#input_20_phone.form-textbox name="telephone_number" size="20" type="tel" required="required"
+      li#id_25.form-line
         label#label_25.form-label.form-label-left.form-label-auto for="input_25"
           = t('form.arrival')
-        #cid_25.form-input.jf-required
+        .form-input
           span.form-sub-label-container style=("vertical-align: top")
             select#input_25_month.form-dropdown name="arrival_month"
               option
@@ -97,10 +97,10 @@
               option value="2022"  2022
               option value="2023"  2023
             / label#sublabel_year.form-sub-label for="input_25_year" style=("min-height: 13px;")  Year
-      li#id_10.form-line data-type="control_dropdown"
+      li#id_10.form-line
         label#label_10.form-label.form-label-left.form-label-auto for="input_10"
           = t('form.nights')
-        #cid_10.form-input.jf-required
+        .form-input
           select#input_10.form-dropdown name="days" style="width:60px"
             option value=""
             option value="2"  2
@@ -116,10 +116,10 @@
             option value="12"  12
             option value="13"  13
             option value="14(+)"  14(+)
-      li#id_30.form-line data-type="control_dropdown"
+      li#id_30.form-line
         label#label_30.form-label.form-label-left.form-label-auto for="input_30"
           = t('form.persons')
-        #cid_30.form-input.jf-required
+        .form-input
           select#input_30.form-dropdown name="adults" style="width:60px"
             option value=""
             option value="1"  1
@@ -130,24 +130,10 @@
             option value="6"  6
             option value="7"  7
             option value="8"  8
-      / li#id_16.form-line data-type="control_dropdown"
-      /   label#label_16.form-label.form-label-left.form-label-auto for="input_16"
-      /     = t('form.kids')
-      /   .form-input.jf-required
-      /     select.form-dropdown name="children" style="width:60px"
-      /       option value=""
-      /       option value="1"  1
-      /       option value="2"  2
-      /       option value="3"  3
-      /       option value="4"  4
-      /       option value="5"  5
-      /       option value="6"  6
-      /       option value="7"  7
-      /       option value="8"  8
-      li.form-line data-type="control_textarea"
+      li.form-line
         label.form-label.form-label-left.form-label-auto for="input_13"
           = t('form.comments')
-        #cid_13.form-input.jf-required
+        .form-input
           textarea.form-textarea cols="40" name="comment" rows="6"
     button#input_2.form-submit-button type="submit"
       = t('form.send')
@@ -155,14 +141,47 @@
 p &nbsp;
 
 javascript:
-  $('form[name=contact]').submit(function(){
-    $.ajax({
-        url: "//formspree.io/info@vejerisimo.com",
-        method: "POST",
-        data: $('form[name=contact]').serializeArray(),
-        dataType: "json"
-    }).done(function() {
-      alert( "#{t('form.thank_you')}" );
+
+  function showalert(message,alerttype) {
+    $('#alert_placeholder').append('<div id="alertdiv" class="alert ' +  alerttype + '"><a class="close" data-dismiss="alert">×</a><span>'+message+'</span></div>')
+    setTimeout(function() {
+      $("#alertdiv").remove();
+    }, 10000);
+  }
+
+  $('form[name=contact]').on('submit', function(event){
+
+    event.preventDefault();
+    // $('form[name=contact]')[0].checkValidity(); // returns false but does not show feedback
+    $("#input_2").prop('disabled', true); // disable button
+
+    //validate fields
+    var fail_log = [];
+    $( 'form[name=contact]' ).find( 'select, textarea, input' ).each(function(){
+        if( $( this ).prop( 'required' )) {
+            if ( ! $( this ).val() ) {
+                name = $( this ).attr( 'name' );
+                fail_log.push(name + " is required");
+                $( this ).addClass('required');
+            }
+        }
     });
+    if ( fail_log.length == 0 ) {
+      $.ajax({
+          url: "//formspree.io/info@vejerisimo.com",
+          method: "POST",
+          data: $('form[name=contact]').serializeArray(),
+          dataType: "json",
+      }).done(function() {
+        $("#input_2").prop('disabled', false); // disable button
+        alert( "#{t('form.thank_you')}" );
+        // $( 'form[name=contact]' ).reset();
+      });
+
+    } else {
+        showalert(fail_log.join(', '), 'alert-warning');
+        $("#input_2").prop('disabled', false); // disable button
+    }
+
     return false;
   });

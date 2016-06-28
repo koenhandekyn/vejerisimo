@@ -240,11 +240,15 @@ li {
     margin-right: auto;
     background-color: rgba(4, 109, 154, 0.82);
     color: white !important;
-  }
 
-  input[type=email],
-  input[type=text], textarea {
-    width: 100%;
+    input[type=email], input[type=text], textarea {
+      width: 100%;
+    }
+    .required {
+      border: 4px solid rgba(128,63,66,0.8);
+      box-shadow: 0 0 0 2px rgba(255, 0, 0, 0.4);
+    }
+
   }
 
 }
