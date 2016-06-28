@@ -52,7 +52,7 @@ end
 ###
 # Page options, layouts, aliases and proxies
 ###
-Slim::Engine.set_default_options lang: I18n.locale, locals: {}
+# Slim::Engine.set_default_options lang: I18n.locale, locals: {}
 
 # Slim settings
 Slim::Engine.set_default_options :pretty => true
