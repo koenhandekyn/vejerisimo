@@ -1,3 +1,12 @@
+GIT
+  remote: https://github.com/nhemsley/middleman-thumbnailer.git
+  revision: f51d5e9d15e28b246bf45d83aad714ade61cd3ec
+  specs:
+    middleman-thumbnailer (0.1.0)
+      mime-types (= 2.1)
+      rake
+      rmagick (~> 2.13.0)
+
 GEM
   remote: http://rubygems.org/
   remote: https://rails-assets.org/
@@ -56,9 +65,6 @@ GEM
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
       rb-kqueue (>= 0.2)
-    mgd (0.1.1)
-      middleman (>= 3.0.0)
-      trollop (= 2.1.2)
     middleman (3.2.2)
       coffee-script (~> 2.2.0)
       compass (>= 0.12.2)
@@ -100,6 +106,9 @@ GEM
     middleman-minify-html (3.4.1)
       htmlcompressor (~> 0.2.0)
       middleman-core (>= 3.2)
+    middleman-simple-thumbnailer (1.0.2)
+      middleman-core (~> 3)
+      mini_magick (~> 4)
     middleman-sprockets (3.3.3)
       middleman-core (>= 3.2)
       sprockets (~> 2.2)
@@ -107,6 +116,8 @@ GEM
       sprockets-sass (~> 1.1.0)
     middleman-target (0.0.7)
       middleman (>= 3.0)
+    mime-types (2.1)
+    mini_magick (4.5.1)
     mini_portile2 (2.1.0)
     multi_json (1.12.1)
     net-sftp (2.1.2)
@@ -133,6 +144,7 @@ GEM
     rb-kqueue (0.2.4)
       ffi (>= 0.5.0)
     redcarpet (3.1.2)
+    rmagick (2.13.4)
     sass (3.4.22)
     slim (2.0.3)
       temple (~> 0.6.6)
@@ -151,7 +163,6 @@ GEM
     thor (0.19.1)
     thread_safe (0.3.5)
     tilt (1.4.1)
-    trollop (2.1.2)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
     uglifier (2.4.0)
@@ -163,7 +174,6 @@ PLATFORMS
 
 DEPENDENCIES
   builder (~> 3.0)
-  mgd
   middleman (~> 3.2.2)
   middleman-blog (~> 3.5.1)
   middleman-deploy (~> 0.1.4)
@@ -171,7 +181,9 @@ DEPENDENCIES
   middleman-imageoptim
   middleman-livereload (~> 3.1.0)
   middleman-minify-html
+  middleman-simple-thumbnailer
   middleman-target (~> 0.0.6)
+  middleman-thumbnailer!
   nokogiri (~> 1.6.1)
   rails-assets-bootstrap!
   redcarpet (~> 3.1.1)

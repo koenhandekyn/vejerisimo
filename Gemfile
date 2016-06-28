@@ -14,7 +14,9 @@ gem 'middleman-gh-pages'
 gem 'middleman-minify-html'
 gem 'middleman-imageoptim'
 # gem 's3_website'
-gem 'mgd'
+# gem 'mgd'
+gem 'middleman-thumbnailer', :git => 'https://github.com/nhemsley/middleman-thumbnailer.git'
+gem 'middleman-simple-thumbnailer'
 
 # For bootstrap helpers
 # gem 'bh', '~> 1.2'

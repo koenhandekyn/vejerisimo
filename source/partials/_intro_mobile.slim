@@ -1,0 +1,13 @@
+img src=image_path("top_1m.jpg") srcset="#{image_path("top_1m.jpg")} 800w, #{image_path("top_1.jpg")} 2000w" alt="top"
+
+section.intro.white
+  .content
+    =image_tag "logo_#{I18n.locale}.jpg", resize_to: '100x100', alt: "logo vejerisimo", class: 'logo'
+    h1
+      p
+        =>t('intro.title1')
+        =t('intro.title2')
+
+    p =t('intro.p1')
+    p =t('intro.p2')
+

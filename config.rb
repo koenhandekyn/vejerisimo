@@ -103,6 +103,8 @@ activate :livereload
 #   end
 # end
 
+activate :middleman_simple_thumbnailer
+
 activate :imageoptim do |options|
   # Use a build manifest to prevent re-compressing images between builds
   options.manifest = true
@@ -191,13 +193,10 @@ configure :build do
   activate :minify_html
   activate :minify_javascript
   activate :gzip
-  activate :imageoptim
   # Enable cache buster
-  activate :asset_hash
-
+  # activate :asset_hash
   # Use relative URLs
   activate :relative_assets
-
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
 end

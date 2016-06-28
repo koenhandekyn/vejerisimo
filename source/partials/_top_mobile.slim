@@ -1,9 +1,13 @@
-.max-center
-  .carousel.slide id="carousel-top"
-    .carousel-inner role="listbox"
-      .carrousel-container
-        .img style="background-image: url('#{image_path("top_1m.jpg")}');"
-    .logos
-      img.logo src=image_path("logom.jpg") alt="logo vejerisimo"
-      br
-      img.pueblos src=image_path("pueblosm.jpg") alt="logo pubelos"
+
+//.max-center
+/ .carousel.slide id="carousel-top"
+/   .carousel-inner role="listbox"
+/     .carrousel-container
+/       // .img style="background-image: url('#{image_path("top_1m.jpg")}');"
+/       img src=image_path("top_1m.jpg") srcset="#{image_path("top_1m.jpg")} 800w, #{image_path("top_1.jpg")} 2000w" alt="top"
+
+  / br
+  / =image_tag "pueblos.jpg", resize_to: '100x100', alt: "logo pueblos", class: 'pueblos'
+
+/ .logos
+/   =image_tag "logo_#{I18n.locale}.jpg", resize_to: '100x100', alt: "logo vejerisimo", class: 'logo'

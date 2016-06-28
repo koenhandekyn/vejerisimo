@@ -2,12 +2,11 @@
 layout: mobile
 ---
 
-= partial 'partials/top_mobile'
-= partial 'partials/intro'
+= partial 'partials/intro_mobile', locals: { v: "m" }
 = partial 'partials/house', locals: { v: "m" }
-= partial 'partials/prices'
+= partial 'partials/prices', locals: { v: "m" }
 
 = partial 'partials/rooms', locals: { v: "m" }
 
-= partial 'partials/contact_form'
-= partial 'partials/address'
+= partial 'partials/contact_form', locals: { v: "m" }
+= partial 'partials/address', locals: { v: "m" }

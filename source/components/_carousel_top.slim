@@ -12,6 +12,9 @@
           .img style="background-image: url('#{image_path(item+'.jpg')}');"
   = partial 'components/carousel_controls', locals: { id: "##{id}" }
   .logos
-    img.logo src=image_path("logo_#{I18n.locale}.jpg") alt="logo vejerisimo"
+    // img.logo src
+    =image_tag "logo_#{I18n.locale}.jpg", resize_to: '200x200', alt: "logo vejerisimo", class: 'logo'
+    // img.logo src=image_path("logo_#{I18n.locale}.jpg") alt="logo vejerisimo"
     br
-    img.pueblos src=image_path("pueblos.jpg") alt="logo pueblos"
+    // img.pueblos src=image_path("pueblos.jpg") alt="logo pueblos"
+    =image_tag "pueblos.jpg", resize_to: '200x200', alt: "logo pueblos", class: 'pueblos'

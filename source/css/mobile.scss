@@ -7,6 +7,36 @@ body {
   margin-top: 0;
 }
 
+.intro .logo {
+  border-radius: 15px;
+  padding: 1em;
+  background-color: rgb(128,63,66);
+  float: left;
+  margin-right: 1em;
+  // margin-bottom: 1em;
+}
+
+.contact .logo {
+  border-radius: 15px;
+  padding: 1em;
+  border: 3px solid rgb(230,230,230);
+  margin: 1em;
+}
+
+.carrousel-container .img {
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  height: 0px;
+  padding-top: percentage(600 / 2000); // set height
+}
+
+.carousel-indicators {
+  display: none;
+}
+
+
 /* Small devices (tablets, 768px and down) */
 @media (max-width: $screen-sm-min) {
   section {
@@ -18,7 +48,16 @@ body {
       padding-left: 2%;
       padding-right: 2%;
       h1 {
-        font-size: 2em;
+        font-size: 1.2em;
+      }
+      h2 {
+        font-size: 1.1em;
+      }
+      h3 {
+        font-size: 1.0em;
+      }
+      h4 h5 h6 {
+       font-size: 0.8em;
       }
     }
     padding-top: 10px;
@@ -45,19 +84,6 @@ body {
   p, li {
     font-size: 0.8em;
     line-height: 1.0em;
-  }
-
-  .carrousel-container .img {
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-    height: 0px;
-    padding-top: percentage(600 / 2000); // set height
-  }
-
-  .carousel-indicators {
-    display: none;
   }
 
   section {
@@ -87,6 +113,13 @@ body {
   .carousel {
     margin-bottom: 20px;
   }
+
+  .intro .logo {
+    padding: 0.5em;
+    margin-right: 0.5em;
+    margin-bottom: 0.25em;
+  }
+
 }
 
 
@@ -101,6 +134,18 @@ body {
       margin-right: auto;
       padding-left: 20px;
       padding-right: 20px;
+      h1 {
+        font-size: 1.2em;
+      }
+      h2 {
+        font-size: 1.1em;
+      }
+      h3 {
+        font-size: 1.0em;
+      }
+      h4 h5 h6 {
+       font-size: 0.8em;
+      }
     }
     padding-top: 40px;
     padding-bottom: 40px;
