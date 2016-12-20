@@ -24,9 +24,15 @@ html
       = page_title
     /[if lt IE 9]
       = javascript_include_tag "ie8"
+    = javascript_include_tag "mobile_detect"
+    javascript:
+      var md = new MobileDetect(window.navigator.userAgent);
+      if (md.mobile()) {
+        window.location='./mobile'
+      }
+    = javascript_include_tag "all"
     = stylesheet_link_tag "default"
     link href='http://fonts.googleapis.com/css?family=Antic+Didone|Cinzel|Quicksand' rel='stylesheet' type='text/css'
-
   body
     .container-fluid
       = yield
@@ -44,5 +50,4 @@ html
     = partial "partials/analytics"
 
     link rel="shortcut icon" type="image/jpg" href=image_path('favicon.jpg')
-    = javascript_include_tag "all"
     script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"

@@ -1,10 +1,22 @@
 section.white
   .content
+    #hc-ratingRatingHotel style="float:left; margin-right: 40px"
+      #hc-ratingRatingHotel__inner
+        #hc-ratingRatingHotel__header
+          | Excellent
+          = succeed "Rated" do
+            br/
+          | By guests
+        #hc-ratingRatingHotel__rating 9.6
+        a#hc-ratingRatingHotel__hotelname href="javascript:void(0)" target="_blank"  Vejerísimo
+      a#hc-ratingRatingHotel__hclink href="https://www.hotelscombined.es" target="_blank"  HotelsCombined
+    #hc-data__hotellink style=("display: none;")  Vejerisimo
+    link href="https://media.datahc.com/ratinghotel/hotelscombinedhotel/styles.css?v1" rel="stylesheet" type="text/css" /
+    script src="https://media.datahc.com/ratinghotel/hotelscombinedhotel/script.js?v1" type="text/javascript"
     h1
       p
-        =t('intro.title1')
-        =t('intro.title2')
-
-    p =t('intro.p1')
-    p =t('intro.p2')
+        =>t('intro.title1')
+        =>t('intro.title2')
+    p =>t('intro.p1')
+    p =>t('intro.p2')
 

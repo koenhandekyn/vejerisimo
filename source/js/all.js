@@ -1,6 +1,7 @@
-//= require jquery/jquery
+//= require jquery/jquery.min
 //= require bootstrap/bootstrap
-//= require_tree .
+//= require ie8
+//= require _jquery_mobile_touch_subset
 
 // $(document).ready(function(e){
 //     var carousel = $(this).find('.carousel').hide();
