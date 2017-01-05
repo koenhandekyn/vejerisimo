@@ -87,8 +87,6 @@
           span.form-sub-label-container style=("vertical-align: top")
             select#input_25_year.form-dropdown name="arrival_year"
               option
-              option value="2015"  2015
-              option value="2016"  2016
               option value="2017"  2017
               option value="2018"  2018
               option value="2019"  2019
@@ -141,15 +139,7 @@
 p &nbsp;
 
 javascript:
-
-  function showalert(message,alerttype) {
-    $('#alert_placeholder').append('<div id="alertdiv" class="alert ' +  alerttype + '"><a class="close" data-dismiss="alert">×</a><span>'+message+'</span></div>')
-    setTimeout(function() {
-      $("#alertdiv").remove();
-    }, 10000);
-  }
-
-  $('form[name=contact]').on('submit', function(event){
+  on_submit = function(event){
 
     event.preventDefault();
     // $('form[name=contact]')[0].checkValidity(); // returns false but does not show feedback
@@ -173,6 +163,7 @@ javascript:
           data: $('form[name=contact]').serializeArray(),
           dataType: "json",
       }).done(function() {
+        // window.location='/#{I18n.locale}/mobile/'
         $("#input_2").prop('disabled', false); // disable button
         alert( "#{t('form.thank_you')}" );
         // $( 'form[name=contact]' ).reset();
@@ -184,4 +175,4 @@ javascript:
     }
 
     return false;
-  });
+  }
