@@ -6,6 +6,10 @@ html
     meta[name="description" content="#{site_description}"]
     meta[name="keywords" content="#{site_keywords}"]
 
+    meta content="Sun, 10 Feb 2013 14:00:46 GMT " http-equiv="last-modified" /
+    meta content="Private" http-equiv="cache-control" /
+    meta content="600" http-equiv="Expires" /
+
     meta[property="og:description" content="A Guest House situated in the heart of Vejer de la Frontera"]
     meta[property="og:url" content="http://www.vejerisimo.com"]
     meta[property="og:image" content=image_url(image_path('top_1m.jpg')) ]
@@ -28,11 +32,10 @@ html
     javascript:
       var md = new MobileDetect(window.navigator.userAgent);
       if (md.mobile()) {
-        window.location='./mobile'
+        window.location='./en/mobile'
       }
     = javascript_include_tag "all"
     = stylesheet_link_tag "default"
-    link href='http://fonts.googleapis.com/css?family=Antic+Didone|Cinzel|Quicksand' rel='stylesheet' type='text/css'
   body
     .container-fluid
       = yield
@@ -49,5 +52,6 @@ html
 
     = partial "partials/analytics"
 
+    link href='http://fonts.googleapis.com/css?family=Antic+Didone|Cinzel|Quicksand' rel='stylesheet' type='text/css'
     link rel="shortcut icon" type="image/jpg" href=image_path('favicon.jpg')
     script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"

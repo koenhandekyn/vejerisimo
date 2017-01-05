@@ -3,13 +3,30 @@ layout: mobile
 ---
 
 = partial "partials/header_mobile"
-a.anchor name="top"
-= partial 'partials/intro_mobile', locals: { v: "m" }
-= partial 'partials/prices', locals: { v: "m" }
-a.anchor name="contact"
-= partial 'partials/contact_form', locals: { v: "m" }
-a.anchor name="reservations"
-a.anchor name="rooms"
-= partial 'partials/rooms', locals: { v: "m" }
-= partial 'partials/house', locals: { v: "m" }
-= partial 'partials/address', locals: { v: "m" }
+
+section.white
+  .content
+    p.intro style="text-align: justify" =t('intro.p1')
+
+.image-container
+  = image_tag "intro_rooms.jpg", resize_to: '375x999', alt: "rooms", class: 'top'
+  .image-overlay
+    .main
+      a href="/#{I18n.locale}/mobile/rooms.html" = t('rooms.title')
+
+section.white
+  .content
+    br
+
+.image-container
+  = image_tag "intro_house.jpg", resize_to: '375x999', alt: "house", class: 'top'
+  .image-overlay
+    .main
+      a href="/#{I18n.locale}/mobile/house.html" = t('house.casa.title')
+
+br
+br
+br
+h5: a href="/#{I18n.locale}/mobile/form.html" = t('form.title')
+br
+hr

@@ -91,7 +91,7 @@ set :markdown_engine, :redcarpet
 
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
-activate :i18n, :langs => [:en, :es, :fr, :nl] # , :mount_at_root => false
+activate :i18n, :langs => [:en, :es, :fr, :nl], :mount_at_root => false
 
 # Reload the browser automatically whenever files change
 activate :livereload
@@ -108,7 +108,6 @@ activate :middleman_simple_thumbnailer
 activate :imageoptim do |options|
   # Use a build manifest to prevent re-compressing images between builds
   options.manifest = true
-
 
   # Silence problematic image_optim workers
   options.skip_missing_workers = true

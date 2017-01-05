@@ -6,6 +6,10 @@ html
     meta[name="description" content="#{site_description}"]
     meta[name="keywords" content="#{site_keywords}"]
 
+    meta content="Sun, 10 Feb 2013 14:00:46 GMT " http-equiv="last-modified" /
+    meta content="Private" http-equiv="cache-control" /
+    meta content="600" http-equiv="Expires" /
+
     meta[property="og:description" content="A Guest House situated in the heart of Vejer de la Frontera"]
     meta[property="og:url" content="http://www.vejerisimo.com"]
     meta[property="og:image" content=image_url(image_path('top_1m.jpg')) ]
@@ -14,26 +18,50 @@ html
     meta[property="article:author" content="Wim Handekyn"]
     meta[property="article:publisher" content="koen.handekyn@quine.be"]
 
+    meta[content="summary" name="twitter:card"]
+    meta[content="@vejerisimo" name="twitter:site"]
+    meta[content="A Guest House situated in the heart of Vejer de la Frontera" name="twitter:title"]
+    meta[content="We offer 4 double rooms situated around a lovely patio with lots of cozy corners and a sunny roof terrace. We promise you an unforgettable stay!" name="twitter:description"]
+    meta[content=image_url(image_path('top_1m.jpg')) name="twitter:image"]
+
+    link href='http://fonts.googleapis.com/css?family=Antic+Didone|Cinzel|Quicksand' rel='stylesheet' type='text/css'
+
     title
       = page_title
     /[if lt IE 9]
       = javascript_include_tag "ie8"
-    = stylesheet_link_tag "mobile"
-    = javascript_include_tag "all"
-    link href='http://fonts.googleapis.com/css?family=Antic+Didone|Cinzel|Quicksand' rel='stylesheet' type='text/css'
-
   body
     .container-fluid
       = yield
-      hr
-        p.text-center
-        p.text-center
-          | (c) 2015
-          =<> link_to "#{site_title}", "/"
-          | -
-          =< link_to t('footer.legal_notice'), "/legal-notice-#{I18n.locale}.html", :target => "_blank"
-        p.text-center
-          small
-            | VTAR/CA/00496
+      section.white
+        .content
+          p.center itemscope='' itemtype="http://schema.org/Person"
+            a href="mailto:info@vejerisimo.com" itemprop="email"
+              | info@vejerisimo.com
+          p.center
+            a href="tel:+34 638 18 86 82" itemprop="tel"
+              | +34 638 18 86 82
+          p.center
+            a href="tel:+34 648 87 08 41" itemprop="tel"
+              | +34 648 87 08 41
+          a href="https://www.google.be/maps/place/VEJER%C3%8DSIMO/@36.2521023,-5.965499,17z/data=!3m1!4b1!4m5!3m4!1s0xd0c45c9c7b0ede7:0x6d423cbfcb4149c3!8m2!3d36.252098!4d-5.963305"
+            p.center
+              | Calle Trafalgar 28
+              br
+              | Vejer de la Frontera
+              br
+              | 11150 Cádiz (Andalucia)
+          hr
+          div.extra-small
+            p.text-center
+              | (c) 2015
+              =<> link_to "#{site_title}", "/"
+              | -
+              =< link_to t('footer.legal_notice'), "/legal-notice-#{I18n.locale}.html", :target => "_blank"
+            p.text-center
+              small
+                | VTAR/CA/00496
 
+    = stylesheet_link_tag "mobile"
+    = javascript_include_tag "all"
     = partial "partials/analytics"

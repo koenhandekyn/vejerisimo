@@ -1,0 +1,49 @@
+---
+layout: mobile
+---
+
+= partial "partials/header_mobile"
+
+section.white
+  .content
+    .row
+      .col-md-9
+        h4.text-left =t('house.estar.title')
+        p
+          =  t('house.estar.description')
+
+    = partial 'components/carousel_inline', locals: { \
+      id: 'carousel-house-1', \
+      items: [ "estar_1", "estar_2", "estar_3", "estar_4" ], \
+      }
+
+    .row
+      .col-md-3
+      .col-md-9
+        h4.text-right =t('house.patio.title')
+        p.text-right =t('house.patio.description')
+
+    = partial 'components/carousel_inline', locals: { \
+      id: 'carousel-house-2', \
+      items: [ "patio_1", "patio_2", "patio_3", "patio_4" ], \
+      }
+
+    .row
+      .col-md-9
+        h4.text-left =t('house.azotea.title')
+        p.text-left =t('house.azotea.description')
+
+    = partial 'components/carousel_inline', locals: { \
+      id: 'carousel-house-3', \
+      items: [ "azotea_1", "azotea_2", "azotea_3", "azotea_4" ], \
+      }
+
+    .row
+      .col-md-9
+        h4.text-right =t('house.desayuno.title')
+        p.text-right =t('house.desayuno.description')
+
+    h2.text-center
+      a href="/#{I18n.locale}/mobile/" << Back <<
+
+hr

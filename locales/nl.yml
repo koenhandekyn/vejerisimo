@@ -6,7 +6,7 @@ nl:
     p1: "VEJERÍSIMO is een Guest House uitgebaat door een Belgisch koppel in het hart van het historisch centrum van Vejer de la Frontera. Het is gelegen in een rustig straatje vlakbij de restaurants, typische bars en de vele bezienswaardigheden. Naast het huis start de oude stadswal met de “Puerta Cerrada” (gesloten deur), één van de 4 oude hoofdingangen van het dorp."
     p2: "Rond de typische patio bevinden zich 4 tweepersoonskamers met en-suite badkamer. Het huis heeft een unieke stijl: het combineert authenticiteit met hedendaags comfort. Lees een boek op de patio naast de bibliotheek, geniet van het dakterras, neem een siësta in je kamer, … Geniet met volle teugen! Wij garanderen je een uitzonderlijk en onvergetelijk verblijf."
   header:
-    top: "HOME"
+    top: "Home"
     rooms: "Kamers"
     reservations: "Info & Reservaties"
     contact: "Contact"
@@ -40,7 +40,7 @@ nl:
         title: "LAAG SEIZOEN"
       house:
         title: "HET VOLLEDIGE HUIS HUREN - PRIJS OP AANVRAAG"
-      detail: "Enkel gebruik: -€ 5 <br/> Ontbijt niet inbegrepen <br/> Contacteer ons voor onze last-minute aanbiedingen"
+      detail: "Ontbijt niet inbegrepen <br/> Contacteer ons voor onze last-minute aanbiedingen"
       terms: "Algemene voorwaarden"
   house:
     casa:

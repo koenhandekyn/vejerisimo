@@ -9,6 +9,7 @@ en:
     top: "Top"
     rooms: "Rooms"
     reservations: "Info & Reservations"
+    book_now: "Book Now"
     contact: "Contact"
   rooms:
     title: "ROOMS"
@@ -43,7 +44,7 @@ en:
         price: "€ 95"
       house:
         title: "RENT THE WHOLE HOUSE - PRICE ON DEMAND"
-      detail: "Single Use: -€ 5 <br/> Breakfast not included <br/> Contact us for our last minute offers"
+      detail: "Breakfast not included <br/> Contact us for our last minute offers"
       terms: "Terms & Conditions"
   house:
     casa:
