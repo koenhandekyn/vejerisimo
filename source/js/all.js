@@ -10,7 +10,4 @@ function showalert(message,alerttype) {
   }, 10000);
 }
 
-$(document).ready(function() {
-  $('form[name=contact]').on('submit', on_submit);
-});
 

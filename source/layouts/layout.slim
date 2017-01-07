@@ -24,19 +24,20 @@ html
     meta[content="We offer 4 double rooms situated around a lovely patio with lots of cozy corners and a sunny roof terrace. We promise you an unforgettable stay!" name="twitter:description"]
     meta[content=image_url(image_path('top_1m.jpg')) name="twitter:image"]
 
+    link rel="alternate" media="only screen and (max-width: 640px)" href="http://www.vejerisimo.com/en/mobile/"
+    link rel="alternate" media="handheld" href="http://www.vejerisimo.com/en/mobile/"
+
     title
       = page_title
     /[if lt IE 9]
       = javascript_include_tag "ie8"
+  body
     = javascript_include_tag "mobile_detect"
     javascript:
       var md = new MobileDetect(window.navigator.userAgent);
-      if (md.mobile()) {
-        window.location='./en/mobile'
-      }
-    = javascript_include_tag "all"
+      if (md.mobile()) { window.location='/en/mobile' }
     = stylesheet_link_tag "default"
-  body
+    link href='http://fonts.googleapis.com/css?family=Antic+Didone|Cinzel|Quicksand' rel='stylesheet' type='text/css'
     .container-fluid
       = yield
       hr
@@ -51,7 +52,6 @@ html
       hr
 
     = partial "partials/analytics"
-
-    link href='http://fonts.googleapis.com/css?family=Antic+Didone|Cinzel|Quicksand' rel='stylesheet' type='text/css'
+    = javascript_include_tag "all"
     link rel="shortcut icon" type="image/jpg" href=image_path('favicon.jpg')
-    script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"
+    // script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"

@@ -24,10 +24,10 @@ html
     meta[content="We offer 4 double rooms situated around a lovely patio with lots of cozy corners and a sunny roof terrace. We promise you an unforgettable stay!" name="twitter:description"]
     meta[content=image_url(image_path('top_1m.jpg')) name="twitter:image"]
 
+    link rel="canonical" href="http://www.vejerisimo.com/en/"
+
     title
       = page_title
-    /[if lt IE 9]
-      = javascript_include_tag "ie8"
   body
     .container-fluid
       = yield
@@ -60,7 +60,7 @@ html
               small
                 | VTAR/CA/00496
 
+    link href='http://fonts.googleapis.com/css?family=Antic+Didone|Cinzel|Quicksand' rel='stylesheet' type='text/css'
     = stylesheet_link_tag "mobile"
     = javascript_include_tag "all"
     = partial "partials/analytics"
-    link href='http://fonts.googleapis.com/css?family=Antic+Didone|Cinzel|Quicksand' rel='stylesheet' type='text/css'

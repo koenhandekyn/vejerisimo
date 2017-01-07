@@ -89,6 +89,8 @@ set :markdown_engine, :redcarpet
 # Helpers
 ###
 
+activate :directory_indexes
+
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 activate :i18n, :langs => [:en, :es, :fr, :nl], :mount_at_root => false
