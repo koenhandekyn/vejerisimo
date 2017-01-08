@@ -28,7 +28,13 @@ html
     link rel="alternate" media="handheld" href="http://www.vejerisimo.com/en/mobile/"
     link rel="shortcut icon" type="image/jpg" href=image_path('favicon.jpg')
 
+    css:
+      body {
+        font-family: sans-serif;
+      }
+
     = stylesheet_link_tag "default", :async => true
+
 
     title
       = page_title
