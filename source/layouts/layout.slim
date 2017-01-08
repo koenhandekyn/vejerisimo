@@ -3,8 +3,8 @@ html
     meta[charset="utf-8"]
     meta[http-equiv="X-UA-Compatible" content="IE=edge;chrome=1"]
     meta[name="viewport" content="width=device-width, initial-scale=1.0"]
-    meta[name="description" content="#{site_description}"]
-    meta[name="keywords" content="#{site_keywords}"]
+    meta[name="description" content="#{config[:site_description]}"]
+    meta[name="keywords" content="#{config[:site_keywords]}"]
 
     meta content="Sun, 10 Feb 2013 14:00:46 GMT " http-equiv="last-modified" /
     meta content="Private" http-equiv="cache-control" /
@@ -29,21 +29,19 @@ html
 
     title
       = page_title
-    /[if lt IE 9]
-      = javascript_include_tag "ie8"
   body
     = javascript_include_tag "mobile_detect"
     javascript:
       var md = new MobileDetect(window.navigator.userAgent);
       if (md.mobile()) { window.location='/en/mobile' }
-    = stylesheet_link_tag "default"
-    link href='http://fonts.googleapis.com/css?family=Antic+Didone|Cinzel|Quicksand' rel='stylesheet' type='text/css'
+
+
     .container-fluid
       = yield
       hr
         p.text-center
           | (c) 2015
-          =<> link_to "#{site_title}", "/"
+          =<> link_to "#{config[:site_title]}", "/"
           | -
           =< link_to t('footer.legal_notice'), "/legal-notice-#{I18n.locale}.html", :target => "_blank"
         p.text-center
@@ -51,7 +49,8 @@ html
             | VTAR/CA/00496
       hr
 
-    = partial "partials/analytics"
-    = javascript_include_tag "all"
+    = stylesheet_link_tag "default"
+    link href='http://fonts.googleapis.com/css?family=Antic+Didone|Cinzel|Quicksand' rel='stylesheet' type='text/css'
     link rel="shortcut icon" type="image/jpg" href=image_path('favicon.jpg')
-    // script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"
+    = javascript_include_tag "all"
+    = partial "analytics"

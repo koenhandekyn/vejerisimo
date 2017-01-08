@@ -1,4 +1,4 @@
-//= require jquery/jquery.min
+//= require jquery/dist/jquery.min
 //= require bootstrap/bootstrap
 //= require _jquery_mobile_touch_subset
 
@@ -9,8 +9,4 @@ function showalert(message,alerttype) {
   }, 10000);
 }
 
-$(document).ready(function() {
-  $('form[name=contact]').on('submit', on_submit);
-  console.log('mobile form initialised');
-});
 
