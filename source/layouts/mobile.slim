@@ -25,6 +25,7 @@ html
     meta[content=image_url(image_path('top_1m.jpg')) name="twitter:image"]
 
     link rel="canonical" href="http://www.vejerisimo.com/en/"
+    = javascript_include_tag "all", :async => true
 
     title
       = page_title
@@ -60,7 +61,6 @@ html
               small
                 | VTAR/CA/00496
 
-    link href='http://fonts.googleapis.com/css?family=Antic+Didone|Cinzel|Quicksand' rel='stylesheet' type='text/css'
-    = stylesheet_link_tag "mobile"
-    = javascript_include_tag "all"
+    link href='http://fonts.googleapis.com/css?family=Antic+Didone|Cinzel|Quicksand' rel='stylesheet' type='text/css' async=true
+    = stylesheet_link_tag "mobile", :async => true
     = partial "analytics"

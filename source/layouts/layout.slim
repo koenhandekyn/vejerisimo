@@ -26,6 +26,9 @@ html
 
     link rel="alternate" media="only screen and (max-width: 640px)" href="http://www.vejerisimo.com/en/mobile/"
     link rel="alternate" media="handheld" href="http://www.vejerisimo.com/en/mobile/"
+    link rel="shortcut icon" type="image/jpg" href=image_path('favicon.jpg')
+
+    = stylesheet_link_tag "default", :async => true
 
     title
       = page_title
@@ -34,7 +37,6 @@ html
     javascript:
       var md = new MobileDetect(window.navigator.userAgent);
       if (md.mobile()) { window.location='/en/mobile' }
-
 
     .container-fluid
       = yield
@@ -49,8 +51,6 @@ html
             | VTAR/CA/00496
       hr
 
-    = stylesheet_link_tag "default"
-    link href='http://fonts.googleapis.com/css?family=Antic+Didone|Cinzel|Quicksand' rel='stylesheet' type='text/css'
-    link rel="shortcut icon" type="image/jpg" href=image_path('favicon.jpg')
-    = javascript_include_tag "all"
+    link href='http://fonts.googleapis.com/css?family=Antic+Didone|Cinzel|Quicksand' rel='stylesheet' type='text/css' async=true
+    = javascript_include_tag "default", :async => true
     = partial "analytics"

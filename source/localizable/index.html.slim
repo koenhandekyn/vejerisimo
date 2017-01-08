@@ -5,20 +5,30 @@ a.anchor name="top"
 
 .callout-a
 a.anchor name="rooms"
-= partial 'rooms', locals: { v: "" }
+/ = partial 'rooms', locals: { v: "" }
+div data-async-url="/#{I18n.locale}/partial_rooms"
 
 .callout-b
-= partial 'house', locals: { v: "" }
+/ = partial 'house', locals: { v: "" }
+div data-async-url="/#{I18n.locale}/partial_house"
 
 a.anchor name="reservations"
-= partial 'prices'
-= partial 'contact_form'
-/ # = partial 'contact_form_source.html.erb'
+/ = partial 'prices'
+div data-async-url="/#{I18n.locale}/partial_prices"
 
+= partial 'contact_form'
+/ div data-async-url="/#{I18n.locale}/partial_contact_form"
+
+/ = partial 'vejer', locals: { v: "" }
 .callout-c
-= partial 'vejer', locals: { v: "" }
+#partial_vejer
+= partial 'vejer'
+/ div data-async-url="/#{I18n.locale}/partial_vejer"
 
 a.anchor name="contact"
-= partial 'address'
+/ = partial 'address'
+div data-async-url="/#{I18n.locale}/partial_address"
+
 = partial 'map'
+/ div data-async-url="/#{I18n.locale}/partial_map"
 

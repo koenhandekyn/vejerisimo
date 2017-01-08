@@ -143,7 +143,6 @@
 
 p &nbsp;
 
-
 javascript:
   on_submit = function(event){
 
@@ -153,7 +152,7 @@ javascript:
 
     //validate fields
     var fail_log = [];
-    $( 'form[name=contact]' ).find( 'select, textarea, input' ).each(function(){
+    $('form[name=contact]').find( 'select, textarea, input' ).each(function(){
         if( $( this ).prop( 'required' )) {
             if ( ! $( this ).val() ) {
                 name = $( this ).attr( 'name' );
@@ -169,7 +168,7 @@ javascript:
           data: $('form[name=contact]').serializeArray(),
           dataType: "json",
       }).done(function() {
-        // window.location='/#{I18n.locale}/mobile/'
+        window.location='#top'
         $("#input_2").prop('disabled', false); // disable button
         alert( "#{t('form.thank_you')}" );
         // $( 'form[name=contact]' ).reset();
@@ -182,8 +181,3 @@ javascript:
 
     return false;
   }
-
-  $(document).ready(function() {
-    $('form[name=contact]').on('submit', on_submit);
-    console.log('form initialised')
-  });
