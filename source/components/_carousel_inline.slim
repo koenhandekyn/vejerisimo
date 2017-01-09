@@ -1,4 +1,4 @@
-.carousel.slide id="#{id}" data-ride="carousel" data-keyboard="true" data-interval="5000" data-pause="false"
+.carousel.slide.lazy-img id="#{id}" data-ride="carousel" data-keyboard="true" data-interval="7500" data-pause="false"
   /! Indicators
   ol.carousel-indicators
     li.active data-slide-to="0" data-target="##{id}"
@@ -7,11 +7,20 @@
   /! Wrapper for slides
   .carousel-inner role="listbox"
     - items.each_with_index do |item, index|
-      .item class=('active' if index==0)
-        .carrousel-container
-          img src=image_path("#{item}m.jpg") srcset="#{image_path(item+'m.jpg')} 800w, #{image_path(item+'.jpg')} 2000w" alt="#{t(item)}" title="#{t(item)}"
-        - if locals[:captions] && locals[:captions][index]
-          .carousel-caption
-            = locals[:captions][index]
+      - if index==0
+        .item class='active'
+          .carrousel-container
+            img src=image_path("#{item}m.jpg") alt="#{t(item)}" title="#{t(item)}"
+          - if locals[:captions] && locals[:captions][index]
+            .carousel-caption
+              = locals[:captions][index]
+      - else
+        .item
+          .carrousel-container
+            img data-src=image_path("#{item}m.jpg") alt="#{t(item)}" title="#{t(item)}"
+          - if locals[:captions] && locals[:captions][index]
+            .carousel-caption
+              = locals[:captions][index]
+
   = partial 'components/carousel_controls', locals: { id: "##{id}" }
   = locals[:content]
