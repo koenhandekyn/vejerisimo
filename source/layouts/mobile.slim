@@ -25,10 +25,7 @@ html
     meta[content=image_url(image_path('top_1m.jpg')) name="twitter:image"]
 
     link rel="canonical" href="http://www.vejerisimo.com/en/"
-    = javascript_include_tag "all", :async => true
-
-    title
-      = page_title
+    title =page_title
   body
     .container-fluid
       = yield

@@ -3,6 +3,7 @@ layout: mobile
 ---
 
 = partial "header_mobile"
+
 br
 
 section.white#prices
@@ -19,14 +20,6 @@ section.white#prices
     h5
       small
         br =t('prices.detail')
-
-/ css:
-/   select {
-/     border-color: white !important;
-/   }
-/   button {
-/     color: white !important;
-/   }
 
 .form-all
   form accept-charset="utf-8" action="" method="post" name="contact"
@@ -64,70 +57,6 @@ section.white#prices
           = t('form.arrival')
         .form-input
           input#input_25.form-textbox name="arrival_month" size="50" type="date" value="" required="required"
-          / span.form-sub-label-container style=("vertical-align: top")
-          /   select#input_25_month.form-dropdown name="arrival_month"
-          /     option
-          /     option value="January" =t('form.date.month.jan')
-          /     option value="February" =t('form.date.month.feb')
-          /     option value="March" =t('form.date.month.mar')
-          /     option value="April" =t('form.date.month.apr')
-          /     option value="May" =t('form.date.month.may')
-          /     option value="June" =t('form.date.month.jun')
-          /     option value="July" =t('form.date.month.jul')
-          /     option value="August" =t('form.date.month.aug')
-          /     option value="September" =t('form.date.month.sep')
-          /     option value="October" =t('form.date.month.oct')
-          /     option value="November" =t('form.date.month.nov')
-          /     option value="December" =t('form.date.month.dec')
-          / span.form-sub-label-container style=("vertical-align: top")
-          /   select#input_25_day.form-dropdown name="arrival_day"
-          /     option
-          /     option value="1"  1
-          /     option value="2"  2
-          /     option value="3"  3
-          /     option value="4"  4
-          /     option value="5"  5
-          /     option value="6"  6
-          /     option value="7"  7
-          /     option value="8"  8
-          /     option value="9"  9
-          /     option value="10"  10
-          /     option value="11"  11
-          /     option value="12"  12
-          /     option value="13"  13
-          /     option value="14"  14
-          /     option value="15"  15
-          /     option value="16"  16
-          /     option value="17"  17
-          /     option value="18"  18
-          /     option value="19"  19
-          /     option value="20"  20
-          /     option value="21"  21
-          /     option value="22"  22
-          /     option value="23"  23
-          /     option value="24"  24
-          /     option value="25"  25
-          /     option value="26"  26
-          /     option value="27"  27
-          /     option value="28"  28
-          /     option value="29"  29
-          /     option value="30"  30
-          /     option value="31"  31
-          /   / label#sublabel_day.form-sub-label for="input_25_day"
-          /     / | Day
-          / span.form-sub-label-container style=("vertical-align: top")
-          /   select#input_25_year.form-dropdown name="arrival_year"
-          /     option
-          /     option value="2015"  2015
-          /     option value="2016"  2016
-          /     option value="2017"  2017
-          /     option value="2018"  2018
-          /     option value="2019"  2019
-          /     option value="2020"  2020
-          /     option value="2021"  2021
-          /     option value="2022"  2022
-          /     option value="2023"  2023
-          /   / label#sublabel_year.form-sub-label for="input_25_year" style=("min-height: 13px;")  Year
       li#id_10.form-line
         label#label_10.form-label.form-label-left.form-label-auto for="input_10"
           = t('form.nights')
@@ -178,6 +107,9 @@ h2.text-center
 
 hr
 
+script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"
+script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"
+
 javascript:
   on_submit = function(event){
 
@@ -210,9 +142,14 @@ javascript:
       });
 
     } else {
-        showalert(fail_log.join(', '), 'alert-warning');
+        alert(fail_log.join(', '), 'alert-warning');
         $("#input_2").prop('disabled', false); // disable button
     }
 
     return false;
   }
+
+  $(function() {
+    $('form[name=contact]').on('submit', on_submit);
+    console.log('mobile form initialised');
+  });
