@@ -10,14 +10,14 @@
       - if index==0
         .item class='active'
           .carrousel-container
-            img src=image_path("#{item}m.jpg") alt="#{t(item)}" title="#{t(item)}"
+            img src=image_path("#{item}.jpg") alt="#{t(item)}" title="#{t(item)}"
           - if locals[:captions] && locals[:captions][index]
             .carousel-caption
               = locals[:captions][index]
       - else
         .item
           .carrousel-container
-            img data-src=image_path("#{item}m.jpg") alt="#{t(item)}" title="#{t(item)}"
+            img data-src=image_path("#{item}.jpg") alt="#{t(item)}" title="#{t(item)}"
           - if locals[:captions] && locals[:captions][index]
             .carousel-caption
               = locals[:captions][index]
