@@ -36,7 +36,7 @@ html
     = javascript_include_tag "mobile_detect"
     javascript:
       var md = new MobileDetect(window.navigator.userAgent);
-      if (md.mobile()) { window.location='/en/mobile/' }
+      if (md.mobile()) { window.location='./mobile/' }
 
     .container-fluid
       = yield
