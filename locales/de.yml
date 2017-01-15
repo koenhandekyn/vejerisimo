@@ -7,9 +7,9 @@ de:
     p2: "Das viele hundert Jahre alte Haus wurde liebevoll restauriert, unter Berücksichtigung seiner originalen maurische Architektur. Hier vereint sich das traditionelle andalusische Ambiente mit dem Luxus des 21. Jahrhunderts. Das Gästehaus besitzt vier Doppelzimmer, angeordnet um einen typischen Innenhof, den Patio. Hier finden Sie  gemütliche Ecken und private Räume. Lesen Sie ein Buch aus der kleinen Bücherei im Erdgeschoss, entspannen Sie auf einer komfortablen Liege auf einer der Dachterrassen oder genießen Sie die atemberaubende Aussicht. Wir versprechen Ihnen einen unvergesslichen Aufenthalt!"
   header:
     top: "Top"
-    rooms: "Rooms"
-    reservations: "Info & Reservations"
-    contact: "Contact"
+    rooms: "Zimmer"
+    reservations: "Info & Reservierungen"
+    contact: "Kontakt"
   rooms:
     title: "ZIMMER"
     intro: "Alle Doppelzimmer haben eine Größe von 20 Quadratmetern, sie besitzen moderne sanitäre Anlagen und sind im Vintage-Stil eingerichtet. Sie verfügen über (internationales) TV-Programm, freies WLAN, Deckenventilatoren, Heizung, Handtuchservice und Fön."
@@ -26,17 +26,16 @@ de:
       a: "Erste Etage"
       b: "Komfortables Doppelbett, 160 x 200 cm"
       c: "Spacious ensuite bathroom"
-      d: "View on a small patio"
     muralla:
-      a: "First floor"
+      a: "Erste Etage"
       b: "Komfortables Doppelbett, 160 x 190 cm"
       c: "Großzügiges, modernes Badezimmer"
   prices:
-      title: "Preizen 2017"
+      title: "Preise 2017"
       high:
         title: "AUGUST, SEMANA SANTA"
       medium:
-        title: "JUNE, JULY, SEPTEMBER"
+        title: "JUNI, JULY, SEPTEMBER"
       low:
         title: "LOW SEASON"
       detail: "Frühstück nicht inklusive"
@@ -53,7 +52,7 @@ de:
       title: "THE PATIO"
       description: "The traditional outside patio has a library with books and party games. There is also a coffee and tea corner."
     azotea:
-      title: "THE ROOF TERRACE"
+      title: "DIE DACHTERRASSE"
       description: "The south facing roof terrace has views on the village, the countryside and the sea. On clear days you can also see Marocco and The Strait of Gibraltar. Choose your favorite corner to enjoy an aperitif and a bite from the ‘honesty bar’, loose yourself in a book or get energized by the sun."
     desayuno:
       title: "BREAKFAST"
@@ -92,17 +91,17 @@ de:
     send: Senden
     date:
       month:
-        jan: January
-        feb: February
-        mar: March
+        jan: Januar
+        feb: Februar
+        mar: März
         apr: April
-        may: May
-        jun: June
-        jul: July
+        may: Mai
+        jun: Juni
+        jul: Juli
         aug: August
         sep: September
-        oct: October
+        oct: Oktober
         nov: November
-        dec: December
+        dec: Dezember
   footer:
     legal_notice: Legal Notice
