@@ -1,53 +1,54 @@
 ---
 de:
   intro:
-    title1: "A COSY ATHMOSPHERE"
-    title2: "WITH PERSONAL ATTENTION"
-    p1: "VEJERÍSIMO is a Guest House situated in a quiet little street in the heart of the historic center of Vejer de la Frontera. The restaurants, typical bars and places of interest are just a footstep away. Next to the house you will find the old city wall with “La Puerta Cerrada” (Closed Door), one of the 4 old entrances to the village."
-    p2: "The centuries-old house has been restored maintaining Moorish features but with a 21th century swish. The house has 4 double rooms situated around a typical patio. It has a lot of cozy corners: read a book next to the patio’s library or enjoy the roof terrace with its long chairs and chill-out corners. We promise you an unforgettable stay!"
+    title1: "IN BEHAGLICHER ATMOSPHÄRE"
+    title2: "MIT PERSÖNLICHER BETREUUNGN"
+    p1: "VEJERÍSIMO ist ein modernes Gästehaus, in einer ruhigen kleinen Straße gelegen, mitten im Herzen der historischen Altstadt von Vejer de la Frontera. Hier finden Sie die typischen andalusischen Bars, hervorragenden Restaurants und beliebtesten Sehenswürdigkeiten ganz in Ihrer Nähe. Die authentische Stadtmauer mit dem bekannten Stadttor “La Puerta Cerrada”, die verschlossene Pforte, befindet sich in direkter Nachbarschaft. Sie ist eine von vier historischen Toren der Altstadt."
+    p2: "Das viele hundert Jahre alte Haus wurde liebevoll restauriert, unter Berücksichtigung seiner originalen maurische Architektur. Hier vereint sich das traditionelle andalusische Ambiente mit dem Luxus des 21. Jahrhunderts. Das Gästehaus besitzt vier Doppelzimmer, angeordnet um einen typischen Innenhof, den Patio. Hier finden Sie  gemütliche Ecken und private Räume. Lesen Sie ein Buch aus der kleinen Bücherei im Erdgeschoss, entspannen Sie auf einer komfortablen Liege auf einer der Dachterrassen oder genießen Sie die atemberaubende Aussicht. Wir versprechen Ihnen einen unvergesslichen Aufenthalt!"
   header:
     top: "Top"
     rooms: "Rooms"
     reservations: "Info & Reservations"
     contact: "Contact"
   rooms:
-    title: "ROOMS"
-    intro: "In every room you will find TV, free WIFI, ceiling fans, heating, hair dryer and light therapy. The rooms have an average size of 20 m2 and have lovely vintage decoration."
+    title: "ZIMMER"
+    intro: "Alle Doppelzimmer haben eine Größe von 20 Quadratmetern, sie besitzen moderne sanitäre Anlagen und sind im Vintage-Stil eingerichtet. Sie verfügen über (internationales) TV-Programm, freies WLAN, Deckenventilatoren, Heizung, Handtuchservice und Fön."
     acogedora:
-      a: "Ground floor"
-      b: "Comfortable double bed 160x190cm"
-      c: "Spacious ensuite bathroom"
+      a: "Erdgeschoss"
+      b: "Komfortables Doppelbett, 160 x 190 cm"
+      c: "Großzügiges, modernes Badezimmer"
     duplex:
-      a: "Room with 2 floors with internal stairway"
-      b: "2 accesses: from the patio and the first floor"
-      c: "Ground floor: spacious bathroom, separate toilet and a cozy seating area"
-      d: "First floor: comfortable double bed 160x190cm"
+      a: "Doppelzimmer auf zwei Ebenen mit Innentreppe"
+      b: "Zwei Zugänge: Vom Patio sowie über die erste Etage"
+      c: "Erdgeschoss: gemütliche Sitzecke und großzügiges Badezimmer mit separatem WC"
+      d: "Erste Etage: Schlafzimmer mit komfortablem Doppelbett 160 x 190 cm"
     patio:
-      a: "First floor"
-      b: "2 adjustable electric single beds/twin beds 90x200cm"
+      a: "Erste Etage"
+      b: "Komfortables Doppelbett, 160 x 200 cm"
       c: "Spacious ensuite bathroom"
       d: "View on a small patio"
     muralla:
       a: "First floor"
-      b: "Comfortable double bed 160x190cm"
-      c: "Spacious ensuite bathroom"
+      b: "Komfortables Doppelbett, 160 x 190 cm"
+      c: "Großzügiges, modernes Badezimmer"
   prices:
-      title: "Prices 2016"
+      title: "Preizen 2017"
       high:
         title: "AUGUST, SEMANA SANTA"
       medium:
         title: "JUNE, JULY, SEPTEMBER"
       low:
         title: "LOW SEASON"
-      detail: "Breakfast not included"
-      terms: "Terms & Conditions"
+      detail: "Frühstück nicht inklusive"
+      detail: "Kontaktieren sie uns für ihr last minute-angebot!"
+      terms: "Termine und preise"
   house:
     casa:
-      title: "THE HOUSE"
-      description: "Discover the communal areas where you can relax and dream away."
+      title: "DAS HAUS"
+      description: "Entdecken Sie die Gemeinschaftsräume, die einladen zum Entspannen und Träumen."
     estar:
-      title: "KITCHEN/LIVING ROOM"
-      description: "We offer a fully equipped kitchen, dining room, sofa corner with TV and WIFI."
+      title: "MODERNE WOHNKÜCHE"
+      description: "Wir bieten Ihnen eine voll ausgestattete Küche mit Essbereich, sowie Sofaecke mit TV und WLAN. Zudem finden Sie hier stets kostenlos Kaffee und Tee."
     patio:
       title: "THE PATIO"
       description: "The traditional outside patio has a library with books and party games. There is also a coffee and tea corner."
@@ -59,36 +60,36 @@ de:
       description: "Within a radius of 300 meters you will find typical bars and patisseries that serve a delicious breakfast at democratic prices (from €1,70). You can also choose to prepare your breakfast in our fully equipped kitchen. In our patio you’ll find a coffee and tea corner."
   vejer:
     title1: "VEJER DE LA FRONTERA"
-    title2: "breathe the Andalusian air"
+    title2: "ATMEN SIE DIE KLARE ANDALUSISCHE LUFT"
     title3: ""
-    description: "Vejer de la Frontera is a small hilltop town and has spectacular views to the sea, the mountains, the river and even Africa. Breathe the Andalusian air in this whitewashed village surrounded by a wonderful nature. Its narrow streets take us back in time and evoke ancient Arabic scenarios. Discover picturesque corners, medieval gates, flowered patios and the important craft tradition. The white sanded beaches of El Palmar are only 10 minutes away. Vejer de la Frontera has recently been proclaimed as the second most beautiful village of Spain by TripAdviser. The village offers you, with its unspoilt character, the real Andalucia. The flamenco for example hasn’t been commercialized yet. Enjoy the authentic flamenco e.g. in the intimate setting of the Peña Flamenca. Vejer also a high level of gastronomy and the white sanded beaches of El Palmar are only 10 minutes away."
+    description: "Vejer de la Frontera ist ein weißes Dorf, hoch oben auf einem Felsplateau. Entdecken Sie die atemberaubenden Panoramen in allen Himmelsrichtungen: der Atlantische Ozean, der Bergwelt von Cádiz, das Mündungsgebiet des Flusses Barbate und, nicht zuletzt,  Afrika!  Atmen Sie durch, in diesem idyllischen weißen Dorf, und genießen Sie seine einzigartige Lage. Die schmalen Gassen versetzen Sie in eine längst vergangene Zeit wie aus Tausend und einer Nacht. Entdecken Sie die verzauberten Ecken, die mittelalterlichen Stadttore, die blütenreichen Innenhöfe, die traditionelle Handwerkskunst und die wunderbare Natur ringsherum. Der weiße Sandstrand von El Palmar ist nur 10 Minuten entfernt. Vejer de la Frontera wurde vor kurzem von TripAdviser zum zweitschönsten Ort Spaniens gekürt: Das weiße Dorf besticht durch seinen unberührten Charakter des echten Andalusien. Der Flamenco beispielsweise wurde weder kommerzialisiert noch zur Touristenattraktion degradiert. In der Peña Flamenca sind Sie eingeladen, den authentischen Flamenco der Region inmitten der einheimischen Bevölkerung bei einem Sherry zu  genießen."
     resto:
-      title: "GASTRONOMY"
-      description: "You will be surprised by the innovative restaurants with its creative dishes and modern recipes. Discover the typical Andalusian cuisine and the authentic dishes of Vejer. If food is your passion, then you will be more then satisfied."
+      title: "GASTRONOMIE"
+      description: "In Vejer de la Frontera finden Sie ein gastronomisches Angebot von höchster Qualität. Sie werden überrascht sein über die Vielzahl an innovativen Restaurants, kreativen Menüs und modernen Gerichten. Entdecken Sie die typische andalusische Küche und die authentischen Speisen von Vejer! Wenn gutes Essen ihre Leidenschaft ist, werden Sie hier mehr als zufrieden sein."
     tourism:
-      title: "SPORTS AND ACTIVE TOURISM"
-      description: "Vejer de la Frontera is a great getaway for those looking for outdoor activities. Hiking, biking, climbing, surfing, diving, etc. Enough to feed the restless!"
+      title: "SPORT UND AKTIVITÄTEN"
+      description: "Vejer de la Frontera ist ein hervorragender Ausgangspunkt für Outdoor-Aktivitäten: Wandern, klettern, reiten, biken, surfen, tauchen und vieles mehr. Genügend Auswahl für jeden Bewegungsdrang!"
     playa:
-      title: "BREATHTAKING BEACHES WITH LOTS OF SUN"
-      description: "The Costa de la Luz (Coast of Light) takes its name from the brilliant white sunlight that reflects on the ocean en the white sand beaches. It faces the Atlantic Ocean and has endless beaches backed by dunes and pine forests. With an average of over 300 days of sunshine a year you can enjoy Spain’s best beaches all year long."
-      caption1: 'El Palmar (9 km): un paraíso inmenso de arena fina'
-      caption2: 'Barbate (10 km) - la meca de los amantes de la gastronomía del mar'
-      caption3: 'Zahora (15 km): hermosas vistas del litoral y del Cabo de Trafalgar'
-      caption4: 'Caños de Meca (19 km): un ambiente joven, relajado y alternativo'
+      title: "ATEMBERAUBENDE STRÄNDE UND JEDE MENGE SONNE"
+      description: "Die Costa de la Luz, die Küste des Lichts, trägt ihren Namen wegen des glitzernden weißen Lichtes, das der blaue Ozean und die hellen Sandstrände reflektieren. Sie erstreckt sich entlang des Atlantischen Ozeans, mit endlosen Stränden, Dünen und Pinienwäldern und mehr als 300 Sonnentagen im Jahr. Damit ist sie eine der besten Küsten Spaniens, die Sie das ganze Jahr über genießen können."
+      caption1: 'El Palmar (9 km)'
+      caption2: 'Barbate (10 km)'
+      caption3: 'Zahora (15 km)'
+      caption4: 'Caños de Meca (19 km)'
       caption5: ''
       caption6: ''
   form:
-    title: Reservas Y Preguntas
-    name: Nombre
+    title: RESERVIERUNGEN UND FRAGEN
+    name: Name
     email: E-mail
-    telephone: Teléfono
-    arrival: Fecha de Ilegada
-    persons: Personenzahl
-    adults: Adultos
-    kids: Niños
-    nights: Número de Noches
-    comments: Comentario
-    send: Enviar
+    telephone: Telefon
+    arrival: Tag der Ankunft
+    persons: Anzahl der Personen
+    adults: Erwachsene
+    kids: Kinder
+    nights: Anzahl der Übernachtungen
+    comments: Kommentare
+    send: Senden
     date:
       month:
         jan: January
