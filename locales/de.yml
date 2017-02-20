@@ -4,7 +4,7 @@ de:
     title1: "IN BEHAGLICHER ATMOSPHÄRE"
     title2: "MIT PERSÖNLICHER BETREUUNGN"
     p1: "VEJERÍSIMO ist ein modernes Gästehaus, in einer ruhigen kleinen Straße gelegen, mitten im Herzen der historischen Altstadt von Vejer de la Frontera. Hier finden Sie die typischen andalusischen Bars, hervorragenden Restaurants und beliebtesten Sehenswürdigkeiten ganz in Ihrer Nähe. Die authentische Stadtmauer mit dem bekannten Stadttor “La Puerta Cerrada”, die verschlossene Pforte, befindet sich in direkter Nachbarschaft. Sie ist eine von vier historischen Toren der Altstadt."
-    p2: "Das viele hundert Jahre alte Haus wurde liebevoll restauriert, unter Berücksichtigung seiner originalen maurische Architektur. Hier vereint sich das traditionelle andalusische Ambiente mit dem Luxus des 21. Jahrhunderts. Das Gästehaus besitzt vier Doppelzimmer, angeordnet um einen typischen Innenhof, den Patio. Hier finden Sie  gemütliche Ecken und private Räume. Lesen Sie ein Buch aus der kleinen Bücherei im Erdgeschoss, entspannen Sie auf einer komfortablen Liege auf einer der Dachterrassen oder genießen Sie die atemberaubende Aussicht. Wir versprechen Ihnen einen unvergesslichen Aufenthalt!"
+    p2: "Das viele hundert Jahre alte Haus wurde liebevoll restauriert, unter Berücksichtigung seiner originalen maurische Architektur. Hier vereint sich das traditionelle andalusische Ambiente mit dem Luxus des 21. Jahrhunderts. Das Gästehaus besitzt vier Doppelzimmer, angeordnet um einen typischen Innenhof, den Patio. Hier finden Sie  gemütliche Ecken und private Räume. Lesen Sie ein Buch aus der kleinen Bücherei im Erdgeschoss, entspannen Sie auf einer komfortablen Liege oder genießen Sie die atemberaubende Aussicht auf einer der Dachterrassen. Wir versprechen Ihnen einen unvergesslichen Aufenthalt!"
   header:
     top: "Top"
     rooms: "Zimmer"
@@ -37,7 +37,7 @@ de:
       medium:
         title: "JUNI, JULY, SEPTEMBER"
       low:
-        title: "LOW SEASON"
+        title: "NEBENSAISON"
       detail: "Frühstück nicht inklusive"
       detail: "Kontaktieren sie uns für ihr last minute-angebot!"
       terms: "Termine und preise"
@@ -49,14 +49,14 @@ de:
       title: "MODERNE WOHNKÜCHE"
       description: "Wir bieten Ihnen eine voll ausgestattete Küche mit Essbereich, sowie Sofaecke mit TV und WLAN. Zudem finden Sie hier stets kostenlos Kaffee und Tee."
     patio:
-      title: "THE PATIO"
-      description: "The traditional outside patio has a library with books and party games. There is also a coffee and tea corner."
+      title: "DER PATIO"
+      description: "Das Herzstück des Gästehauses ist ein liebevoll restaurierter, traditioneller Innenhof."
     azotea:
       title: "DIE DACHTERRASSE"
-      description: "The south facing roof terrace has views on the village, the countryside and the sea. On clear days you can also see Marocco and The Strait of Gibraltar. Choose your favorite corner to enjoy an aperitif and a bite from the ‘honesty bar’, loose yourself in a book or get energized by the sun."
+      description: "Die nach Süden ausgerichtete Dachterrasse bietet eine grandiose Aussicht über das weiße Dorf, die Landschaft und das Meer. An klaren Tagen sehen Sie von hier aus Marokko und die Straße von Gibraltar. Wählen Sie sich Ihre Lieblingsecke, genießen Sie einen Aperitif und eine Tapa und widmen Sie sich einem Buch oder ganz einfach der Sonne."
     desayuno:
-      title: "BREAKFAST"
-      description: "Within a radius of 300 meters you will find typical bars and patisseries that serve a delicious breakfast at democratic prices (from €1,70). You can also choose to prepare your breakfast in our fully equipped kitchen. In our patio you’ll find a coffee and tea corner."
+      title: "FRÜHSTÜCK"
+      description: "In einem Radius von 300 Metern finden Sie typische Bars und Patisserien, die Ihnen ein wunderbares Frühstück servieren, zu günstigen Preisen. Oder bereiten Sie ihr Frühstück selbst zu, in unserer voll eingerichteten Wohnküche, wo Sie jederzeit Kaffee und Tee gratis zubereiten können."
   vejer:
     title1: "VEJER DE LA FRONTERA"
     title2: "ATMEN SIE DIE KLARE ANDALUSISCHE LUFT"
