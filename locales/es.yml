@@ -31,7 +31,7 @@ es:
       b: "Gran cama de matrimonio cómoda 160x190cm"
       c: "Baño en-suite espacioso"
   prices:
-      title: "Tarifas 2016"
+      title: "Tarifas 2017"
       low:
         title: "TEMPORADA BAJA"
       medium:
@@ -40,7 +40,9 @@ es:
         title: "AGOSTO"
       house:
         title: "ALQUILER TODA LA CASA - PRECIO A CONSULTAR"
-      detail: "Desayuno no incluido <br/> Póngase en contacto con nosotros para nuestras ofertas de última hora"
+      detail: "Desayuno no incluido"
+      last_minute: "Póngase en contacto con nosotros para nuestras ofertas de última hora"
+      extra: ""
       terms: "Condiciones generales"
   house:
     casa:

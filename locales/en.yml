@@ -41,7 +41,7 @@ en:
       b: "Comfortable double bed 160x190cm"
       c: "Spacious ensuite bathroom"
   prices:
-      title: "Prices 2016"
+      title: "Prices 2017"
       low:
         title: "LOW SEASON"
         price: "€ 75"
@@ -53,7 +53,9 @@ en:
         price: "€ 95"
       house:
         title: "RENT THE WHOLE HOUSE - PRICE ON DEMAND"
-      detail: "Breakfast not included <br/> Contact us for our last minute offers"
+      detail: "Breakfast not included"
+      last_minute: "<a href='#contact'>Contact us</a> for our last minute offers"
+      extra: ""
       terms: "Terms & Conditions"
   house:
     casa:

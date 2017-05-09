@@ -39,7 +39,8 @@ de:
       low:
         title: "NEBENSAISON"
       detail: "Frühstück nicht inklusive"
-      detail: "Kontaktieren sie uns für ihr last minute-angebot!"
+      last_minute: "Kontaktieren sie uns für ihr last minute-angebot!"
+      extra: ""
       terms: "Termine und preise"
   house:
     casa:

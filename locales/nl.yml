@@ -31,7 +31,7 @@ nl:
       b: "Comfortabel tweepersoonsbed 160x190cm"
       c: "Ruime badkamer en-suite"
   prices:
-      title: "Prijzen 2016"
+      title: "Prijzen 2017"
       high:
         title: "AUGUSTUS"
       medium:
@@ -40,7 +40,9 @@ nl:
         title: "LAAG SEIZOEN"
       house:
         title: "HET VOLLEDIGE HUIS HUREN - PRIJS OP AANVRAAG"
-      detail: "Ontbijt niet inbegrepen <br/> Contacteer ons voor onze last-minute aanbiedingen"
+      detail: "Ontbijt niet inbegrepen"
+      last_minute: "CONTACTEER ONS VOOR ONZE LAST-MINUTE AANBIEDINGEN"
+      extra: "INFORMEER OVER ONZE <a href='/rondrit_op_maat_2017.pdf'>RONDRIT</a> BIJ BELGISCHE B&B's"
       terms: "Algemene voorwaarden"
   house:
     casa:
