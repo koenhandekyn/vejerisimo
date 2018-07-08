@@ -4,6 +4,10 @@ section.white
       p.hidden-xs
         =>t('intro.title1')
         =>t('intro.title2')
+
+    div style="float: right; padding-left: 40px; padding-bottom: 40px;"
+      == partial "tripadvisor_#{I18n.locale}"
+
     p =>t('intro.p1')
     p =>t('intro.p2')
 
@@ -13,3 +17,5 @@ section.white
           == partial 'booking'
         td style="padding-rigth: 20px; padding-left: 20px"
           == partial 'hotels_combined'
+
+

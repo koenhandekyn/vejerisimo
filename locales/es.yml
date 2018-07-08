@@ -34,8 +34,10 @@ es:
       title: "Tarifas 2017"
       low:
         title: "TEMPORADA BAJA"
+      june:
+        title: "JUNIO"
       medium:
-        title: "JUNIO, JULIO, SEPTIEMBRE"
+        title: "JULIO, SEPTIEMBRE"
       high:
         title: "AGOSTO"
       house:

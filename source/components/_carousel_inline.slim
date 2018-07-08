@@ -17,7 +17,7 @@
       - else
         .item
           .carrousel-container
-            img data-src=image_path("#{item}.jpg") alt="#{t(item)}" title="#{t(item)}"
+            img src=image_path("#{item}.jpg") alt="#{t(item)}" title="#{t(item)}"
           - if locals[:captions] && locals[:captions][index]
             .carousel-caption
               = locals[:captions][index]

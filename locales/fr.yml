@@ -34,8 +34,10 @@ fr:
       title: "Prix 2017"
       high:
         title: "AOÛT"
+      june:
+        title: "JUIN"
       medium:
-        title: "JUIN, JUILLET, SEPTEMBRE"
+        title: "JUILLET, SEPTEMBRE"
       low:
         title: "BASSE SAISON"
       house:

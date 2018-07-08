@@ -45,8 +45,11 @@ en:
       low:
         title: "LOW SEASON"
         price: "€ 75"
+      june:
+        title: "JUNE"
+        price: "€ 80"
       medium:
-        title: "JUNE, JULY, SEPTEMBER"
+        title: "JULY, SEPTEMBER"
         price: "€ 85"
       high:
         title: "AUGUST"

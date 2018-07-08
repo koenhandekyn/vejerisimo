@@ -32,12 +32,14 @@ de:
       c: "Großzügiges, modernes Badezimmer"
   prices:
       title: "Preise 2017"
-      high:
-        title: "AUGUST, SEMANA SANTA"
-      medium:
-        title: "JUNI, JULY, SEPTEMBER"
       low:
         title: "NEBENSAISON"
+      june:
+        title: "JUNI"
+      high:
+        title: "AUGUST"
+      medium:
+        title: "JULY, SEPTEMBER"
       detail: "Frühstück nicht inklusive"
       last_minute: "Kontaktieren sie uns für ihr last minute-angebot!"
       extra: ""

@@ -34,8 +34,10 @@ nl:
       title: "Prijzen 2017"
       high:
         title: "AUGUSTUS"
+      june:
+        title: "JUNI"
       medium:
-        title: "JUNI, JULI, SEPTEMBER"
+        title: "JULI, SEPTEMBER"
       low:
         title: "LAAG SEIZOEN"
       house:
