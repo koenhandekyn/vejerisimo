@@ -59,6 +59,11 @@ activate :middleman_simple_thumbnailer
 activate :sprockets
 sprockets.append_path File.join(root, 'bower_components')
 
+if defined? RailsAssets
+  RailsAssets.load_paths.each do |path|
+    sprockets.append_path path
+  end
+end
 
 # Reload the browser automatically whenever files change
 configure :development do

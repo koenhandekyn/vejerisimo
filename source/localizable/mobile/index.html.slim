@@ -26,6 +26,25 @@ section.white
 
 br
 br
+section.white#prices
+  .content
+    h5
+      =t('prices.low.title')
+      =<t('prices.low.price')
+    h5
+      =t('prices.june.title')
+      =<t('prices.june.price')
+    h5
+      =t('prices.medium.title')
+      =<t('prices.medium.price')
+    h5
+      =t('prices.high.title')
+      =<t('prices.high.price')
+    h5
+      small
+        br =t('prices.detail')
+        br =t('prices.closed')
+
 br
 h5: a href="/#{I18n.locale}/mobile/form" = t('form.title')
 br
