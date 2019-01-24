@@ -85,13 +85,13 @@ nl:
       caption6: ''
     sunshinetour:
       title: "Sunshine Tour"
-      description: "The equestrian center Montenmedio organizes various competitions every year, including the 'Sunshine Tour', one of the most important winter races in the world. For years the participants have been choosing VEJERÍSIMO as accommodation during the competition. VEJERÍSIMO offers peace, authenticity and modernity. It is located near the restaurants, typical bars and shops. Choose the formula that suits you best and <a href='mailto:info@vejerisimo.com'>contact us</a> for a price offer:"
+      description: "Het paardencentrum Montenmedio organiseert ieder jaar verschillende wedstrijden, waaronder de ‘Sunshine Tour’, één van de belangrijkste winterse wedstrijden ter wereld. De deelnemers kiezen sinds jaren VEJERÍSIMO als accomodatie tijdens de wedstrijd. VEJERÍSIMO biedt rust, autenticiteit en moderniteit. Het is gelegen vlakbij de restaurants, typische bars en winkels. Kies de formule dat best bij je past en <a href='mailto:info@vejerisimo.com'>contacteer</a> ons voor een prijsofferte:"
       fullhouse:
-        title: "Full house"
-        description: "4 rooms + 4 bathrooms en-suite (max. 8p)"
+        title: "Volledig huis"
+        description: "4 kamers + 4 badkamers en-suite (max. 8p)"
       perroom:
-        title: "Per room (hotel)"
-        description: "Room with double bed + bathroom en-suite (max. 2p)"
+        title: "Per kamer (hotel)"
+        description: "Kamer met tweepersoonsbed + badkamer en-suite (max. 2p)"
   form:
     title: "Reservatie & Inlichtingen"
     thank_you: Dank u! We contacteren u spoedig.

@@ -85,13 +85,13 @@ fr:
       caption6: ''
     sunshinetour:
       title: "Sunshine Tour"
-      description: "The equestrian center Montenmedio organizes various competitions every year, including the 'Sunshine Tour', one of the most important winter races in the world. For years the participants have been choosing VEJERÍSIMO as accommodation during the competition. VEJERÍSIMO offers peace, authenticity and modernity. It is located near the restaurants, typical bars and shops. Choose the formula that suits you best and <a href='mailto:info@vejerisimo.com'>contact us</a> for a price offer:"
+      description: "Le centre hippique Montenmedio organise chaque année plusieurs compétitions, dont le ‘Sunshine Tour’, une des compétitions hivernales à l’aire libre les plus importantes au monde. Les participants au championnat choisissent depuis des années notre hébergement. VEJERÍSIMO vous offre tranquillité, authenticité, modernité et est situé à proximité des restaurants, bars et magasins. Choisissez la formule qui vous convient le mieux et <a href='mailto:info@vejerisimo.com'>contactez</a> nous pour une offre de prix:"
       fullhouse:
-        title: "Full house"
-        description: "4 rooms + 4 bathrooms en-suite (max. 8p)"
+        title: "Location de la maison entière "
+        description: "4 chambres + 4 salles de bain attenantes (max. 8p)"
       perroom:
-        title: "Per room (hotel)"
-        description: "Room with double bed + bathroom en-suite (max. 2p)"
+        title: "Location par chambre (hôtel)"
+        description: "Chambre lit doublé + salle de bain attenantes (max. 2p)"
   form:
     title: "Réservations & Questions"
     thank_you: Merci! Nous vous contacterons dans les plus brefs délais.

@@ -67,7 +67,7 @@ de:
     title1: "VEJER DE LA FRONTERA"
     title2: "ATMEN SIE DIE KLARE ANDALUSISCHE LUFT"
     title3: ""
-    description: "Vejer de la Frontera ist ein weißes Dorf, hoch oben auf einem Felsplateau. Entdecken Sie die atemberaubenden Panoramen in allen Himmelsrichtungen: der Atlantische Ozean, der Bergwelt von Cádiz, das Mündungsgebiet des Flusses Barbate und, nicht zuletzt,  Afrika!  Atmen Sie durch, in diesem idyllischen weißen Dorf, und genießen Sie seine einzigartige Lage. Die schmalen Gassen versetzen Sie in eine längst vergangene Zeit wie aus Tausend und einer Nacht. Entdecken Sie die verzauberten Ecken, die mittelalterlichen Stadttore, die blütenreichen Innenhöfe, die traditionelle Handwerkskunst und die wunderbare Natur ringsherum. Der weiße Sandstrand von El Palmar ist nur 10 Minuten entfernt. Vejer de la Frontera wurde vor kurzem von TripAdviser zum zweitschönsten Ort Spaniens gekürt: Das weiße Dorf besticht durch seinen unberührten Charakter des echten Andalusien. Der Flamenco beispielsweise wurde weder kommerzialisiert noch zur Touristenattraktion degradiert. In der Peña Flamenca sind Sie eingeladen, den authentischen Flamenco der Region inmitten der einheimischen Bevölkerung bei einem Sherry zu  genießen."
+    description: "Vejer de la Frontera ist ein weißes Dorf, hoch oben auf einem Felsplateau. Entdecken Sie die atemberaubenden Panoramen in allen Himmelsrichtungen: der Atlantische Ozean, der Bergwelt von Cádiz, das Mündungsgebiet des Flusses Barbate und, nicht zuletzt,  Afrika!  Atmen Sie durch, in diesem idyllischen weißen Dorf, und genießen Sie seine einzigartige Lage. Die schmalen Gassen versetzen Sie in eine längst vergangene Zeit wie aus Tausend und einer Nacht. Entdecken Sie die verzauberten Ecken, die mittelalterlichen Stadttore, die blütenreichen Innenhöfe, die traditionelle Handwerkskunst und die wunderbare Natur ringerum. Der weiße Sandstrand von El Palmar ist nur 10 Minuten entfernt. Vejer de la Frontera wurde vor kurzem von TripAdviser zum zweitschönsten Ort Spaniens gekürt: Das weiße Dorf besticht durch seinen unberührten Charakter des echten Andalusien. Der Flamenco beispielsweise wurde weder kommerzialisiert noch zur Touristenattraktion degradiert. In der Peña Flamenca sind Sie eingeladen, den authentischen Flamenco der Region inmitten der einheimischen Bevölkerung bei einem Sherry zu  genießen."
     resto:
       title: "GASTRONOMIE"
       description: "In Vejer de la Frontera finden Sie ein gastronomisches Angebot von höchster Qualität. Sie werden überrascht sein über die Vielzahl an innovativen Restaurants, kreativen Menüs und modernen Gerichten. Entdecken Sie die typische andalusische Küche und die authentischen Speisen von Vejer! Wenn gutes Essen ihre Leidenschaft ist, werden Sie hier mehr als zufrieden sein."
@@ -85,13 +85,13 @@ de:
       caption6: ''
     sunshinetour:
       title: "Sunshine Tour"
-      description: "The equestrian center Montenmedio organizes various competitions every year, including the 'Sunshine Tour', one of the most important winter races in the world. For years the participants have been choosing VEJERÍSIMO as accommodation during the competition. VEJERÍSIMO offers peace, authenticity and modernity. It is located near the restaurants, typical bars and shops. Choose the formula that suits you best and <a href='mailto:info@vejerisimo.com'>contact us</a> for a price offer:"
+      description: "Das ‘Equestrian Center Montenmedio’ organisiert jedes Jahr mehrere Wettbewerbe, darunter ‘Sunshine Tour’, der wichtigste Outdoor-Winterwettbewerb der Welt. Teilnehmer dieser Meisterschaft wählen seit Jahren Vejerísimo als ihre Unterkunft, da sie die Ruhe, Authentizität, moderne Ausstattung und die Nähe zu Restaurants / Geschäften / Bars sehr schätzen. Wählen Sie Ihre passende Form für Ihren Aufenthalt und fordern Sie ein <a href='mailto:info@vejerisimo.com'>Angebot</a> an:"
       fullhouse:
-        title: "Full house"
-        description: "4 rooms + 4 bathrooms en-suite (max. 8p)"
+        title: "Miete ganzes Haus"
+        description: "4 Doppelzimmer + 4 Badezimmer (max. 8P)"
       perroom:
-        title: "Per room (hotel)"
-        description: "Room with double bed + bathroom en-suite (max. 2p)"
+        title: "Miete pro Zimmer (hotel)"
+        description: "Zimmer mit Doppelbett + privates Badezimmer (max. 2P)"
   form:
     title: RESERVIERUNGEN UND FRAGEN
     name: Name

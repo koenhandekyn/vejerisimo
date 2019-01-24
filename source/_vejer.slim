@@ -45,10 +45,10 @@ section.yellow
     p.text-center =t('vejer.sunshinetour.perroom.description')
     br
 
-    = partial 'components/carousel_inline', locals: { \
-      id: 'carousel-sunshinetour', \
-      items: [ 'sunshine_1', 'sunshine_2', 'sunshine_3'], \
-      }
+= partial 'components/carousel', locals: { \
+  id: 'carousel-sunshinetour', \
+  items: [ 'sunshine_1', 'sunshine_2', 'sunshine_3'], \
+  }
 
 section.white
   .content

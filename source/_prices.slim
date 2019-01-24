@@ -1,7 +1,11 @@
+= partial 'components/carousel', locals: { \
+  id: 'carousel-prices', \
+  items: [ 'prices_1'], \
+  }
+
 section.white#prices
   .content
     / h1 =t('prices.title')
-    / br
     h4
       =t('prices.low.title')
       =<t('prices.low.price')
@@ -27,6 +31,14 @@ section.white#prices
         br =t('prices.extra')
         br
           a< _data-toggle="modal" _data-target="#modal" href="/terms-and-conditions-#{I18n.locale}/" target="_blank" =t('prices.terms')
+
+
+    table style="margin: 1em auto"
+      tr
+        td style="padding-rigth: 20px;"
+          == partial 'booking'
+        td style="padding-rigth: 20px; padding-left: 20px"
+          == partial 'hotels_combined'
 
 / #modal.fade aria-hidden="true" role="dialog" tabindex="-1"
 /   .modal-dialog.modal-lg
