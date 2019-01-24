@@ -8,32 +8,14 @@ section.white
   .content
     p.intro style="text-align: justify" =t('intro.p1')
 
-.image-container
-  = image_tag "intro_rooms.jpg", resize_to: '375x999', alt: "rooms", class: 'top'
-  .image-overlay
-    .main
-      a href="/#{I18n.locale}/mobile/rooms" = t('rooms.title')
-
-section.white
-  .content
-    br
-
-.image-container
-  = image_tag "intro_house.jpg", resize_to: '375x999', alt: "house", class: 'top'
-  .image-overlay
-    .main
-      a href="/#{I18n.locale}/mobile/house" = t('house.casa.title')
-
-br
-br
-section.white#prices
-  .content
+  br
+  #prices
     h5
       =t('prices.low.title')
       =<t('prices.low.price')
-    h5
-      =t('prices.june.title')
-      =<t('prices.june.price')
+    / h5
+    /   =t('prices.june.title')
+    /   =<t('prices.june.price')
     h5
       =t('prices.medium.title')
       =<t('prices.medium.price')
@@ -49,3 +31,19 @@ br
 h5: a href="/#{I18n.locale}/mobile/form" = t('form.title')
 br
 hr
+
+.image-container
+  = image_tag "intro_rooms.jpg", resize_to: '375x999', alt: "rooms", class: 'top'
+  .image-overlay
+    .main
+      a href="/#{I18n.locale}/mobile/rooms" = t('rooms.title')
+
+section.white
+  .content
+    br
+
+.image-container
+  = image_tag "intro_house.jpg", resize_to: '375x999', alt: "house", class: 'top'
+  .image-overlay
+    .main
+      a href="/#{I18n.locale}/mobile/house" = t('house.casa.title')
