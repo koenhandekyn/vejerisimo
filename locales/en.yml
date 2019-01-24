@@ -20,6 +20,7 @@ en:
     reservations: "Info & Reservations"
     book_now: "Book Now"
     contact: "Contact"
+    sunshinetour: "Sunshine Tour"
   rooms:
     title: "ROOMS"
     intro: "In every room you will find TV, free WIFI, ceiling fans, heating and a hair dryer. The rooms have an average size of 20 m2 and have lovely vintage decoration."
@@ -58,7 +59,7 @@ en:
         title: "RENT THE WHOLE HOUSE - PRICE ON DEMAND"
       detail: "Breakfast not included"
       closed: "Closed in December and January"
-      last_minute: "<a href='#contact'>Contact us</a> for our last minute offers"
+      last_minute: "<a href='email:info@vejerisimo.com'>Contact us</a> for our last minute offers"
       extra: ""
       terms: "Terms & Conditions"
   house:
@@ -88,6 +89,15 @@ en:
     tourism:
       title: "SPORTS AND ACTIVE TOURISM"
       description: "Vejer de la Frontera is a great getaway for those looking for outdoor activities. Hiking, biking, climbing, surfing, diving, etc. Enough to feed the restless!"
+    sunshinetour:
+      title: "Sunshine Tour"
+      description: "The equestrian center Montenmedio organizes various competitions every year, including the 'Sunshine Tour', one of the most important winter races in the world. For years the participants have been choosing VEJERÍSIMO as accommodation during the competition. VEJERÍSIMO offers peace, authenticity and modernity. It is located near the restaurants, typical bars and shops. Choose the formula that suits you best and <a href='mailto:info@vejerisimo.com'>contact us</a> for a price offer:"
+      fullhouse:
+        title: "Full house"
+        description: "4 rooms + 4 bathrooms en-suite (max. 8p)"
+      perroom:
+        title: "Per room (hotel)"
+        description: "Room with double bed + bathroom en-suite (max. 2p)"
     playa:
       title: "BREATHTAKING BEACHES WITH LOTS OF SUN"
       description: "The Costa de la Luz (Coast of Light) takes its name from the brilliant white sunlight that reflects on the ocean en the white sanded beaches. It faces the Atlantic Ocean and has endless beaches backed by dunes and pine forests. With an average of over 300 days of sunshine a year you can enjoy Spain’s best beaches all year long."

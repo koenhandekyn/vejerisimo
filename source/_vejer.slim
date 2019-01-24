@@ -33,12 +33,27 @@ section.red
       items: [ 'turismo_1', 'turismo_2', 'turismo_3', 'turismo_4'], \
       }
 
+a.anchor name="sunshinetour"
+section.yellow
+  .content
+    h1.text-left =t('vejer.sunshinetour.title')
+    p =t('vejer.sunshinetour.description')
+    br
+    h2.text-center =t('vejer.sunshinetour.fullhouse.title')
+    p.text.center =t('vejer.sunshinetour.fullhouse.description')
+    h2.text-center =t('vejer.sunshinetour.perroom.title')
+    p.text-center =t('vejer.sunshinetour.perroom.description')
+    br
+
+    = partial 'components/carousel_inline', locals: { \
+      id: 'carousel-sunshinetour', \
+      items: [ 'sunshine_1', 'sunshine_2', 'sunshine_3'], \
+      }
 
 section.white
   .content
     h1.text-left =t('vejer.playa.title')
     p =t('vejer.playa.description')
-
 
 = partial 'components/carousel', locals: { \
     id: 'carousel-playas', \

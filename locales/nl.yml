@@ -44,7 +44,7 @@ nl:
         title: "HET VOLLEDIGE HUIS HUREN - PRIJS OP AANVRAAG"
       detail: "Ontbijt niet inbegrepen"
       closed: "Gesloten in december en januari"
-      last_minute: "CONTACTEER ONS VOOR ONZE LAST-MINUTE AANBIEDINGEN"
+      last_minute: "<a href='email:info@vejerisimo.com'>CONTACTEER</a> ONS VOOR ONZE LAST-MINUTE AANBIEDINGEN"
       extra: "INFORMEER OVER ONZE <a href='/rondrit_op_maat_2017.pdf'>RONDRIT</a> BIJ BELGISCHE B&B's"
       terms: "Algemene voorwaarden"
   house:
@@ -83,6 +83,15 @@ nl:
       caption4: 'Caños de Meca (19 km): een jonge, relaxte sfeer met een alternatieve toets'
       caption5: ''
       caption6: ''
+    sunshinetour:
+      title: "Sunshine Tour"
+      description: "The equestrian center Montenmedio organizes various competitions every year, including the 'Sunshine Tour', one of the most important winter races in the world. For years the participants have been choosing VEJERÍSIMO as accommodation during the competition. VEJERÍSIMO offers peace, authenticity and modernity. It is located near the restaurants, typical bars and shops. Choose the formula that suits you best and <a href='mailto:info@vejerisimo.com'>contact us</a> for a price offer:"
+      fullhouse:
+        title: "Full house"
+        description: "4 rooms + 4 bathrooms en-suite (max. 8p)"
+      perroom:
+        title: "Per room (hotel)"
+        description: "Room with double bed + bathroom en-suite (max. 2p)"
   form:
     title: "Reservatie & Inlichtingen"
     thank_you: Dank u! We contacteren u spoedig.

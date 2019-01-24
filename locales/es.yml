@@ -44,7 +44,7 @@ es:
         title: "ALQUILER TODA LA CASA - PRECIO A CONSULTAR"
       detail: "Desayuno no incluido"
       closed: "En diciembre y enero descansamos"
-      last_minute: "Póngase en contacto con nosotros para nuestras ofertas de última hora"
+      last_minute: "Póngase en <a href='email:info@vejerisimo.com'>contacto</a> con nosotros para nuestras ofertas de última hora"
       extra: ""
       terms: "Condiciones generales"
   house:
@@ -83,6 +83,15 @@ es:
       caption4: 'Caños de Meca (19 km): un ambiente joven, relajado y alternativo'
       caption5: ''
       caption6: ''
+    sunshinetour:
+      title: "Circuito Hípico de Sol"
+      description: "El Centro Hípico Montenmedio organiza cada año varias competiciones,  destacando ‘El Circuito Hípico de Sol’, una de las competiciones invernal al aire libre más importante del mundo. Los participantes en el campeonato elijen desde hace años nuestro alojamiento. VEJERÍSIMO  ofrece tranquilidad, autenticidad, modernidad y cercanía a restaurantes,  tiendas y bares. Elija la fórmula más adecuada a sus necesidades y <a href='mailto:info@vejerisimo.com'>pida presupuesto</a> sin compromiso:"
+      fullhouse:
+        title: "Casa entera"
+        description: "4 habitaciones + 4 baños en-suite (max. 8p)"
+      perroom:
+        title: "Alquiler por habitación (hotel)"
+        description: "Habitación cama de matrimonio + baño en-suite privado (max. 2p)"
   form:
     title: Reservas Y Preguntas
     thank_you: Muchas gracias! Nos pondremos en contacto con usted pronto.

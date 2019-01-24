@@ -3,6 +3,13 @@ a.anchor name="top"
 = partial 'top'
 = partial 'intro'
 
+a.anchor name="reservations"
+/ = partial 'prices'
+div data-async-url="/#{I18n.locale}/partial_prices/"
+
+= partial 'contact_form'
+/ div data-async-url="/#{I18n.locale}/partial_contact_form"
+
 .callout-a
 a.anchor name="rooms"
 = partial 'rooms', locals: { v: "" }
@@ -11,13 +18,6 @@ a.anchor name="rooms"
 .callout-b
 = partial 'house', locals: { v: "" }
 / div data-async-url="/#{I18n.locale}/partial_house/"
-
-a.anchor name="reservations"
-/ = partial 'prices'
-div data-async-url="/#{I18n.locale}/partial_prices/"
-
-= partial 'contact_form'
-/ div data-async-url="/#{I18n.locale}/partial_contact_form"
 
 / = partial 'vejer', locals: { v: "" }
 .callout-c

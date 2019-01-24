@@ -44,7 +44,7 @@ fr:
         title: "LOUER LA MAISON ENTIEREMENT - PRIX SUR DEMANDE"
       detail: "Petit déjeuner non compris"
       closed: "Congés annuels décembre et janvier"
-      last_minute: "Contactez-nous pour nos offres de dernière minute"
+      last_minute: "<a href='email:info@vejerisimo.com'>Contactez-nous</a> pour nos offres de dernière minute"
       extra: ""
       terms: "Conditions Générales"
   house:
@@ -83,6 +83,15 @@ fr:
       caption4: 'Caños de Meca (19 km): une ambiance jeune et détendue'
       caption5: ''
       caption6: ''
+    sunshinetour:
+      title: "Sunshine Tour"
+      description: "The equestrian center Montenmedio organizes various competitions every year, including the 'Sunshine Tour', one of the most important winter races in the world. For years the participants have been choosing VEJERÍSIMO as accommodation during the competition. VEJERÍSIMO offers peace, authenticity and modernity. It is located near the restaurants, typical bars and shops. Choose the formula that suits you best and <a href='mailto:info@vejerisimo.com'>contact us</a> for a price offer:"
+      fullhouse:
+        title: "Full house"
+        description: "4 rooms + 4 bathrooms en-suite (max. 8p)"
+      perroom:
+        title: "Per room (hotel)"
+        description: "Room with double bed + bathroom en-suite (max. 2p)"
   form:
     title: "Réservations & Questions"
     thank_you: Merci! Nous vous contacterons dans les plus brefs délais.
