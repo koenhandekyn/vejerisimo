@@ -36,7 +36,9 @@ html
     = javascript_include_tag "mobile_detect"
     javascript:
       var md = new MobileDetect(window.navigator.userAgent);
-      if (md.phone()) { window.location='/en/mobile' }
+      console.log('locale in local storage', localStorage.getItem('locale') )
+      var locale = localStorage.getItem('locale') || 'en';
+      if (md.phone()) { window.location='/'+locale+'/mobile' }
 
     .container-fluid
       = yield

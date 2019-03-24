@@ -32,3 +32,6 @@ div data-async-url="/#{I18n.locale}/partial_address/"
 = partial 'map'
 / div data-async-url="/#{I18n.locale}/partial_map"
 
+javascript:
+  console.log("setting locale in locale storage #{I18n.locale}")
+  localStorage.setItem('locale', "#{I18n.locale}");
