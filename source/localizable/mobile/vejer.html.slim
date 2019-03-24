@@ -1,0 +1,53 @@
+---
+layout: mobile
+---
+
+= partial "header_mobile"
+
+section.white
+  .content
+    h1.text-left
+      p =t('vejer.title1')
+      p =t('vejer.title2')
+      p =t('vejer.title3')
+    p =t('vejer.description')
+
+    h2.text-left =t('vejer.resto.title')
+    p.text-left =t('vejer.resto.description')
+
+    = partial 'components/carousel_inline', locals: { \
+      id: 'carousel-gastronomia', \
+      items: [ 'resto_1', 'resto_2', 'resto_3', 'resto_4'], \
+      }
+
+    h2.text-right =t('vejer.tourism.title')
+    p.text-right =t('vejer.tourism.description')
+
+    = partial 'components/carousel_inline', locals: { \
+      id: 'carousel-turismo', \
+      items: [ 'turismo_1', 'turismo_2', 'turismo_3', 'turismo_4'], \
+      }
+
+    h2.text-left =t('vejer.playa.title')
+    p =t('vejer.playa.description')
+
+    = partial 'components/carousel_inline', locals: { \
+        id: 'carousel-playas', \
+        items: [ 'playa_1', 'playa_2', 'playa_3', 'playa_4', 'playa_5', 'playa_6' ] \
+        }
+
+hr
+
+script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"
+script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"
+
+javascript:
+  $(function() {
+    return $(".carousel.slide.lazy-img").on("slide.bs.carousel", function(ev) {
+      console.log("loading images");
+      var lazy;
+      lazy = $(ev.relatedTarget).find("img[data-src]");
+      lazy.attr("src", lazy.data('src'));
+      lazy.removeAttr("data-src");
+    });
+  });
