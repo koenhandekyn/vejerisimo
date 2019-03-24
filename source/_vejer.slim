@@ -33,6 +33,18 @@ section.red
       items: [ 'turismo_1', 'turismo_2', 'turismo_3', 'turismo_4'], \
       }
 
+section.white
+  .content
+    h1.text-left =t('vejer.playa.title')
+    p =t('vejer.playa.description')
+
+= partial 'components/carousel', locals: { \
+    id: 'carousel-playas', \
+    items: [ 'playa_1', 'playa_2', 'playa_3', 'playa_4', 'playa_5', 'playa_6' ], \
+    captions: [ t('vejer.playa.caption1'), t('vejer.playa.caption2'),  t('vejer.playa.caption3'), t('vejer.playa.caption4'),  t('vejer.playa.caption5'), t('vejer.playa.caption6'),
+      ] \
+    }
+
 a.anchor name="sunshinetour"
 section.yellow
   .content
@@ -49,15 +61,3 @@ section.yellow
   id: 'carousel-sunshinetour', \
   items: [ 'sunshine_1', 'sunshine_2', 'sunshine_3'], \
   }
-
-section.white
-  .content
-    h1.text-left =t('vejer.playa.title')
-    p =t('vejer.playa.description')
-
-= partial 'components/carousel', locals: { \
-    id: 'carousel-playas', \
-    items: [ 'playa_1', 'playa_2', 'playa_3', 'playa_4', 'playa_5', 'playa_6' ], \
-    captions: [ t('vejer.playa.caption1'), t('vejer.playa.caption2'),  t('vejer.playa.caption3'), t('vejer.playa.caption4'),  t('vejer.playa.caption5'), t('vejer.playa.caption6'),
-      ] \
-    }
