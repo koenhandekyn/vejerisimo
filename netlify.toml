@@ -58,7 +58,7 @@
 # PER-DEPLOY.
 
 # A basic redirect rule
-[[redirects]]
+# [[redirects]]
   # from = "/*"
   # to = "/blog/:splat"
 
