@@ -1,5 +1,5 @@
 GEM
-  remote: http://rubygems.org/
+  remote: https://rubygems.org/
   remote: https://rails-assets.org/
   specs:
     activesupport (5.0.7)
@@ -145,4 +145,4 @@ DEPENDENCIES
   slim
 
 BUNDLED WITH
-   1.16.1
+   1.17.2

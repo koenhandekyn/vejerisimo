@@ -6,10 +6,10 @@
 # Site Settings
 ###
 # Set site setting, used in helpers / sitemap.xml / feed.xml.
-set :protocol, "http://"
+set :protocol, "https://"
 set :host, "www.vejerisimo.com/"
 set :port, 80
-set :site_url, 'http://www.vejerísimo.com'
+set :site_url, 'https://www.vejerísimo.com'
 set :site_author, 'Wim & Marie'
 set :site_title, 'VEJERÍSIMO'
 set :site_description, 'Vejerísimo'

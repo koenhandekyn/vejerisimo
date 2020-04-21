@@ -1,5 +1,5 @@
 xml.instruct!
-xml.urlset "xmlns" => "http://www.sitemaps.org/schemas/sitemap/0.9" do
+xml.urlset "xmlns" => "https://www.sitemaps.org/schemas/sitemap/0.9" do
   sitemap.resources.each do |resource|
     xml.url do
       xml.loc "#{config[:site_url]}#{resource.url}"
