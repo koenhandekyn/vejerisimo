@@ -1,5 +1,7 @@
 vejerisimo
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a5b17758-b3a5-4c23-b483-10de757135fd/deploy-status)](https://app.netlify.com/sites/vejerisimo-current/deploys)
+
 website readme
 
     npm install -g bower
