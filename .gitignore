@@ -11,7 +11,7 @@
 /build
 
 # Ignore the bower components directory
-/bower_components
+# /bower_components
 
 # Ignore Sass' cache
 /.sass-cache
