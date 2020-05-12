@@ -10,8 +10,8 @@ en:
   turismo_1: turismo 1
   playa_1: playa 1
   intro:
-    title1: "A COSY ATMOSPHERE"
-    title2: "WITH PERSONAL ATTENTION"
+    title1: "BOUTIQUE HOUSE: 4 ROOMS & 4 BATHROOMS"
+    title2: "PRIVATE PATIO, ROOF TERRACE & KITCHEN"
     p1: "VEJERÍSIMO is a Guest House situated in a quiet little street in the heart of the historic center of Vejer de la Frontera. The restaurants, typical bars and places of interest are just a footstep away. Next to the house you will find the old city wall with “La Puerta Cerrada” (Closed Door), one of the 4 old entrances to the village."
     p2: "The centuries-old house has been restored maintaining Moorish features but with a 21th century twist. The house has 4 double rooms situated around a typical patio. It has a lot of cozy corners: read a book next to the patio’s library or enjoy the roof terrace with its long chairs and chill-out corners. We promise you an unforgettable stay!"
   header:
@@ -44,22 +44,22 @@ en:
   prices:
       title: "Prices"
       low:
-        title: "LOW SEASON"
-        price: "€ 75"
+        title: "YOUR PRIVATE HOUSE (up to 8p)"
+        price: "starting from €200 / night"
       june:
-        title: "JUNE"
-        price: "€ 80"
+        title: ""
+        price: ""
       medium:
-        title: "JUNE, JULY, SEPTEMBER"
-        price: "€ 85"
+        title: ""
+        price: ""
       high:
-        title: "AUGUST"
-        price: "€ 95"
+        title: ""
+        price: ""
       house:
-        title: "RENT THE WHOLE HOUSE - PRICE ON DEMAND"
+        title: "Per room (hotel) with double bed & bathroom en-suite (max. 2p)"
       detail: "Breakfast not included"
-      closed: "Closed in November, December and January"
-      last_minute: "<a href='email:info@vejerisimo.com'>Contact us</a> for our last minute offers"
+      closed: ""
+      last_minute: "<a href='email:info@vejerisimo.com'>Contact us</a> for our 'exceptional times' offers"
       extra: ""
       terms: "Terms & Conditions"
   house:
@@ -94,7 +94,7 @@ en:
       title: "Sunshine Tour"
       description: "The equestrian center Montenmedio organizes various competitions every year, including the 'Sunshine Tour', one of the most important winter races in the world. For years the participants have been choosing VEJERÍSIMO as accommodation during the competition. VEJERÍSIMO offers peace, authenticity and modernity. It is located near the restaurants, typical bars and shops. Choose the formula that suits you best and <a href='mailto:info@vejerisimo.com'>contact us</a> for a price offer:"
       fullhouse:
-        title: "Full house"
+        title: "Private house"
         description: "4 rooms + 4 bathrooms en-suite (max. 8p)"
       perroom:
         title: "Per room (hotel)"
