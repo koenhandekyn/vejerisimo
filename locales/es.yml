@@ -50,7 +50,7 @@ es:
       closed: ""
       last_minute: "<a href='email:info@vejerisimo.com'>PÓNGASE EN CONTACTO</a> CON NOSOTROS PARA NUESTRAS OFERTAS"
       extra: ""
-      terms: "Terminos & Condiciones"
+      terms: ""
   house:
     casa:
       title: "LA CASA"
