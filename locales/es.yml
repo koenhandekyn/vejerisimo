@@ -31,15 +31,15 @@ es:
       b: "Gran cama de matrimonio cómoda 160x190cm"
       c: "Baño en-suite espacioso"
   prices:
-      title: "Tarifas"
+      title: ""
       low:
-        title: "TEMPORADA BAJA"
+        title: ""
       june:
-        title: "JUNIO"
+        title: ""
       medium:
-        title: "JUNIO, JULIO, SEPTIEMBRE"
+        title: ""
       high:
-        title: "AGOSTO"
+        title: ""
       house:
         title: "ALQUILER TODA LA CASA - PRECIO A CONSULTAR"
       detail: "Desayuno no incluido"
