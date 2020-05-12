@@ -33,8 +33,8 @@ es:
   prices:
       title: "Prices"
       low:
-        title: "CASA PRIVADA 4 habitaciones + 4 baños en-suite (max. 8p)"
-        price: "desde €200/noche"
+        title: "CASA PRIVADA 4 habitaciones + 4 baños en-suite"
+        price: "(max. 8p) desde €200/noche"
       june:
         title: ""
         price: ""
