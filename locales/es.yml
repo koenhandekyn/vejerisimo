@@ -31,26 +31,30 @@ es:
       b: "Gran cama de matrimonio cómoda 160x190cm"
       c: "Baño en-suite espacioso"
   prices:
-      title: ""
+      title: "Prices"
       low:
-        title: "CASA PRIVADA (hasta 8p)"
+        title: "CASA PRIVADA 4 habitaciones + 4 baños en-suite (max. 8p)"
+        price: "desde €200/noche"
       june:
         title: ""
+        price: ""
       medium:
         title: ""
+        price: ""
       high:
         title: ""
+        price: ""
       house:
-        title: "ALQUILER TODA LA CASA - PRECIO A CONSULTAR"
-      detail: "Desayuno no incluido"
-      closed: "En noviembre, diciembre y enero descansamos"
-      last_minute: "Póngase en <a href='email:info@vejerisimo.com'>contacto</a> con nosotros para nuestras ofertas de última hora"
+        title: "ALQUILER POR HABITACIÓN (HOTEL) cama de matrimonio + baño en-suite privado (max. 2p)"
+      detail: "DESAYUNO NO INCLUIDO"
+      closed: ""
+      last_minute: "<a href='email:info@vejerisimo.com'>PÓNGASE EN CONTACTO</a> CON NOSOTROS PARA NUESTRAS OFERTAS"
       extra: ""
-      terms: "Condiciones generales"
+      terms: "Terms & Conditions"
   house:
     casa:
       title: "LA CASA"
-      description: "Descubre las zonas comun dondé puede relajar y disfrutar el maximo de su estancia."
+      description: "Descubre las zonas dondé puede relajar y disfrutar el maximo de su estancia."
     estar:
       title: "SALA DE ESTAR"
       description: "Tiene una cocina totalmente equipada, un comedor y zona de estar con TV y WIFI."
@@ -59,10 +63,10 @@ es:
       description: "El patio exterior tradicional tiene una biblioteca y un rincón para preparar té y café ."
     azotea:
       title: "LA AZOTEA"
-      description: "La terraza común orientada al sur tiene vistas al pueblo, al campo y al mar. En los días claros se puede ver Marruecos y el Estrecho de Gibraltar. Elije su rincón favorito para disfrutar de un aperitivo, un libro o el sol."
+      description: "La terraza orientada al sur tiene vistas al pueblo, al campo y al mar. En los días claros se puede ver Marruecos y el Estrecho de Gibraltar. Elije su rincón favorito para disfrutar de un aperitivo, un libro o el sol."
     desayuno:
       title: "DESAYUNO"
-      description: "Debido a las diversas posibilidades de disfrutar de un desayuno en el pueblo, no ofrecemos desayuno en la casa. Numerosos bares y pastelerías cercanos ofrecen un delicioso desayuno a precios democráticos. También puede preparar su desayuno en la sala de estar comun con cocina totalmente equipada y degustarlo en las zonas comunes de la casa (patio/terraza/sala de estar). ponemos a su disposición un rincón para preparar café y té."
+      description: "Debido a las diversas posibilidades de disfrutar de un desayuno en el pueblo, no ofrecemos desayuno en la casa. Numerosos bares y pastelerías cercanos ofrecen un delicioso desayuno a precios democráticos."
   vejer:
     title: "VEJER"
     title1: "VEJER DE LA FRONTERA"
