@@ -4,7 +4,7 @@ es:
     title1: "CASA ÚNICA DE 4 HABITACIONES y 4 CUARTO DE BAÑOS"
     title2: "CON TERRAZA, PATIO Y COCINA"
     p1: "VEJERÍSIMO es una casa rural ubicada en un callejón tranquilo en el corazón del casco antiguo de Vejer de la Frontera, muy cerca de los restaurantes, bares y lugares de interés. Al lado de la casa empieza la muralla antigua con “La Puerta Cerrada”, una de las 4 puertas principales."
-    p2: "La casa dispone de 4 habitaciones dobles con baño en-suite, situadas alrededor de un patio típico de arcos. Es una casa de estilo único: conserva su autenticidad pero ofrece todas las comodidades de este tiempo. La casa tiene muchos rincones acogedores: lée un libro en el patio típico al lado de la biblioteca o disfruta de la terraza con tumbonas y rincones chill-out. Le offrecemos una estancia exeptional y inolvidable."
+    p2: "La casa dispone de 4 habitaciones dobles con baño en-suite, situadas alrededor de un patio típico de arcos. Es una casa de estilo único: conserva su autenticidad pero ofrece todas las comodidades de este tiempo. La casa tiene muchos rincones acogedores: lée un libro en el patio típico al lado de la biblioteca o disfruta de la terraza con tumbonas y rincones chill-out. Le ofrecemos una estancia exeptional y inolvidable."
   header:
     top: "Inicio"
     rooms: "Habitaciones"
@@ -17,10 +17,11 @@ es:
       a: "Planta baja"
       b: "Gran cama de matrimonio cómoda 160x190cm"
       c: "Baño en-suite espacioso"
+      d: "Alquiler de la cocina/sala de estar opcional"
     duplex:
       a: "Habitación de 2 plantas con una cómoda escalera interna"
       b: "2 accesos: al patio y a la primera planta"
-      c: "Planta baja: cuarto de baño, cuarto de aseo separado y saloncito"
+      c: "Planta baja: cuarto de baño, cuarto de aseo separado y nevera grande"
       d: "Primera planta: gran cama de 160x190cm"
     patio:
       a: "Primera planta"
@@ -34,7 +35,7 @@ es:
       title: "Prices"
       low:
         title: "CASA PRIVADA 4 habitaciones + 4 baños en-suite"
-        price: "(max. 8p) desde €200/noche"
+        price: "(max. 8p) desde €240/noche"
       june:
         title: ""
         price: ""
@@ -46,6 +47,9 @@ es:
         price: ""
       house:
         title: "ALQUILER POR HABITACIÓN (HOTEL) cama de matrimonio + baño en-suite privado (max. 2p)"
+        title: "Habitación con baño privado desde €70/noche"
+        title: "Habitación Dúplex desde €75/noche"
+        title: "Habitación con uso privado de la cocina desde €80/noche"
       detail: "DESAYUNO NO INCLUIDO"
       closed: ""
       last_minute: "<a href='email:info@vejerisimo.com'>PÓNGASE EN CONTACTO</a> CON NOSOTROS PARA NUESTRAS OFERTAS"
@@ -56,11 +60,11 @@ es:
       title: "LA CASA"
       description: "Descubre las zonas dondé puede relajar y disfrutar el maximo de su estancia."
     estar:
-      title: "SALA DE ESTAR"
+      title: "SALA DE ESTAR Y COCINA - ALQUILER CON HABITACIÓN LA ACOGEDORA"
       description: "Tiene una cocina totalmente equipada, un comedor y zona de estar con TV y WIFI."
     patio:
       title: "EL PATIO"
-      description: "El patio exterior tradicional tiene una biblioteca y un rincón para preparar té y café ."
+      description: "El patio exterior tradicional tiene una biblioteca."
     azotea:
       title: "LA AZOTEA"
       description: "La terraza orientada al sur tiene vistas al pueblo, al campo y al mar. En los días claros se puede ver Marruecos y el Estrecho de Gibraltar. Elije su rincón favorito para disfrutar de un aperitivo, un libro o el sol."
