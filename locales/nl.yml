@@ -17,10 +17,11 @@ nl:
       a: "Benedenverdieping"
       b: "Comfortabel tweepersoonsbed 160x190cm"
       c: "Ruime badkamer en-suite"
+      d: "Optioneel: huur de keuken en zitruimte voor privé gebruik"
     duplex:
       a: "Kamer met 2 verdiepingen voorzien van een binnentrap"
       b: "2 toegangen: vanaf de patio en de eerste verdieping"
-      c: "Benedenverdieping: ruime badkamer, apart toilet en een gezellige zitruimte"
+      c: "Benedenverdieping: ruime badkamer, apart toilet en een koelkast"
       d: "Eerste verdieping: comfortabel tweepersoonsbed 160x190cm"
     patio:
       a: "Eerste verdieping"
@@ -52,7 +53,7 @@ nl:
       title: "HET HUIS"
       description: "Ontdek de gemeenschappelijke ruimtes waar je extra kan relaxen en genieten van je verblijf."
     estar:
-      title: "KEUKEN/SALON"
+      title: "KEUKEN/SALON - optioneel met de kamer La Acogedora"
       description: "Bevat een volledig ingerichte keuken, een eetruimte, een zetelhoekje met TV en WIFI en je kan er ook een koffie of thee klaarmaken."
     patio:
       title: "DE PATIO"
