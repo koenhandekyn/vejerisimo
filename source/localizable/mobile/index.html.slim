@@ -13,7 +13,7 @@ section.white
     h5
       =t('prices.low.title')
       =<t('prices.low.price')
-    / h5
+    / h4
     /   =t('prices.june.title')
     /   =<t('prices.june.price')
     h5
@@ -24,8 +24,18 @@ section.white
       =<t('prices.high.price')
     h5
       small
+        =t('prices.house.title')
+    h6
+      small
         br =t('prices.detail')
         br =t('prices.closed')
+    h6
+      br =t('prices.last_minute')
+      small
+        br =t('prices.extra')
+        br
+          a< _data-toggle="modal" _data-target="#modal" href="/terms-and-conditions-#{I18n.locale}/" target="_blank" =t('prices.terms')
+
 
 br
 h5: a href="/#{I18n.locale}/mobile/form" = t('form.title')

@@ -37,19 +37,16 @@ es:
         title: "CASA PRIVADA 4 habitaciones + 4 baños en-suite"
         price: "(max. 8p) desde €240/noche"
       june:
-        title: ""
-        price: ""
+        # title: "ALQUILER POR HABITACIÓN (HOTEL) cama de matrimonio + baño en-suite privado (max. 2p)"
+        # price: "???"
       medium:
-        title: ""
-        price: ""
+        # title: "Habitación con baño privado"
+        # price: "desde €70/noche"
       high:
-        title: ""
-        price: ""
+        title: "<br/><br/><br/><br/><br/><br/>ALQUILER POR HABITACIÓN (HOTEL) cama de matrimonio + baño en-suite privado (max. 2p)"
+        # price: "desde €75/noche"
       house:
-        title: "ALQUILER POR HABITACIÓN (HOTEL) cama de matrimonio + baño en-suite privado (max. 2p)"
-        title: "Habitación con baño privado desde €70/noche"
-        title: "Habitación Dúplex desde €75/noche"
-        title: "Habitación con uso privado de la cocina desde €80/noche"
+        title: "<br/><br/><br/>Habitación con baño privado desde €70/noche<br/><br/><br/>Habitación Dúplex desde €75/noche<br/><br/><br/>Habitación con uso privado de la cocina desde €80/noche"
       detail: "DESAYUNO NO INCLUIDO"
       closed: ""
       last_minute: "<a href='email:info@vejerisimo.com'>PÓNGASE EN CONTACTO</a> CON NOSOTROS PARA NUESTRAS OFERTAS"
