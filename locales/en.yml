@@ -28,7 +28,6 @@ en:
       a: "Ground floor"
       b: "Comfortable double bed 160x190cm"
       c: "Spacious ensuite bathroom"
-      d: "Option to rent the kitchen for private use"
     duplex:
       a: "Room with 2 floors with internal stairway"
       b: "2 accesses: from the patio and the first floor"
@@ -60,7 +59,6 @@ en:
         title: "Per room (hotel) with double bed & bathroom en-suite (max. 2p)"
         title: "Standard room from €70/night"
         title: "Duplex room from €75/night"
-        title: "Standard room with private use of the kitchen from €80/night"
       detail: "Breakfast not included"
       closed: ""
       last_minute: "<a href='email:info@vejerisimo.com'>Contact us</a> for our 'exceptional times' offers"
@@ -71,7 +69,7 @@ en:
       title: "THE HOUSE"
       description: "Discover the areas where you can relax and dream away."
     estar:
-      title: "KITCHEN/LIVING ROOM - can be rented with the room La Acogedora"
+      title: "KITCHEN/LIVING ROOM"
       description: "We offer a fully equipped kitchen, dining room, sofa corner with TV and WIFI. There's also free coffee and tea at hand."
     patio:
       title: "THE PATIO"
