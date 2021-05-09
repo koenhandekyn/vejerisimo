@@ -89,7 +89,7 @@ GEM
     middleman-sprockets (4.1.1)
       middleman-core (~> 4.0)
       sprockets (>= 3.0)
-    mini_magick (4.8.0)
+    mini_magick (4.11.0)
     mini_portile2 (2.5.1)
     minitest (5.11.3)
     nokogiri (1.11.0)
