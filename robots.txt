@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://www.vejerísimo.com/sitemap.xml

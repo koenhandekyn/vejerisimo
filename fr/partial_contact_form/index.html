@@ -1,0 +1,39 @@
+<div class=form-all> <form accept-charset=utf-8 action="" method=post name=contact> <div id=alert_placeholder></div> <input type=hidden value=51355991919367 /> <ul class="form-section page-section"> <li class=form-input-wide> <div class=form-header-group> <div class="header-text httac htvam"> <h1 class=form-header> Réservations & Questions </h1> </div> </div> </li> <li class=form-line> <label class="form-label form-label-left form-label-auto" for=name>Nom<span class=form-required>*</span></label> <div class=form-input> <input class=form-textbox name=name required=required size=20 value=""/> </div> </li> <li class=form-line> <label class="form-label form-label-left form-label-auto" for=email>E-mail<span class=form-required>*</span></label> <div class=form-input> <input class=form-textbox id=input_24 name=email required=required size=50 type=email value=""/> </div> </li> <li class=form-line id=id_20> <label class="form-label form-label-left form-label-auto" for=telephone_number id=label_20>Téléphone<span class=form-required>*</span></label> <div class=form-input> <span class=form-sub-label-container><input class=form-textbox id=input_20_phone name=telephone_number required=required size=20 type=tel /></span> </div> </li> <li class=form-line id=id_25> <label class="form-label form-label-left form-label-auto" for=input_25 id=label_25>Arrivée</label> <div class=form-input> <span class=form-sub-label-container style="vertical-align: top"><select class=form-dropdown id=input_25_month name=arrival_month> <option></option> <option value=January> Janvier </option> <option value=February> Février </option> <option value=March> Mars </option> <option value=April> Avril </option> <option value=May> Mai </option> <option value=June> Juin </option> <option value=July> Juillet </option> <option value=August> Août </option> <option value=September> Septembre </option> <option value=October> Octobre </option> <option value=November> Novembre </option> <option value=December> Décembre </option> </select></span><span class=form-sub-label-container style="vertical-align: top"><select class=form-dropdown id=input_25_day name=arrival_day> <option></option> <option value=1> 1 </option> <option value=2> 2 </option> <option value=3> 3 </option> <option value=4> 4 </option> <option value=5> 5 </option> <option value=6> 6 </option> <option value=7> 7 </option> <option value=8> 8 </option> <option value=9> 9 </option> <option value=10> 10 </option> <option value=11> 11 </option> <option value=12> 12 </option> <option value=13> 13 </option> <option value=14> 14 </option> <option value=15> 15 </option> <option value=16> 16 </option> <option value=17> 17 </option> <option value=18> 18 </option> <option value=19> 19 </option> <option value=20> 20 </option> <option value=21> 21 </option> <option value=22> 22 </option> <option value=23> 23 </option> <option value=24> 24 </option> <option value=25> 25 </option> <option value=26> 26 </option> <option value=27> 27 </option> <option value=28> 28 </option> <option value=29> 29 </option> <option value=30> 30 </option> <option value=31> 31 </option> </select></span><span class=form-sub-label-container style="vertical-align: top"><select class=form-dropdown id=input_25_year name=arrival_year> <option></option> <option value=2020> 2020 </option> <option value=2021> 2021 </option> <option value=2022> 2022 </option> <option value=2023> 2024 </option> <option value=2023> 2025 </option> <option value=2023> 2026 </option> <option value=2023> 2027 </option> <option value=2023> 2028 </option> <option value=2023> 2029 </option> </select></span> </div> </li> <li class=form-line id=id_10> <label class="form-label form-label-left form-label-auto" for=input_10 id=label_10>Nombre de Nuits</label> <div class=form-input> <select class=form-dropdown id=input_10 name=days style="width:60px"> <option value=""></option> <option value=2> 2 </option> <option value=3> 3 </option> <option value=4> 4 </option> <option value=5> 5 </option> <option value=6> 6 </option> <option value=7> 7 </option> <option value=8> 8 </option> <option value=9> 9 </option> <option value=10> 10 </option> <option value=11> 11 </option> <option value=12> 12 </option> <option value=13> 13 </option> <option value="14(+)"> 14(+) </option> </select> </div> </li> <li class=form-line id=id_30> <label class="form-label form-label-left form-label-auto" for=input_30 id=label_30>Nombre de personnes</label> <div class=form-input> <select class=form-dropdown id=input_30 name=adults style="width:60px"> <option value=""></option> <option value=1> 1 </option> <option value=2> 2 </option> <option value=3> 3 </option> <option value=4> 4 </option> <option value=5> 5 </option> <option value=6> 6 </option> <option value=7> 7 </option> <option value=8> 8 </option> </select> </div> </li> <li class=form-line> <label class="form-label form-label-left form-label-auto" for=input_13>Commentaires</label> <div class=form-input> <textarea class=form-textarea cols=40 name=comment rows=6></textarea> </div> </li> </ul> <button class=form-submit-button id=input_2 type=submit>Envoyer</button> </form> </div> <p> &nbsp; </p> <script>
+  on_submit = function(event){
+  
+    event.preventDefault();
+    // $('form[name=contact]')[0].checkValidity(); // returns false but does not show feedback
+    $("#input_2").prop('disabled', true); // disable button
+  
+    //validate fields
+    var fail_log = [];
+    $('form[name=contact]').find( 'select, textarea, input' ).each(function(){
+        if( $( this ).prop( 'required' )) {
+            if ( ! $( this ).val() ) {
+                name = $( this ).attr( 'name' );
+                fail_log.push(name + " is required");
+                $( this ).addClass('required');
+            }
+        }
+    });
+    if ( fail_log.length == 0 ) {
+      $.ajax({
+          url: "//formspree.io/info@vejerisimo.com",
+          method: "POST",
+          data: $('form[name=contact]').serializeArray(),
+          dataType: "json",
+      }).done(function() {
+        window.location='#top'
+        $("#input_2").prop('disabled', false); // disable button
+        alert( "Merci! Nous vous contacterons dans les plus brefs délais." );
+        // $( 'form[name=contact]' ).reset();
+      });
+  
+    } else {
+        showalert(fail_log.join(', '), 'alert-warning');
+        $("#input_2").prop('disabled', false); // disable button
+    }
+  
+    return false;
+  }
+</script>
