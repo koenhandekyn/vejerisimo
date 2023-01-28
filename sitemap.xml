@@ -1,495 +1,495 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.vejerísimo.com/legal-notice-nl/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.9</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/terms-and-conditions-fr/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.9</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/legal-notice-fr/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.9</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://www.vejerísimo.com/terms-and-conditions-es/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.9</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/mobile/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.9</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/terms-and-conditions-nl/</loc>
-    <lastmod>2021-09-28</lastmod>
+    <lastmod>2023-01-28</lastmod>
     <priority>0.9</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.vejerísimo.com/legal-notice-es/</loc>
-    <lastmod>2021-09-28</lastmod>
+    <lastmod>2023-01-28</lastmod>
     <priority>0.9</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.vejerísimo.com/legal-notice-en/</loc>
-    <lastmod>2021-09-28</lastmod>
+    <loc>https://www.vejerísimo.com/mobile/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.9</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/legal-notice-nl/</loc>
+    <lastmod>2023-01-28</lastmod>
     <priority>0.9</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.vejerísimo.com/</loc>
-    <lastmod>2021-09-28</lastmod>
+    <lastmod>2023-01-28</lastmod>
     <priority>1.0</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.vejerísimo.com/legal-notice-de/</loc>
-    <lastmod>2021-09-28</lastmod>
+    <loc>https://www.vejerísimo.com/terms-and-conditions-en/</loc>
+    <lastmod>2023-01-28</lastmod>
     <priority>0.9</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.vejerísimo.com/terms-and-conditions-de/</loc>
-    <lastmod>2021-09-28</lastmod>
+    <lastmod>2023-01-28</lastmod>
     <priority>0.9</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.vejerísimo.com/terms-and-conditions-en/</loc>
-    <lastmod>2021-09-28</lastmod>
+    <loc>https://www.vejerísimo.com/legal-notice-de/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.9</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/terms-and-conditions-fr/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.9</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/terms-and-conditions-nl/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.9</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/legal-notice-fr/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.9</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/legal-notice-en/</loc>
+    <lastmod>2023-01-28</lastmod>
     <priority>0.9</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.vejerísimo.com/en/partial_house/</loc>
-    <lastmod>2021-09-28</lastmod>
+    <lastmod>2023-01-28</lastmod>
     <priority>0.8</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.vejerísimo.com/es/partial_house/</loc>
-    <lastmod>2021-09-28</lastmod>
+    <lastmod>2023-01-28</lastmod>
     <priority>0.8</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.vejerísimo.com/fr/partial_house/</loc>
-    <lastmod>2021-09-28</lastmod>
+    <lastmod>2023-01-28</lastmod>
     <priority>0.8</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.vejerísimo.com/nl/partial_house/</loc>
-    <lastmod>2021-09-28</lastmod>
+    <lastmod>2023-01-28</lastmod>
     <priority>0.8</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.vejerísimo.com/de/partial_house/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.8</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/en/partial_vejer/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.8</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/es/partial_vejer/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.8</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/fr/partial_vejer/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.8</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/nl/partial_vejer/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.8</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/de/partial_vejer/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.8</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/en/form/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.8</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/es/form/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.8</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/fr/form/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.8</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/nl/form/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.8</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/de/form/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.8</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/en/partial_prices/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.8</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/es/partial_prices/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.8</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/fr/partial_prices/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.8</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/nl/partial_prices/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.8</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/de/partial_prices/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.8</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/en/partial_rooms/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.8</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/es/partial_rooms/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.8</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/fr/partial_rooms/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.8</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/nl/partial_rooms/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.8</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/de/partial_rooms/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.8</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/en/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.9</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/es/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.9</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/fr/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.9</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/nl/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.9</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/de/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.9</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/en/partial_address/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.8</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/es/partial_address/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.8</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/fr/partial_address/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.8</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/nl/partial_address/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.8</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/de/partial_address/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.8</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/en/partial_contact_form/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.8</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/es/partial_contact_form/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.8</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/fr/partial_contact_form/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.8</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/nl/partial_contact_form/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.8</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/de/partial_contact_form/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.8</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/en/partial_map/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.8</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/es/partial_map/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.8</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/fr/partial_map/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.8</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/nl/partial_map/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.8</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/de/partial_map/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.8</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/en/mobile/form/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.7</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/es/mobile/form/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.7</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/fr/mobile/form/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.7</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/nl/mobile/form/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.7</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/de/mobile/form/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.7</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/en/mobile/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.8</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/es/mobile/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.8</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/fr/mobile/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.8</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/nl/mobile/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.8</priority>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://www.vejerísimo.com/de/mobile/</loc>
-    <lastmod>2021-09-28</lastmod>
+    <lastmod>2023-01-28</lastmod>
     <priority>0.8</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.vejerísimo.com/en/mobile/house/</loc>
-    <lastmod>2021-09-28</lastmod>
+    <lastmod>2023-01-28</lastmod>
     <priority>0.7</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.vejerísimo.com/es/mobile/house/</loc>
-    <lastmod>2021-09-28</lastmod>
+    <lastmod>2023-01-28</lastmod>
     <priority>0.7</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.vejerísimo.com/fr/mobile/house/</loc>
-    <lastmod>2021-09-28</lastmod>
+    <lastmod>2023-01-28</lastmod>
     <priority>0.7</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.vejerísimo.com/nl/mobile/house/</loc>
-    <lastmod>2021-09-28</lastmod>
+    <lastmod>2023-01-28</lastmod>
     <priority>0.7</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.vejerísimo.com/de/mobile/house/</loc>
-    <lastmod>2021-09-28</lastmod>
+    <lastmod>2023-01-28</lastmod>
     <priority>0.7</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.vejerísimo.com/en/mobile/vejer/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.7</priority>
+    <loc>https://www.vejerísimo.com/en/mobile/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.8</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.vejerísimo.com/es/mobile/vejer/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.7</priority>
+    <loc>https://www.vejerísimo.com/es/mobile/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.8</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.vejerísimo.com/fr/mobile/vejer/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.7</priority>
+    <loc>https://www.vejerísimo.com/fr/mobile/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.8</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.vejerísimo.com/nl/mobile/vejer/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.7</priority>
+    <loc>https://www.vejerísimo.com/nl/mobile/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.8</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://www.vejerísimo.com/de/mobile/vejer/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <priority>0.7</priority>
+    <loc>https://www.vejerísimo.com/de/mobile/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.8</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.vejerísimo.com/en/mobile/rooms/</loc>
-    <lastmod>2021-09-28</lastmod>
+    <lastmod>2023-01-28</lastmod>
     <priority>0.7</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.vejerísimo.com/es/mobile/rooms/</loc>
-    <lastmod>2021-09-28</lastmod>
+    <lastmod>2023-01-28</lastmod>
     <priority>0.7</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.vejerísimo.com/fr/mobile/rooms/</loc>
-    <lastmod>2021-09-28</lastmod>
+    <lastmod>2023-01-28</lastmod>
     <priority>0.7</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.vejerísimo.com/nl/mobile/rooms/</loc>
-    <lastmod>2021-09-28</lastmod>
+    <lastmod>2023-01-28</lastmod>
     <priority>0.7</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://www.vejerísimo.com/de/mobile/rooms/</loc>
-    <lastmod>2021-09-28</lastmod>
+    <lastmod>2023-01-28</lastmod>
     <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/en/mobile/form/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/es/mobile/form/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/fr/mobile/form/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/nl/mobile/form/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/de/mobile/form/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/en/mobile/vejer/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/es/mobile/vejer/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/fr/mobile/vejer/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/nl/mobile/vejer/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/de/mobile/vejer/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.7</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/en/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.9</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/es/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.9</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/fr/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.9</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/nl/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.9</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/de/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.9</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/en/partial_contact_form/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/es/partial_contact_form/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/fr/partial_contact_form/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/nl/partial_contact_form/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/de/partial_contact_form/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/en/partial_vejer/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/es/partial_vejer/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/fr/partial_vejer/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/nl/partial_vejer/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/de/partial_vejer/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/en/form/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/es/form/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/fr/form/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/nl/form/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/de/form/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/en/partial_prices/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/es/partial_prices/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/fr/partial_prices/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/nl/partial_prices/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/de/partial_prices/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/en/partial_address/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/es/partial_address/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/fr/partial_address/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/nl/partial_address/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/de/partial_address/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/en/partial_map/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/es/partial_map/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/fr/partial_map/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/nl/partial_map/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/de/partial_map/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/en/partial_rooms/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/es/partial_rooms/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/fr/partial_rooms/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/nl/partial_rooms/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.8</priority>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://www.vejerísimo.com/de/partial_rooms/</loc>
+    <lastmod>2023-01-28</lastmod>
+    <priority>0.8</priority>
     <changefreq>daily</changefreq>
   </url>
 </urlset>
